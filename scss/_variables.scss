@@ -1,0 +1,221 @@
+//
+// BeeGrid
+//
+//
+
+// stylelint-disable
+$white:       #fff !default;
+
+// Dimensions
+$header-height: 56px !default;
+$footer-height: 40px !default;
+$sidebar-width: 200px !default;
+$navbar-height: 56px !default;
+
+// Grid
+$grid-columns-number: 12 !default;
+
+// Grid breakpoints
+//
+// Define the maximum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$grid-breakpoints: (
+  xs: 0px,
+  sm: 480px,
+  md: 960px,
+  lg: 1280px,
+  xl: 1440px
+) !default;
+
+// Grid widths
+$grid-widths: (
+  sm: 640px,
+  md: 1024px,
+  lg: 1280px,
+  xl: 1440px
+) !default;
+
+// Define the grid gap dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$grid-breakpoints-gap: (
+  xl: .6rem,
+  lg: .4rem,
+  md: .3rem,
+  sm: .2rem,
+  xs: .1rem
+) !default;
+
+// Define the grid gap dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$grid-breakpoints-grid: (
+  xl: $grid-columns-number,
+  lg: $grid-columns-number,
+  md: ceil($grid-columns-number / 2),
+  sm: ceil($grid-columns-number / 3),
+  xs: $grid-columns-number / $grid-columns-number
+) !default;
+
+$grid-layouts: (
+  layout-base: (
+    grid-template-areas:
+      "head head"
+      "main main"
+      "foot foot",
+    grid-template-rows: $header-height 1fr $footer-height,
+    grid-template-columns: 1fr
+  ),
+  layout-left-sidebar: (
+    grid-template-areas:
+      "head head"
+      "nav main"
+      "nav foot",
+    grid-template-rows: $header-height 1fr $footer-height,
+    grid-template-columns: $sidebar-width 1fr
+  ),
+  layout-left-full-height-sidebar: (
+    grid-template-areas:
+      "nav head"
+      "nav main"
+      "nav foot",
+    grid-template-rows: $header-height 1fr $footer-height,
+    grid-template-columns: $sidebar-width 1fr
+  )
+) !default;
+
+$grid-breakpoints-layouts: (
+  xl: (
+    layout-base: (
+    layout:
+      "head head"
+      "main main"
+      "foot foot",
+    grid-template-rows: $header-height 1fr $footer-height,
+    grid-template-columns: 1fr
+    ),
+    layout-left-sidebar: (
+      layout:
+        "head head"
+        "nav main"
+        "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $sidebar-width 1fr
+    ),
+    layout-left-full-height-sidebar: (
+      layout:
+        "nav head"
+        "nav main"
+        "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $sidebar-width 1fr
+    )
+  ),
+  lg: (
+    layout-base: (
+    layout:
+      "head head"
+      "main main"
+      "foot foot",
+    grid-template-rows: $header-height 1fr $footer-height,
+    grid-template-columns: 1fr
+    ),
+    layout-left-sidebar: (
+      layout:
+        "head head"
+        "nav main"
+        "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $sidebar-width 1fr
+    ),
+    layout-left-full-height-sidebar: (
+      layout:
+        "nav head"
+        "nav main"
+        "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $sidebar-width 1fr
+    )
+  ),
+  md: (
+    layout-base: (
+      grid-template-areas:
+        "head head"
+        "main main"
+        "foot foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    ),
+    layout-left-sidebar: (
+      grid-template-areas:
+        "head head"
+        "nav main"
+        "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $sidebar-width 1fr
+    ),
+    layout-left-full-height-sidebar: (
+      grid-template-areas:
+        "nav head"
+        "nav main"
+        "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: ($sidebar-width / 2) 1fr
+    )
+  ),
+  sm: (
+    layout-base: (
+      grid-template-areas:
+        "head head"
+        "main main"
+        "foot foot",
+    grid-template-rows: $header-height 1fr $footer-height,
+    grid-template-columns: 1fr
+    ),
+    layout-left-sidebar: (
+      grid-template-areas:
+        "head head"
+        "nav main"
+        "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $sidebar-width 1fr
+    ),
+    layout-left-full-height-sidebar: (
+      grid-template-areas:
+        "nav head"
+        "nav main"
+        "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: ($sidebar-width / 2) 1fr
+    )
+  ),
+  xs: (
+    layout-base: (
+      grid-template-areas:
+        "head head"
+        "main main"
+        "foot foot",
+    grid-template-rows: $header-height 1fr $footer-height,
+    grid-template-columns: 1fr
+    ),
+    layout-left-sidebar: (
+      grid-template-areas:
+        "head head"
+        "nav main"
+        "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $sidebar-width 1fr
+    ),
+    layout-left-full-height-sidebar: (
+      grid-template-areas:
+        "head"
+        "nav"
+        "main"
+        "foot",
+      grid-template-rows: $header-height $navbar-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    )
+  )
+) !default;
+
+@include _check-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _check-ascending($grid-widths, "$grid-widths");
+@include _check-even($grid-columns-number, "$grid-columns-number");

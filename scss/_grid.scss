@@ -1,0 +1,14 @@
+// Default grid template
+.grid {
+  @include make-grid();
+  @include make-grid-max-widths();
+  @include make-grid-breakpoints();
+}
+
+// Default grid fluid template (witdth)
+.grid-fluid {
+  @include make-grid();
+  @include make-grid-breakpoints();
+}
+
+@include build-grid-cols();

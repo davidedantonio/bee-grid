@@ -1,0 +1,23 @@
+/*!
+ * CSS Grid v1.0.0
+ * Copyright 2018 Webeetle s.r.l.
+ * Licensed under MIT
+ */
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

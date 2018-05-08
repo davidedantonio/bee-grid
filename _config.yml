@@ -1,0 +1,63 @@
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:     true
+
+# Permalinks
+permalink:      pretty
+
+# Server
+source:         "."
+destination:    ./_gh_pages
+host:           0.0.0.0
+port:           9001
+baseurl:        ""
+url:            "http://localhost/9001"
+encoding:       UTF-8
+exclude:
+  - .git/
+  - .github/
+  - assets/scss/
+  - build/
+  - js/
+  - node_modules/
+  - nuget/
+  - scss/
+  - vendor/
+  - CODE_OF_CONDUCT.md
+  - composer.json
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - sache.json
+  - twbsconfig.yml
+
+# Social
+title:              BeeGrid
+description:        "CSS Grid micro framework."
+twitter:            beegrid
+authors:            "Davide D'Antonio"
+
+# Custom variables
+current_version:      1.0.0
+current_ruby_version: 1.0.0
+docs_version:         1.0
+repo:                 "https://poverimm"
+slack:                "https://poverimm"
+blog:                 "https://poverimm"
+expo:                 "https://poverimm"
+
+download:
+  source:           "https://github.com/twbs/bootstrap/archive/v4.1.1.zip"
+  dist:             "https://github.com/twbs/bootstrap/releases/download/v4.1.1/bootstrap-4.1.1-dist.zip"
+
+include: ["_pages"]
+
+toc:
+  min_level:        2
+  max_level:        4

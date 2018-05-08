@@ -1,0 +1,34 @@
+
+@mixin build-header() {
+  header {
+    grid-area: head;
+  }
+}
+
+@mixin build-main() {
+  > main {
+    grid-area: main;
+
+    @include overflow-y-auto();
+  }
+}
+
+@mixin build-nav() {
+  > nav {
+    grid-area: nav;
+
+    @include overflow-y-auto();
+  }
+}
+
+@mixin build-footer() {
+  > footer {
+    grid-area: foot;
+  }
+}
+
+@mixin overflow-y-auto() {
+  &.overflow-y-auto {
+    overflow-y: auto;
+  }
+}

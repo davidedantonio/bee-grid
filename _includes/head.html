@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="{{ page.description | default: site.description | smartify }}">
+<meta name="author" content="{{ site.authors }}">
+<meta name="generator" content="Jekyll v{{ jekyll.version }}">
+
+<title>
+  {%- if page.title -%}
+    {{ page.title | smartify }} · {{ site.title | smartify }}
+  {%- else -%}
+    {{ site.title | smartify }} · {{ site.description | smartify }}
+  {%- endif -%}
+</title>
+
+<!-- BeeUi grid core CSS -->
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/css/bee-grid.min.css" media="screen" />
+
+<!-- BeeUi grid Docs CSS -->
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/css/bee-docs.min.css" media="screen" />

@@ -1,0 +1,5 @@
+@each $color-name, $color-value in $colors {
+  .docs-background-#{$color-name} {
+    background: $color-value;
+  }
+}
