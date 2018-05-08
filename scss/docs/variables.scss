@@ -58,3 +58,5 @@ $colors: map-merge((
   "black":        $black
 ), $colors);
 // stylelint-enable
+
+$theme-color-interval: 8% !default;

@@ -1,5 +1,17 @@
 @each $color-name, $color-value in $colors {
   .docs-background-#{$color-name} {
+    color: get-color-contrast($color-value);
     background: $color-value;
+
+    a {
+      color: color-level($color-value, -8);
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        color: get-color-contrast($color-value);
+        text-decoration: none;
+      }
+    }
   }
 }

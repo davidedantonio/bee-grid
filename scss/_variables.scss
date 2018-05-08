@@ -7,7 +7,7 @@
 $white:       #fff !default;
 
 // Dimensions
-$header-height: 56px !default;
+$header-height: minmax(56px, auto) !default;
 $footer-height: 40px !default;
 $sidebar-width: 200px !default;
 $navbar-height: 56px !default;
@@ -61,7 +61,7 @@ $grid-layouts: (
       "head head"
       "main main"
       "foot foot",
-    grid-template-rows: $header-height 1fr $footer-height,
+    grid-template-rows:  1fr $footer-height,
     grid-template-columns: 1fr
   ),
   layout-left-sidebar: (

@@ -1,3 +1,25 @@
-.header {
-  left: 0;
+.docs-header {
+  padding: 10px 10px 3px 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+
+  .brand {
+    display: inline-block;
+    width: 40px;
+    margin-right: 1rem;
+  }
+
+  .menu {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+    > li {
+      display: inline;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }

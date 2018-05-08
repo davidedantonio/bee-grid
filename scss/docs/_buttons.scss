@@ -1,0 +1,39 @@
+.button {
+  padding: .5rem .5rem;
+  font-size: inherit;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+
+  @each $color-name, $color-value in $colors {
+    &.button-#{$color-name} {
+      color: get-color-contrast($color-value);
+      background: $color-value;
+      border-color: transparent;
+    }
+
+    &.button-outline-#{$color-name} {
+      color: get-color-contrast($color-value);
+      background: transparent;
+      border-color: get-color-contrast($color-value);
+
+      &:hover {
+        color: get-color-contrast($color-value);
+        background: color-level($color-value, 1);
+        border-color: color-level($color-value, 1);
+      }
+
+      &:focus,
+      &:active {
+        color: get-color-contrast($color-value);
+        background: color-level($color-value, 2);
+        border-color: color-level($color-value, 2);
+      }
+    }
+  }
+}
