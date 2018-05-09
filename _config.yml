@@ -53,8 +53,8 @@ blog:                 "https://poverimm"
 expo:                 "https://poverimm"
 
 download:
-  source:           "https://github.com/twbs/bootstrap/archive/v4.1.1.zip"
-  dist:             "https://github.com/twbs/bootstrap/releases/download/v4.1.1/bootstrap-4.1.1-dist.zip"
+  source:           ""
+  dist:             ""
 
 include: ["_pages"]
 

@@ -38,11 +38,11 @@ $grid-widths: (
 // Define the grid gap dimensions at which your layout will change,
 // adapting to different screen sizes, for use in media queries.
 $grid-breakpoints-gap: (
-  xl: .6rem,
-  lg: .4rem,
-  md: .3rem,
-  sm: .2rem,
-  xs: .1rem
+  xl: 1.2rem,
+  lg: 1.1rem,
+  md: 1rem,
+  sm: .5rem,
+  xs: .4rem
 ) !default;
 
 // Define the grid gap dimensions at which your layout will change,

@@ -1,0 +1,16 @@
+.master-head {
+  h1 {
+    font-size: 4rem;
+    font-weight: 300;
+  }
+
+  @each $color-name, $color-value in $colors {
+    .color-#{$color-name} {
+      color: $color-value;
+    }
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}

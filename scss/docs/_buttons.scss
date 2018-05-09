@@ -5,6 +5,15 @@
   border-width: 1px;
   border-radius: 3px;
 
+  &.button-block {
+    width: 100%;
+  }
+
+  &.button-lg {
+    padding: .6rem 1rem;
+    font-size: 1.5rem;
+  }
+
   &:hover,
   &:focus {
     cursor: pointer;
@@ -15,6 +24,19 @@
       color: get-color-contrast($color-value);
       background: $color-value;
       border-color: transparent;
+
+      &:hover {
+        color: get-color-contrast($color-value);
+        background: color-level($color-value, 1);
+        border-color: color-level($color-value, 1);
+      }
+
+      &:focus,
+      &:active {
+        color: get-color-contrast($color-value);
+        background: color-level($color-value, 2);
+        border-color: color-level($color-value, 2);
+      }
     }
 
     &.button-outline-#{$color-name} {
