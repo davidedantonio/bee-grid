@@ -13,7 +13,7 @@ body {
 }
 
 .docs-header {
-  padding: 10px 10px 3px 10px;
+  padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
@@ -806,7 +806,7 @@ body {
 }
 
 .button.button-lg {
-  padding: .6rem 1rem;
+  padding: .9rem 1rem;
   font-size: 1.5rem;
 }
 
@@ -1661,5 +1661,6 @@ body {
 
 .master-head p {
   font-size: 1.5rem;
+  line-height: 2.2rem;
 }
 /*# sourceMappingURL=bee-docs.css.map */

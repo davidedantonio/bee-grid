@@ -28,7 +28,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.5rem;
   margin-left: auto;
   display: grid;
   grid-gap: 0.4rem;
@@ -36,7 +35,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -71,7 +69,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -82,7 +79,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -93,7 +89,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -104,7 +99,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -115,7 +109,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -126,7 +119,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -137,7 +129,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -148,7 +139,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -159,7 +149,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -170,7 +159,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -181,7 +169,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -192,7 +179,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -204,7 +190,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-1 {
@@ -214,7 +199,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-2 {
@@ -224,7 +208,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-3 {
@@ -234,7 +217,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-4 {
@@ -244,7 +226,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-5 {
@@ -254,7 +235,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-6 {
@@ -264,7 +244,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-7 {
@@ -274,7 +253,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-8 {
@@ -284,7 +262,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-9 {
@@ -294,7 +271,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-10 {
@@ -304,7 +280,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-11 {
@@ -314,7 +289,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid.cols-sm-12 {
@@ -324,7 +298,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
 }
@@ -337,7 +310,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-1 {
@@ -347,7 +319,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-2 {
@@ -357,7 +328,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-3 {
@@ -367,7 +337,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-4 {
@@ -377,7 +346,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-5 {
@@ -387,7 +355,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-6 {
@@ -397,7 +364,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-7 {
@@ -407,7 +373,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-8 {
@@ -417,7 +382,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-9 {
@@ -427,7 +391,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-10 {
@@ -437,7 +400,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-11 {
@@ -447,7 +409,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid.cols-md-12 {
@@ -457,7 +418,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
 }
@@ -470,7 +430,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-1 {
@@ -480,7 +439,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-2 {
@@ -490,7 +448,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-3 {
@@ -500,7 +457,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-4 {
@@ -510,7 +466,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-5 {
@@ -520,7 +475,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-6 {
@@ -530,7 +484,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-7 {
@@ -540,7 +493,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-8 {
@@ -550,7 +502,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-9 {
@@ -560,7 +511,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-10 {
@@ -570,7 +520,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-11 {
@@ -580,7 +529,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid.cols-lg-12 {
@@ -590,7 +538,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
 }
@@ -603,7 +550,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-1 {
@@ -613,7 +559,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-2 {
@@ -623,7 +568,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-3 {
@@ -633,7 +577,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-4 {
@@ -643,7 +586,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-5 {
@@ -653,7 +595,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-6 {
@@ -663,7 +604,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-7 {
@@ -673,7 +613,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-8 {
@@ -683,7 +622,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-9 {
@@ -693,7 +631,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-10 {
@@ -703,7 +640,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-11 {
@@ -713,7 +649,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid.cols-xl-12 {
@@ -723,7 +658,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
 }
@@ -735,7 +669,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.5rem;
   margin-left: auto;
   display: grid;
   grid-gap: 0.4rem;
@@ -743,7 +676,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -754,7 +686,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -765,7 +696,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -776,7 +706,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -787,7 +716,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -798,7 +726,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -809,7 +736,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -820,7 +746,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -831,7 +756,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -842,7 +766,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -853,7 +776,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -864,7 +786,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -875,7 +796,6 @@ body {
   grid-auto-rows: 1fr;
   width: 100%;
   margin-right: auto;
-  margin-bottom: 0.4rem;
   margin-left: auto;
 }
 
@@ -887,7 +807,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-1 {
@@ -897,7 +816,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-2 {
@@ -907,7 +825,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-3 {
@@ -917,7 +834,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-4 {
@@ -927,7 +843,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-5 {
@@ -937,7 +852,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-6 {
@@ -947,7 +861,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-7 {
@@ -957,7 +870,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-8 {
@@ -967,7 +879,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-9 {
@@ -977,7 +888,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-10 {
@@ -987,7 +897,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-11 {
@@ -997,7 +906,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
   .grid-fluid.cols-sm-12 {
@@ -1007,7 +915,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 0.5rem;
     margin-left: auto;
   }
 }
@@ -1020,7 +927,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-1 {
@@ -1030,7 +936,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-2 {
@@ -1040,7 +945,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-3 {
@@ -1050,7 +954,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-4 {
@@ -1060,7 +963,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-5 {
@@ -1070,7 +972,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-6 {
@@ -1080,7 +981,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-7 {
@@ -1090,7 +990,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-8 {
@@ -1100,7 +999,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-9 {
@@ -1110,7 +1008,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-10 {
@@ -1120,7 +1017,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-11 {
@@ -1130,7 +1026,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-md-12 {
@@ -1140,7 +1035,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1rem;
     margin-left: auto;
   }
 }
@@ -1153,7 +1047,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-1 {
@@ -1163,7 +1056,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-2 {
@@ -1173,7 +1065,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-3 {
@@ -1183,7 +1074,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-4 {
@@ -1193,7 +1083,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-5 {
@@ -1203,7 +1092,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-6 {
@@ -1213,7 +1101,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-7 {
@@ -1223,7 +1110,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-8 {
@@ -1233,7 +1119,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-9 {
@@ -1243,7 +1128,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-10 {
@@ -1253,7 +1137,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-11 {
@@ -1263,7 +1146,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
   .grid-fluid.cols-lg-12 {
@@ -1273,7 +1155,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.1rem;
     margin-left: auto;
   }
 }
@@ -1286,7 +1167,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-1 {
@@ -1296,7 +1176,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-2 {
@@ -1306,7 +1185,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-3 {
@@ -1316,7 +1194,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-4 {
@@ -1326,7 +1203,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-5 {
@@ -1336,7 +1212,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-6 {
@@ -1346,7 +1221,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-7 {
@@ -1356,7 +1230,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-8 {
@@ -1366,7 +1239,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-9 {
@@ -1376,7 +1248,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-10 {
@@ -1386,7 +1257,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-11 {
@@ -1396,7 +1266,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
   .grid-fluid.cols-xl-12 {
@@ -1406,7 +1275,6 @@ body {
     grid-auto-rows: 1fr;
     width: 100%;
     margin-right: auto;
-    margin-bottom: 1.2rem;
     margin-left: auto;
   }
 }
