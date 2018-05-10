@@ -45,9 +45,9 @@
       border-color: get-color-contrast($color-value);
 
       &:hover {
-        color: get-color-contrast($color-value);
-        background: color-level($color-value, 1);
-        border-color: color-level($color-value, 1);
+        color: $color-value;
+        background: get-color-contrast($color-value);
+        border-color: get-color-contrast($color-value);
       }
 
       &:focus,

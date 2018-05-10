@@ -839,9 +839,9 @@ body {
 }
 
 .button.button-outline-red:hover {
-  color: #fff;
-  background: #e03e32;
-  border-color: #e03e32;
+  color: #f44336;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-red:focus, .button.button-outline-red:active {
@@ -875,9 +875,9 @@ body {
 }
 
 .button.button-outline-pink:hover {
-  color: #fff;
-  background: #d61c5b;
-  border-color: #d61c5b;
+  color: #e91e63;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-pink:focus, .button.button-outline-pink:active {
@@ -911,9 +911,9 @@ body {
 }
 
 .button.button-outline-purple:hover {
-  color: #fff;
-  background: #9024a2;
-  border-color: #9024a2;
+  color: #9c27b0;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-purple:focus, .button.button-outline-purple:active {
@@ -947,9 +947,9 @@ body {
 }
 
 .button.button-outline-deep-purple:hover {
-  color: #fff;
-  background: #5f35a8;
-  border-color: #5f35a8;
+  color: #673ab7;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-deep-purple:focus, .button.button-outline-deep-purple:active {
@@ -983,9 +983,9 @@ body {
 }
 
 .button.button-outline-indigo:hover {
-  color: #fff;
-  background: #3a4ba7;
-  border-color: #3a4ba7;
+  color: #3f51b5;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-indigo:focus, .button.button-outline-indigo:active {
@@ -1019,9 +1019,9 @@ body {
 }
 
 .button.button-outline-blue:hover {
-  color: #fff;
-  background: #1e8ae0;
-  border-color: #1e8ae0;
+  color: #2196f3;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-blue:focus, .button.button-outline-blue:active {
@@ -1055,9 +1055,9 @@ body {
 }
 
 .button.button-outline-light-blue:hover {
-  color: #fff;
-  background: #039be0;
-  border-color: #039be0;
+  color: #03a9f4;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-light-blue:focus, .button.button-outline-light-blue:active {
@@ -1091,9 +1091,9 @@ body {
 }
 
 .button.button-outline-cyan:hover {
-  color: #fff;
-  background: #00adc3;
-  border-color: #00adc3;
+  color: #00bcd4;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-cyan:focus, .button.button-outline-cyan:active {
@@ -1127,9 +1127,9 @@ body {
 }
 
 .button.button-outline-teal:hover {
-  color: #fff;
-  background: #008a7d;
-  border-color: #008a7d;
+  color: #009688;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-teal:focus, .button.button-outline-teal:active {
@@ -1163,9 +1163,9 @@ body {
 }
 
 .button.button-outline-green:hover {
-  color: #fff;
-  background: #46a14a;
-  border-color: #46a14a;
+  color: #4caf50;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-green:focus, .button.button-outline-green:active {
@@ -1199,9 +1199,9 @@ body {
 }
 
 .button.button-outline-light-green:hover {
-  color: #496a23;
-  background: #80b344;
-  border-color: #80b344;
+  color: #8bc34a;
+  background: #496a23;
+  border-color: #496a23;
 }
 
 .button.button-outline-light-green:focus, .button.button-outline-light-green:active {
@@ -1235,9 +1235,9 @@ body {
 }
 
 .button.button-outline-lime:hover {
-  color: #757f16;
-  background: #bdca34;
-  border-color: #bdca34;
+  color: #cddc39;
+  background: #757f16;
+  border-color: #757f16;
 }
 
 .button.button-outline-lime:focus, .button.button-outline-lime:active {
@@ -1271,9 +1271,9 @@ body {
 }
 
 .button.button-outline-amber:hover {
-  color: #876500;
-  background: #ebb206;
-  border-color: #ebb206;
+  color: #ffc107;
+  background: #876500;
+  border-color: #876500;
 }
 
 .button.button-outline-amber:focus, .button.button-outline-amber:active {
@@ -1307,9 +1307,9 @@ body {
 }
 
 .button.button-outline-orange:hover {
-  color: #804c00;
-  background: #eb8c00;
-  border-color: #eb8c00;
+  color: #ff9800;
+  background: #804c00;
+  border-color: #804c00;
 }
 
 .button.button-outline-orange:focus, .button.button-outline-orange:active {
@@ -1343,9 +1343,9 @@ body {
 }
 
 .button.button-outline-deep-orange:hover {
-  color: #fff;
-  background: #eb501f;
-  border-color: #eb501f;
+  color: #ff5722;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-deep-orange:focus, .button.button-outline-deep-orange:active {
@@ -1379,9 +1379,9 @@ body {
 }
 
 .button.button-outline-brown:hover {
-  color: #fff;
-  background: #6f4e42;
-  border-color: #6f4e42;
+  color: #795548;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-brown:focus, .button.button-outline-brown:active {
@@ -1415,9 +1415,9 @@ body {
 }
 
 .button.button-outline-blue-grey:hover {
-  color: #fff;
-  background: #587380;
-  border-color: #587380;
+  color: #607d8b;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-blue-grey:focus, .button.button-outline-blue-grey:active {
@@ -1451,9 +1451,9 @@ body {
 }
 
 .button.button-outline-white:hover {
-  color: #bfbfbf;
-  background: #ebebeb;
-  border-color: #ebebeb;
+  color: #fff;
+  background: #bfbfbf;
+  border-color: #bfbfbf;
 }
 
 .button.button-outline-white:focus, .button.button-outline-white:active {
@@ -1487,9 +1487,9 @@ body {
 }
 
 .button.button-outline-grey:hover {
-  color: #fff;
-  background: #6c6c6c;
-  border-color: #6c6c6c;
+  color: #757575;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-grey:focus, .button.button-outline-grey:active {
@@ -1523,9 +1523,9 @@ body {
 }
 
 .button.button-outline-grey-dark:hover {
-  color: #fff;
-  background: #3d3d3d;
-  border-color: #3d3d3d;
+  color: #424242;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-grey-dark:focus, .button.button-outline-grey-dark:active {
@@ -1559,9 +1559,9 @@ body {
 }
 
 .button.button-outline-black:hover {
-  color: #fff;
-  background: black;
-  border-color: black;
+  color: #000;
+  background: #fff;
+  border-color: #fff;
 }
 
 .button.button-outline-black:focus, .button.button-outline-black:active {
@@ -1662,5 +1662,22 @@ body {
 .master-head p {
   font-size: 1.5rem;
   line-height: 2.2rem;
+}
+
+.master-widget {
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: #f1f3f4;
+}
+
+.master-widget h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.master-widget p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
 }
 /*# sourceMappingURL=bee-docs.css.map */
