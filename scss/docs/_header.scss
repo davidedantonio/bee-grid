@@ -20,6 +20,13 @@
       &:last-child {
         margin-right: 0;
       }
+
+      .menu-svg {
+        display: inline-block;
+        width: 1.4rem;
+        height: 1.4rem;
+        vertical-align: text-top;
+      }
     }
   }
 }

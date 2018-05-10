@@ -4671,7 +4671,7 @@ body {
 }
 
 .layout-base {
-  grid-template-rows: 1fr 40px;
+  grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
   grid-template-columns: 1fr;
   grid-template-areas: "head head" "main main" "foot foot";
 }
@@ -4708,7 +4708,7 @@ body {
 }
 
 .layout-left-sidebar {
-  grid-template-rows: minmax(56px, auto) 1fr 40px;
+  grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
   grid-template-columns: 200px 1fr;
   grid-template-areas: "head head" "nav main" "nav foot";
 }
@@ -4745,7 +4745,7 @@ body {
 }
 
 .layout-left-full-height-sidebar {
-  grid-template-rows: minmax(56px, auto) 1fr 40px;
+  grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
   grid-template-columns: 200px 1fr;
   grid-template-areas: "nav head" "nav main" "nav foot";
 }
@@ -4782,36 +4782,36 @@ body {
 }
 
 .layout-base {
-  grid-template-rows: minmax(56px, auto) 1fr 40px;
+  grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
   grid-template-columns: 1fr;
   grid-template-areas: "head head" "main main" "foot foot";
 }
 
 .layout-left-sidebar {
-  grid-template-rows: minmax(56px, auto) 1fr 40px;
+  grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
   grid-template-columns: 200px 1fr;
   grid-template-areas: "head head" "nav main" "nav foot";
 }
 
 .layout-left-full-height-sidebar {
-  grid-template-rows: minmax(56px, auto) 56px 1fr 40px;
+  grid-template-rows: minmax(56px, auto) 56px 1fr minmax(max-content, 50px);
   grid-template-columns: 1fr;
   grid-template-areas: "head" "nav" "main" "foot";
 }
 
 @media (min-width: 480px) {
   .layout-base {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head head" "main main" "foot foot";
   }
   .layout-left-sidebar {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 200px 1fr;
     grid-template-areas: "head head" "nav main" "nav foot";
   }
   .layout-left-full-height-sidebar {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 100px 1fr;
     grid-template-areas: "nav head" "nav main" "nav foot";
   }
@@ -4819,17 +4819,17 @@ body {
 
 @media (min-width: 960px) {
   .layout-base {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head head" "main main" "foot foot";
   }
   .layout-left-sidebar {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 200px 1fr;
     grid-template-areas: "head head" "nav main" "nav foot";
   }
   .layout-left-full-height-sidebar {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 100px 1fr;
     grid-template-areas: "nav head" "nav main" "nav foot";
   }
@@ -4837,30 +4837,30 @@ body {
 
 @media (min-width: 1280px) {
   .layout-base {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 1fr;
   }
   .layout-left-sidebar {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 200px 1fr;
   }
   .layout-left-full-height-sidebar {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 200px 1fr;
   }
 }
 
 @media (min-width: 1440px) {
   .layout-base {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 1fr;
   }
   .layout-left-sidebar {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 200px 1fr;
   }
   .layout-left-full-height-sidebar {
-    grid-template-rows: minmax(56px, auto) 1fr 40px;
+    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 200px 1fr;
   }
 }
@@ -5320,4 +5320,5 @@ body {
     align-self: stretch !important;
   }
 }
+
 /*# sourceMappingURL=bee-grid.css.map */

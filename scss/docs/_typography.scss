@@ -1,3 +1,30 @@
+@each $color-name, $color-value in $colors {
+  .color-#{$color-name} {
+    color: $color-value;
+  }
+}
+
+footer {
+  padding: 1rem;
+  background-color: $grey-300;
+
+  p {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 85%;
+    color: $grey-600;
+  }
+
+  a {
+    color: $grey-600;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
 .master-head {
   color: $white;
   text-align: center;

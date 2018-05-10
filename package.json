@@ -26,7 +26,20 @@
     "scss/"
   ],
   "author": "Davide D'Antonio",
+  "contributors": [
+    "Webeetle s.r.l."
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidedantonio/bee-grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidedantonio/bee-grid/issues"
+  },
   "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
   "dependencies": {
     "hoek": "^5.0.3"
   },

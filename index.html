@@ -23,37 +23,39 @@ layout: home
 <div class="grid-fluid master-widget cols-sm-1 cols-xs-1 cols-md-3 cols-lg-3 cols-xl-3">
   <div class="grid-item">
     <h2 class="color-teal">Installation</h2>
-    Install Beegrid's source files via npm. We take care of injecting the CSS needed.
+    <p>Install Beegrid's source files via npm. We take care of injecting the CSS needed.</p>
     {% highlight sh %}
-      $ npm install beegrid
+    npm install beegrid
+    {% endhighlight %}
 
-      $ npm install beegrid -v 1.0.0
-      {% endhighlight %}
-    or use a CDN.
     {% highlight sh %}
-  <link rel="stylesheet" href="https://unpkg.com/" media="screen" />
-  {% endhighlight %}
+    npm install beegrid -v 1.0.0
+    {% endhighlight %}
+    <p>Or use a CDN.</p>
+    {% highlight html %}
+    <link rel="stylesheet" href="https://unpkg.com/" media="screen" />
+    {% endhighlight %}
   </div>
   <div class="grid-item">
-    <h2 class="color-teal"><i class="material-icons">web</i> Usage</h2>
+    <h2 class="color-teal">Usage</h2>
     <p>Download latest precompiled CSS stable build and include it in your project.</p>
 
-      {% highlight sh %}
+      {% highlight html %}
       <link rel="stylesheet" href="./your/local/path/bee-grid.min.css" media="screen" />
       {% endhighlight %}
-
-      or
-      {% highlight sh %}
+      <p>or</p>
+      {% highlight html %}
       <link rel="stylesheet" href="./your/local/path/bee-grid.css" media="screen" />
       {% endhighlight %}
   </div>
   <div class="grid-item">
-    <h2 class="color-teal"><i class="material-icons">web</i> Source Code</h2>
+    <h2 class="color-teal">Source Code</h2>
     <p>Clone Beegrid repository from Github and start building awesome grid for your websites.</p>
     <pre>
       {% highlight sh %}
       git clone {{ site.repo }}
       {% endhighlight %}
     </pre>
+    <p>Quickly prototype your grids with our Sass variables and mixins.</p>
   </div>
 </div>
