@@ -1,6 +1,9 @@
 .master-head {
+  color: $white;
+  text-align: center;
+
   h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 300;
   }
 
@@ -17,9 +20,7 @@
 }
 
 .master-widget {
-  box-sizing: border-box;
-  padding: 1rem;
-  background-color: #f1f3f4;
+  background-color: $grey-100;
 
   h2 {
     margin-top: 0;

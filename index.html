@@ -1,42 +1,59 @@
 ---
 layout: home
 ---
-<div class="master-head">
-  <div class="grid cols-sm-2 cols-xs-1 cols-md-2 cols-lg-2 cols-xl-2">
-    <div>
-      <h1 class="color-teal">BeeGrid</h1>
+<div class="master-head docs-background-teal">
+  <div class="grid cols-sm-1 cols-xs-1 cols-md-1 cols-lg-1 cols-xl-1">
+    <div class="grid-item">
+      <div class="home-image flex justify-content-center align-items-center mt-2 mb-2">
+        <img src="{{ site.base_url }}/assets/images/index_image.png" />
+      </div>
+      <h1 class="color-white">BeeGrid</h1>
       <p> A fantastic CSS microframework to build various types of grids
       thanks to a twelve column system, five default responsive tiers, Sass variables and mixins,
       and dozens of predefined classes to organize your content.</p>
 
-      <div class="grid cols-sm-1 cols-xs-1 cols-md-2 cols-lg-2 cols-xl-2">
-        <div>
-            <button class="button button-teal button-lg button-block">Get Started</button>
-        </div>
-        <div>
-          <button class="button button-grey button-lg button-block">Download</button>
+      <div class="grid cols-sm-1 cols-xs-1 cols-md-1 cols-lg-1 cols-xl-1">
+        <div class="grid-item flex justify-content-center align-items-center">
+            <button class="button button-outline-teal button-lg">Get Started</button>
         </div>
       </div>
     </div>
-    <div class="home-image">
-      <img src="{{ site.base_url }}/assets/images/index_image.png" />
-    </div>
+  </div>
 </div>
-<div class="grid-fluid cols-sm-3 cols-xs-1 cols-md-3 cols-lg-3 cols-xl-3 master-widget">
-  <div>
+<div class="grid-fluid master-widget cols-sm-1 cols-xs-1 cols-md-3 cols-lg-3 cols-xl-3">
+  <div class="grid-item">
     <h2 class="color-teal">Installation</h2>
+    Install Beegrid's source files via npm. We take care of injecting the CSS needed.
+    {% highlight sh %}
+      $ npm install beegrid
+
+      $ npm install beegrid -v 1.0.0
+      {% endhighlight %}
+    or use a CDN.
+    {% highlight sh %}
+  <link rel="stylesheet" href="https://unpkg.com/" media="screen" />
+  {% endhighlight %}
   </div>
-  <div>
-    <h2 class="color-teal">Download</h2>
+  <div class="grid-item">
+    <h2 class="color-teal"><i class="material-icons">web</i> Usage</h2>
+    <p>Download latest precompiled CSS stable build and include it in your project.</p>
+
+      {% highlight sh %}
+      <link rel="stylesheet" href="./your/local/path/bee-grid.min.css" media="screen" />
+      {% endhighlight %}
+
+      or
+      {% highlight sh %}
+      <link rel="stylesheet" href="./your/local/path/bee-grid.css" media="screen" />
+      {% endhighlight %}
   </div>
-  <div class="master-widget">
+  <div class="grid-item">
     <h2 class="color-teal"><i class="material-icons">web</i> Source Code</h2>
-    <p>Clone Beegrid repository and start building awesome grid.</p>
+    <p>Clone Beegrid repository from Github and start building awesome grid for your websites.</p>
     <pre>
       {% highlight sh %}
       git clone {{ site.repo }}
       {% endhighlight %}
-
     </pre>
   </div>
 </div>

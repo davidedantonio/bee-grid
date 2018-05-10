@@ -11,4 +11,12 @@
   @include make-grid-breakpoints();
 }
 
+.grid,
+.grid-fluid {
+  .grid-item {
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+}
+
 @include build-grid-cols();
