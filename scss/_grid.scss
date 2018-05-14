@@ -1,22 +1,20 @@
 // Default grid template
 .grid-container {
-  @include make-grid();
   @include make-grid-max-widths();
+
+  @include make-grid();
+  @include build-grid-cols();
   @include make-grid-breakpoints();
 }
 
 // Default grid fluid template (width)
 .grid-container-fluid {
   @include make-grid();
+  @include build-grid-cols();
   @include make-grid-breakpoints();
 }
 
-.grid-container,
-.grid-container-fluid {
-  .grid-item {
-    box-sizing: border-box;
-    padding: 1rem;
-  }
+.grid-item {
+  box-sizing: border-box;
+  padding: 1rem;
 }
-
-@include build-grid-cols();

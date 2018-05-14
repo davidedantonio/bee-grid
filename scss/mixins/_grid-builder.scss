@@ -1,27 +1,17 @@
 @mixin build-grid-cols($columns-number: $grid-columns-number, $breakpoints: $grid-breakpoints) {
-  // Common properties for all cols
-  %column {
-    display: grid;
-    width: 100%;
-  }
-
-  .col {
-    @extend %column;
-  }
-
   @for $i from 1 through $columns-number {
-    &.colspan-#{$i} {
+    .colspan-#{$i} {
       grid-column: span #{$i};
     }
   }
 
   @for $i from 1 through $columns-number {
     @for $j from $i through $columns-number {
-      &.col-start-#{$i}-end-#{$j} {
+      .col-start-#{$i}-end-#{$j} {
         grid-column: #{$i} / ($j+1);
       }
 
-      &.row-start-#{$i}-end-#{$j} {
+      .row-start-#{$i}-end-#{$j} {
         grid-row: #{$i} / ($j+1);
       }
     }
@@ -30,18 +20,18 @@
   @each $breakpoint in map-keys($breakpoints) {
     $infix: breakpoint-infix($breakpoint, $breakpoints);
 
-    @include media-breakpoint-up($breakpoint, $breakpoints) {
+    @include media-breakpoint-between($breakpoint, $breakpoints) {
       @for $i from 1 through $columns-number {
         .colspan#{$infix}-#{$i} {
           grid-column: span #{$i};
         }
 
         @for $j from $i through $columns-number {
-          &.col#{$infix}-start-#{$i}-end-#{$j} {
+          .col#{$infix}-start-#{$i}-end-#{$j} {
             grid-column: #{$i} / ($j+1);
           }
 
-          &.row#{$infix}-start-#{$i}-end-#{$j} {
+          .row#{$infix}-start-#{$i}-end-#{$j} {
             grid-row: #{$i} / ($j+1);
           }
         }

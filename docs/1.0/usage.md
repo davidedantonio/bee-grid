@@ -261,13 +261,13 @@ If you want that your grid have a different behavior for each device size, you c
 
 In this example we decide to have a different behaviour for each screen size. For the extra large screen we decide to have a twelve columns system, on large six, on medium three on small 2 and, finally on extra small devices a stacked columns grid.
 
-# Rows and columns (FIX)
+# Rows and columns
 
-With Beegrid you can define the number of rows and columns that a grid item must occupy at certain device size. For example, if we take a look at previous example, we can decide that the grid item `1` can occupy two columns and six rows on medium screen size.
+You can define the number of rows and columns that a grid item must occupy at certain device size. For example, if we take a look at previous example, we can decide that the grid item `1` can occupy two columns and two rows on medium screen size.
 
 <div class="docs-example">
   <div class="grid-container-fluid cols-xs-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
-    <div class="grid-item row-sm-start-1-end-2 col-sm-start-1-end-2">1</div>
+    <div class="grid-item row-md-start-1-end-2 col-lg-start-1-end-2">1</div>
     <div class="grid-item">2</div>
     <div class="grid-item">3</div>
     <div class="grid-item">4</div>
@@ -281,3 +281,22 @@ With Beegrid you can define the number of rows and columns that a grid item must
     <div class="grid-item">12</div>
   </div>
 </div>
+
+{% highlight html %}
+<div class="grid-container-fluid cols-xs-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
+  <div class="grid-item row-md-start-1-end-2 col-lg-start-1-end-2">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>
+  <div class="grid-item">10</div>
+  <div class="grid-item">11</div>
+  <div class="grid-item">12</div>
+</div>
+{% endhighlight %}
+
+# Alignments

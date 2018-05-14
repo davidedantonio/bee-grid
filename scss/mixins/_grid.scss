@@ -3,7 +3,7 @@
 // Generate semantic grid using CSS Grid (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
 
 // Generate default grid system
-@mixin make-grid($columns-number: 1, $gap: map-get($grid-breakpoints-gap, "xs")) {
+@mixin make-grid($columns-number: $grid-columns-number, $gap: map-get($grid-breakpoints-gap, "xs")) {
   display: grid;
   grid-gap: $gap;
   grid-template-columns: repeat($columns-number, minmax(0, 1fr));
@@ -42,6 +42,17 @@
   $min: breakpoint-min($name, $breakpoints);
   @if $min {
     @media (min-width: $min) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-down($name, $breakpoints: $grid-breakpoints) {
+  $max: breakpoint-max($name, $breakpoints);
+  @if $max {
+    @media (max-width: $max) {
       @content;
     }
   } @else {
