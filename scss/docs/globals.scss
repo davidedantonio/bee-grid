@@ -1,17 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-
-// stylelint-disable
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-// stylelint-enable
-
-
 .home-image {
   > img {
     max-height: 300px;

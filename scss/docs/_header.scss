@@ -1,6 +1,5 @@
 .docs-header {
   padding: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
 
   .brand {
     display: inline-block;
@@ -15,7 +14,7 @@
 
     > li {
       display: inline;
-      margin-right: 20px;
+      margin-right: 15px;
 
       &:last-child {
         margin-right: 0;
@@ -26,6 +25,10 @@
         width: 1.4rem;
         height: 1.4rem;
         vertical-align: text-top;
+      }
+
+      .active {
+        color: $white;
       }
     }
   }

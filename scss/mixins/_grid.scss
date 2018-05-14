@@ -3,7 +3,7 @@
 // Generate semantic grid using CSS Grid (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
 
 // Generate default grid system
-@mixin make-grid($columns-number: 1, $gap: map-get($grid-breakpoints-gap, "sm")) {
+@mixin make-grid($columns-number: 1, $gap: map-get($grid-breakpoints-gap, "xs")) {
   display: grid;
   grid-gap: $gap;
   grid-template-columns: repeat($columns-number, minmax(0, 1fr));
@@ -38,8 +38,6 @@
   }
 }
 
-// Media of at least the minimum breakpoint width. No query for the smallest breakpoint.
-// Makes the @content apply to the given breakpoint and wider.
 @mixin media-breakpoint-up($name, $breakpoints: $grid-breakpoints) {
   $min: breakpoint-min($name, $breakpoints);
   @if $min {

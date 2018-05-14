@@ -4,23 +4,30 @@
   }
 }
 
+h1 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
 footer {
   padding: 1rem;
   background-color: $grey-300;
 
   p {
-    text-align: center;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 85%;
     color: $grey-600;
+    text-align: center;
   }
 
   a {
-    color: $grey-600;
     font-weight: 600;
+    color: $grey-600;
     text-decoration: none;
   }
 }

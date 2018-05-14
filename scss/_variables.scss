@@ -9,7 +9,7 @@ $white:       #fff !default;
 // Dimensions
 $header-height: minmax(56px, auto) !default;
 $footer-height: minmax(max-content, 50px) !default;
-$sidebar-width: 200px !default;
+$sidebar-width: 250px !default;
 $navbar-height: 56px !default;
 
 // Grid
@@ -56,163 +56,36 @@ $grid-breakpoints-grid: (
 ) !default;
 
 $grid-layouts: (
-  layout-base: (
+  1: (
     grid-template-areas:
       "head head"
-      "main main"
-      "foot foot",
-    grid-template-rows: $header-height 1fr $footer-height,
-    grid-template-columns: 1fr
+      "main main",
+    grid-template-rows: $header-height 1fr
   ),
-  layout-left-sidebar: (
+  2: (
     grid-template-areas:
       "head head"
-      "nav main"
-      "nav foot",
-    grid-template-rows: $header-height 1fr $footer-height,
-    grid-template-columns: $sidebar-width 1fr
+      "nav main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: $sidebar-width 1fr
   ),
-  layout-left-full-height-sidebar: (
-    grid-template-areas:
-      "nav head"
-      "nav main"
-      "nav foot",
-    grid-template-rows: $header-height 1fr $footer-height,
-    grid-template-columns: $sidebar-width 1fr
-  )
 ) !default;
 
 $grid-breakpoints-layouts: (
-  xl: (
-    layout-base: (
-    layout:
-      "head head"
-      "main main"
-      "foot foot",
-    grid-template-rows: $header-height 1fr $footer-height,
-    grid-template-columns: 1fr
-    ),
-    layout-left-sidebar: (
-      layout:
-        "head head"
-        "nav main"
-        "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $sidebar-width 1fr
-    ),
-    layout-left-full-height-sidebar: (
-      layout:
-        "nav head"
-        "nav main"
-        "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $sidebar-width 1fr
-    )
-  ),
-  lg: (
-    layout-base: (
-    layout:
-      "head head"
-      "main main"
-      "foot foot",
-    grid-template-rows: $header-height 1fr $footer-height,
-    grid-template-columns: 1fr
-    ),
-    layout-left-sidebar: (
-      layout:
-        "head head"
-        "nav main"
-        "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $sidebar-width 1fr
-    ),
-    layout-left-full-height-sidebar: (
-      layout:
-        "nav head"
-        "nav main"
-        "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $sidebar-width 1fr
-    )
-  ),
   md: (
-    layout-base: (
+    1: (
       grid-template-areas:
         "head head"
-        "main main"
-        "foot foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: 1fr
+        "main main",
+      grid-template-rows: $header-height 1fr
     ),
-    layout-left-sidebar: (
-      grid-template-areas:
-        "head head"
-        "nav main"
-        "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
+    2: (
+    grid-template-areas:
+      "head head"
+      "nav main",
+      grid-template-rows: $header-height 1fr,
       grid-template-columns: $sidebar-width 1fr
-    ),
-    layout-left-full-height-sidebar: (
-      grid-template-areas:
-        "nav head"
-        "nav main"
-        "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: ($sidebar-width / 2) 1fr
-    )
   ),
-  sm: (
-    layout-base: (
-      grid-template-areas:
-        "head head"
-        "main main"
-        "foot foot",
-    grid-template-rows: $header-height 1fr $footer-height,
-    grid-template-columns: 1fr
-    ),
-    layout-left-sidebar: (
-      grid-template-areas:
-        "head head"
-        "nav main"
-        "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $sidebar-width 1fr
-    ),
-    layout-left-full-height-sidebar: (
-      grid-template-areas:
-        "nav head"
-        "nav main"
-        "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: ($sidebar-width / 2) 1fr
-    )
-  ),
-  xs: (
-    layout-base: (
-      grid-template-areas:
-        "head head"
-        "main main"
-        "foot foot",
-    grid-template-rows: $header-height 1fr $footer-height,
-    grid-template-columns: 1fr
-    ),
-    layout-left-sidebar: (
-      grid-template-areas:
-        "head head"
-        "nav main"
-        "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $sidebar-width 1fr
-    ),
-    layout-left-full-height-sidebar: (
-      grid-template-areas:
-        "head"
-        "nav"
-        "main"
-        "foot",
-      grid-template-rows: $header-height $navbar-height 1fr $footer-height,
-      grid-template-columns: 1fr
-    )
   )
 ) !default;
 

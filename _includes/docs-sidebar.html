@@ -1,0 +1,14 @@
+<div class="docs-navbar-title p-1">
+  <h2>{{ site.title }}</h2>
+  <small>{{ site.current_version }}</small>
+</div>
+<div class="docs-navbar-content p-1">
+  <ul>
+    <li><a class="{% if page.layout == "docs" and page.title == "Introduction" %}active{% endif %}" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/introduction/">Introduction</a></li>
+    <li><a class="{% if page.layout == "docs" and page.title == "Download" %}active{% endif %}"  href="{{ site.baseurl }}/docs/{{ site.docs_version }}/download/">Download</a></li>
+    <li><a class="{% if page.layout == "docs" and page.title == "Usage" %}active{% endif %}"  href="{{ site.baseurl }}/docs/{{ site.docs_version }}/usage/">Usage</a></li>
+    <li><a href="">Layouts</a></li>
+    <li><a href="">Examples</a></li>
+  </ul>
+</div>
+

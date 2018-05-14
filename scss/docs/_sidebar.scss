@@ -1,0 +1,38 @@
+.docs-navbar {
+  border-right: $border-width solid $grey-200;
+
+  .docs-navbar-title {
+    border-bottom: $border-width solid $grey-200;
+
+    > h2 {
+      margin-bottom: 0;
+      font-weight: 300;
+    }
+  }
+
+  .docs-navbar-content {
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+
+      > li {
+        font-size: 1.2rem;
+        line-height: 2rem;
+      }
+    }
+  }
+
+  // stylelint-disable
+  a {
+    color: $grey-400;
+
+    &:hover,
+    &:active,
+    &.active {
+      color: $black;
+      text-decoration: none;
+    }
+  }
+  // stylelint-enable
+}

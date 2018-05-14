@@ -32,6 +32,10 @@ $brown:       #795548 !default;
 $grey:        #9e9e9e !default;
 $blue-grey:   #607d8b !default;
 
+$theme-color-default: $teal !default;
+$grid-system-container-bg: $green !default;
+$grid-item-bg: $green !default;
+
 // stylelint-disable
 $colors: () !default;
 $colors: map-merge((
@@ -57,6 +61,39 @@ $colors: map-merge((
   "grey-dark":    $grey-800,
   "black":        $black
 ), $colors);
-// stylelint-enable
+
+$border-width:                1px !default;
 
 $theme-color-interval: 8% !default;
+$font-family: "Roboto", sans-serif !default;
+$font-size: 1rem !default;
+$font-weight: 300 !default;
+$line-height: 1.4rem !default;
+$body-color: $black !default;
+$body-bg: $white !default;
+
+$headings-margin-bottom: 1rem !default;
+$paragraph-margin-bottom: 1rem !default;
+
+$link-color: $theme-color-default !default;
+$link-hover-color: $grey-800 !default;
+$link-decoration: none !default;
+$link-hover-decoration: underline !default;
+
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$table-cell-padding:          .75rem !default;
+$table-cell-padding-sm:       .3rem !default;
+
+$table-bg:                    transparent !default;
+$table-accent-bg:             rgba($black, .05) !default;
+$table-hover-bg:              rgba($black, .075) !default;
+$table-active-bg:             $table-hover-bg !default;
+
+$table-border-width:          $border-width !default;
+$table-border-color:          $grey-300 !default;
+
+$table-head-bg:               $grey-200 !default;
+$table-head-color:            $grey-700 !default;
+$table-caption-color:         $grey-700 !default;
+$label-margin-bottom:         .5rem !default;
+// stylelint-enable

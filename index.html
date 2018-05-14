@@ -2,15 +2,13 @@
 layout: home
 ---
 <div class="master-head docs-background-teal">
-  <div class="grid cols-sm-1 cols-xs-1 cols-md-1 cols-lg-1 cols-xl-1">
+  <div class="grid-container cols-sm-1 cols-xs-1 cols-md-1 cols-lg-1 cols-xl-1">
     <div class="grid-item">
       <div class="home-image flex justify-content-center align-items-center mt-2 mb-2">
         <img src="{{ site.base_url }}/assets/images/index_image.png" />
       </div>
       <h1 class="color-white">BeeGrid</h1>
-      <p> A fantastic CSS microframework to build various types of grids
-      thanks to a twelve column system, five default responsive tiers, Sass variables and mixins,
-      and dozens of predefined classes to organize your content.</p>
+      <p> {{ site.description }}</p>
 
       <div class="grid cols-sm-1 cols-xs-1 cols-md-1 cols-lg-1 cols-xl-1">
         <div class="grid-item flex justify-content-center align-items-center">
@@ -20,7 +18,7 @@ layout: home
     </div>
   </div>
 </div>
-<div class="grid-fluid master-widget cols-sm-1 cols-xs-1 cols-md-3 cols-lg-3 cols-xl-3">
+<div class="grid-container-fluid master-widget cols-sm-1 cols-xs-1 cols-md-3 cols-lg-3 cols-xl-3">
   <div class="grid-item">
     <h2 class="color-teal">Installation</h2>
     <p>Install Beegrid's source files via npm. We take care of injecting the CSS needed.</p>

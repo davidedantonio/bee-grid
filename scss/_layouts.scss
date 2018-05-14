@@ -2,10 +2,11 @@
   display: grid;
   width: 100%;
   height: 100vh;
+  overflow-y: auto;
 }
 
 @each $layout, $type in $grid-layouts {
-  .#{$layout} {
+  .layout-#{$layout} {
     @extend %grid;
     grid-template-rows: map-get($type, "grid-template-rows");
     grid-template-columns: map-get($type, "grid-template-columns");
@@ -15,17 +16,5 @@
     @include build-nav();
     @include build-main();
     @include build-footer();
-  }
-}
-
-@each $breakpoint in map-keys($grid-breakpoints) {
-  @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
-    @each $layout-type, $layout in map-get($grid-breakpoints-layouts, $breakpoint) {
-      .#{$layout-type} {
-        grid-template-rows: map-get($layout, "grid-template-rows");
-        grid-template-columns: map-get($layout, "grid-template-columns");
-        grid-template-areas: map-get($layout, "grid-template-areas");
-      }
-    }
   }
 }

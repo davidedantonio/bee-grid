@@ -4,24 +4,26 @@
     {% include head.html %}
   </head>
   <body>
-    <section class="layout-base">
-      <header class="docs-header docs-background-teal fixed">
-        <div class="grid-fluid cols-sm-1 cols-xs-1 cols-md-2 cols-lg-2 cols-xl-2 mb-0">
+    <div class="layout-1">
+      <header class="docs-header docs-background-teal">
+        <div class="grid-container-fluid cols-sm-1 cols-xs-1 cols-md-2 cols-lg-2 cols-xl-2 mb-0">
           <div class="flex justify-content-start align-items-center">
+            <a href="/">
               <img class="brand" src="{{ site.base_url }}/assets/images/beegrid_icon_white.png" />
-              {% include menu.html %}
+            </a>
+            {% include menu.html %}
           </div>
           <div class="flex justify-content-end align-items-center">
-              {% include actions.html %}
+            {% include actions.html %}
           </div>
         </div>
       </header>
-      <main>
+      <main class="overflow-y-auto">
         {{ content }}
+        <footer>
+          {% include footer.html %}
+        </footer>
       </main>
-      <footer>
-        {% include footer.html %}
-      </footer>
-    </section>
+    </div>
   </body>
 </html>

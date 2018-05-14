@@ -1,0 +1,80 @@
+.page-title {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 300;
+  color: $theme-color-default;
+}
+
+.page-description {
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}
+
+.docs-page {
+  h2 {
+    margin-top: 2rem;
+  }
+
+  .highlight{
+    margin-bottom: 1rem;
+  }
+}
+
+// stylelint-disable
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: $table-cell-padding;
+        vertical-align: top;
+        border: 1px solid $table-border-color;
+
+        > p:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  // Prevent breaking of code (e.g., Grunt tasks list)
+  td:first-child > code {
+    white-space: nowrap;
+  }
+}
+// stylelint-enable
+
+.docs-example {
+  position: relative;
+  padding: 2rem;
+  border: .2rem solid $grey-200;
+
+  .grid-container-example {
+    min-height: 100px;
+    background: $grid-system-container-bg;
+  }
+
+  .grid-item {
+    padding: 1rem;
+    color: get-color-contrast($grid-item-bg);
+    text-align: center;
+    background: $grid-item-bg;
+    border: .2rem solid color-level($grid-item-bg, 2);
+    border-radius: 5px;
+  }
+
+  .grid-container {
+    min-width: 50%;
+    max-width: 90%;
+  }
+}
+
+
