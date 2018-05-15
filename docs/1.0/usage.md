@@ -118,11 +118,11 @@ See how aspects of the {{ site.title }} grid system work across multiple devices
     </tr>
     <tr>
       <th class="text-nowrap" scope="row">Class prefix</th>
-      <td><code>.cols-xs-, .cols-</code></td>
-      <td><code>.cols-sm-</code></td>
-      <td><code>.cols-md-</code></td>
-      <td><code>.cols-lg-</code></td>
-      <td><code>.cols-xl-</code></td>
+      <td><code>.cols-*</code></td>
+      <td><code>.cols-sm-*</code></td>
+      <td><code>.cols-md-*</code></td>
+      <td><code>.cols-lg-*</code></td>
+      <td><code>.cols-xl-*</code></td>
     </tr>
     <tr>
       <th class="text-nowrap" scope="row"># of columns</th>
@@ -130,11 +130,11 @@ See how aspects of the {{ site.title }} grid system work across multiple devices
     </tr>
     <tr>
       <th class="text-nowrap" scope="row">Grid gap</th>
-      <td><code>.4rem</code></td>
-      <td><code>.5rem</code></td>
-      <td><code>1rem</code></td>
-      <td><code>1.1rem</code></td>
-      <td><code>1.2rem</code></td>
+      <td><code>12px</code></td>
+      <td><code>16px</code></td>
+      <td><code>20px</code></td>
+      <td><code>24px</code></td>
+      <td><code>28px</code></td>
     </tr>
   </tbody>
 </table>
@@ -226,7 +226,7 @@ Beeui includes five tiers predefined classes for building complex responsive gri
 If you want that your grid have a different behavior for each device size, you can specify the number of columns on the container usign the `col-{bp}-{i}` classes, where `bp` is represent the breakpoint and `i` the number of columns.
 
 <div class="docs-example">
-  <div class="grid-container-fluid cols-xs-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
+  <div class="grid-container-fluid cols-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
     <div class="grid-item">1</div>
     <div class="grid-item">2</div>
     <div class="grid-item">3</div>
@@ -243,7 +243,7 @@ If you want that your grid have a different behavior for each device size, you c
 </div>
 
 {% highlight html %}
-<div class="grid-container-fluid cols-xs-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
+<div class="grid-container-fluid cols-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
   <div class="grid-item">1</div>
   <div class="grid-item">2</div>
   <div class="grid-item">3</div>
@@ -266,7 +266,7 @@ In this example we decide to have a different behaviour for each screen size. Fo
 You can define the number of rows and columns that a grid item must occupy at certain device size. For example, if we take a look at previous example, we can decide that the grid item `1` can occupy two columns and two rows on medium screen size.
 
 <div class="docs-example">
-  <div class="grid-container-fluid cols-xs-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
+  <div class="grid-container-fluid cols-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
     <div class="grid-item row-md-start-1-end-2 col-lg-start-1-end-2">1</div>
     <div class="grid-item">2</div>
     <div class="grid-item">3</div>
@@ -283,7 +283,7 @@ You can define the number of rows and columns that a grid item must occupy at ce
 </div>
 
 {% highlight html %}
-<div class="grid-container-fluid cols-xs-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
+<div class="grid-container-fluid cols-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
   <div class="grid-item row-md-start-1-end-2 col-lg-start-1-end-2">1</div>
   <div class="grid-item">2</div>
   <div class="grid-item">3</div>

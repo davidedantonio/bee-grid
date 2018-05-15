@@ -23,6 +23,14 @@
   }
 }
 
+@mixin build-aside() {
+  > aside {
+    grid-area: aside;
+
+    @include overflow-y-auto();
+  }
+}
+
 @mixin build-footer() {
   > footer {
     grid-area: foot;

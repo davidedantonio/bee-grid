@@ -14,10 +14,11 @@
   @include make-grid-breakpoints();
 }
 
+// Defining a grid item
+// The grid item is only a div with a specific padding
 .grid-item {
   box-sizing: border-box;
-  min-width: 1px;
-  padding: 1rem;
+  padding: $grid-item-padding;
 
   &.no-padding {
     padding: 0;

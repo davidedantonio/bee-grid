@@ -58,7 +58,6 @@ redirect_from:
     <header>Header</header>
     <nav>Nav</nav>
     <main>Main</main>
-    <footer>Footer</footer>
   </div>
 </div>
 
@@ -67,6 +66,137 @@ redirect_from:
   <header>Header</header>
   <nav>Nav</nav>
   <main>Main</main>
+</div>
+{% endhighlight %}
+
+<div class="docs-example">
+  <div class="layout-4" style="max-height: 400px;">
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main>Main</main>
+    <footer>Footer</footer>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="layout-4">
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>Main</main>
+  <footer>Footer</footer>
+</div>
+{% endhighlight %}
+
+
+<div class="docs-example">
+  <div class="layout-5" style="max-height: 400px;">
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main>Main</main>
+    <footer>Footer</footer>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="layout-5">
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>Main</main>
+  <footer>Footer</footer>
+</div>
+{% endhighlight %}
+
+<div class="docs-example">
+  <div class="layout-6" style="max-height: 400px;">
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main>Main</main>
+    <footer>Footer</footer>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="layout-6">
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>Main</main>
+  <footer>Footer</footer>
+</div>
+{% endhighlight %}
+
+<div class="docs-example">
+  <div class="layout-7" style="max-height: 400px;">
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main>Main</main>
+    <aside>Aside</aside>
+    <footer>Footer</footer>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="layout-7">
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>Main</main>
+  <aside>Aside</aside>
+  <footer>Footer</footer>
+</div>
+{% endhighlight %}
+
+
+<div class="docs-example">
+  <div class="layout-8" style="max-height: 400px;">
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main>Main</main>
+    <aside>Aside</aside>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="layout-8">
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>Main</main>
+  <aside>Aside</aside>
+</div>
+{% endhighlight %}
+
+<div class="docs-example">
+  <div class="layout-9" style="max-height: 400px;">
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main>Main</main>
+    <aside>Aside</aside>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="layout-9">
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>Main</main>
+  <aside>Aside</aside>
+</div>
+{% endhighlight %}
+
+<div class="docs-example">
+  <div class="layout-10" style="max-height: 400px;">
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main>Main</main>
+    <aside>Aside</aside>
+    <footer>Footer</footer>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="layout-10">
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>Main</main>
+  <aside>Aside</aside>
   <footer>Footer</footer>
 </div>
 {% endhighlight %}

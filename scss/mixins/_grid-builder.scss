@@ -1,11 +1,10 @@
+// define a set of functionality for the grid system and responsive behaviour
 @mixin build-grid-cols($columns-number: $grid-columns-number, $breakpoints: $grid-breakpoints) {
   @for $i from 1 through $columns-number {
     .colspan-#{$i} {
       grid-column: span #{$i};
     }
-  }
 
-  @for $i from 1 through $columns-number {
     @for $j from $i through $columns-number {
       .col-start-#{$i}-end-#{$j} {
         grid-column: #{$i} / ($j+1);
@@ -20,7 +19,7 @@
   @each $breakpoint in map-keys($breakpoints) {
     $infix: breakpoint-infix($breakpoint, $breakpoints);
 
-    @include media-breakpoint-between($breakpoint, $breakpoints) {
+    @include media-breakpoint-up($breakpoint, $breakpoints) {
       @for $i from 1 through $columns-number {
         .colspan#{$infix}-#{$i} {
           grid-column: span #{$i};
@@ -34,6 +33,22 @@
           .row#{$infix}-start-#{$i}-end-#{$j} {
             grid-row: #{$i} / ($j+1);
           }
+        }
+      }
+    }
+  }
+}
+
+@mixin make-grid-breakpoints($columns-number: $grid-columns-number, $breakpoints: $grid-breakpoints) {
+  @each $breakpoint in map-keys($breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+    @include media-breakpoint-up($breakpoint, $breakpoints) {
+      @include make-grid(map-get($grid-breakpoints-grid, $breakpoint), map-get($grid-breakpoints-gap, $breakpoint));
+
+      @for $i from 1 through $columns-number {
+        &.cols#{$infix}-#{$i} {
+          @include make-grid($i, map-get($grid-breakpoints-gap, $breakpoint));
         }
       }
     }

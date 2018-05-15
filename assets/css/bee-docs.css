@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 @-ms-viewport {
@@ -2434,7 +2434,7 @@ pre[class*="language-"] {
 }
 
 .docs-navbar .docs-navbar-content ul > li {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 2rem;
 }
 
@@ -2506,11 +2506,11 @@ table td:first-child > code {
 
 .docs-example .grid-container-example {
   min-height: 100px;
-  background: #4caf50;
+  background: #37bdaf;
 }
 
 .docs-example .container {
-  background: #bfe2c0;
+  background: #b7e7e2;
 }
 
 .docs-example .container.container-tall {
@@ -2520,9 +2520,8 @@ table td:first-child > code {
 .docs-example .grid-item {
   color: #fff;
   text-align: center;
-  background: #4caf50;
-  border: 0.2rem solid #409343;
-  border-radius: 5px;
+  background: #37bdaf;
+  border: 0.2rem solid #2e9f93;
 }
 
 .docs-example .grid-item.transparent {
@@ -2537,23 +2536,37 @@ table td:first-child > code {
 
 .docs-example header {
   padding: 1rem;
-  text-align: center;
   color: #fff;
-  background: #409343 !important;
+  text-align: center;
+  background: #2e9f93 !important;
 }
 
 .docs-example main {
   padding: 1rem;
-  text-align: center;
   color: #fff;
-  background: #46a14a !important;
+  text-align: center;
+  background: #33aea1 !important;
 }
 
 .docs-example nav {
   padding: 1rem;
-  text-align: center;
   color: #fff;
-  background: #5ab55e !important;
+  text-align: center;
+  background: #47c2b5 !important;
+}
+
+.docs-example aside {
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+  background: #57c8bc !important;
+}
+
+.docs-example footer {
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+  background: #67cdc2 !important;
 }
 
 /*# sourceMappingURL=bee-docs.css.map */

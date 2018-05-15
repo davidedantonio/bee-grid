@@ -7,13 +7,14 @@
 $white:       #fff !default;
 
 // Dimensions
-$header-height: minmax(56px, auto) !default;
-$footer-height: minmax(max-content, 50px) !default;
-$sidebar-width: 250px !default;
-$navbar-height: 56px !default;
+$header-height:   minmax(56px, auto) !default;
+$footer-height:   minmax(max-content, 50px) !default;
+$nav-width:       250px !default;
+$aside-width:     200px !default;
 
 // Grid
-$grid-columns-number: 12 !default;
+$grid-columns-number:   12 !default;
+$grid-item-padding:     1rem !default;
 
 // Grid breakpoints
 //
@@ -38,15 +39,14 @@ $grid-widths: (
 // Define the grid gap dimensions at which your layout will change,
 // adapting to different screen sizes, for use in media queries.
 $grid-breakpoints-gap: (
-  xl: 1.2rem,
-  lg: 1.1rem,
-  md: 1rem,
-  sm: .5rem,
-  xs: .4rem
+  xl: 28px,
+  lg: 24px,
+  md: 20px,
+  sm: 16px,
+  xs: 12px
 ) !default;
 
-// Define the grid gap dimensions at which your layout will change,
-// adapting to different screen sizes, for use in media queries.
+// Define the grid default behaviour for each breakpoint.
 $grid-breakpoints-grid: (
   xl: $grid-columns-number,
   lg: $grid-columns-number,
@@ -55,27 +55,81 @@ $grid-breakpoints-grid: (
   xs: $grid-columns-number / $grid-columns-number
 ) !default;
 
+// predefined layouts
 $grid-layouts: (
   1: (
     grid-template-areas:
-      "head head",
-      "main main"
+      "head head"
+      "main main",
     grid-template-rows: $header-height 1fr
   ),
   2: (
     grid-template-areas:
-      "head head",
-      "nav main"
+      "head head"
+      "nav main",
       grid-template-rows: $header-height 1fr,
-      grid-template-columns: $sidebar-width 1fr
+      grid-template-columns: $nav-width 1fr
   ),
   3: (
     grid-template-areas:
-      "head head",
+      "nav head"
       "nav main",
-      "foot foot"
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: $nav-width 1fr
+  ),
+  4: (
+    grid-template-areas:
+      "head head"
+      "nav main"
+      "foot foot",
       grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $sidebar-width 1fr
+      grid-template-columns: $nav-width 1fr
+  ),
+  5: (
+    grid-template-areas:
+      "head head"
+      "nav main"
+      "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $nav-width 1fr
+  ),
+  6: (
+    grid-template-areas:
+      "nav head"
+      "nav main"
+      "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $nav-width 1fr
+  ),
+  7: (
+    grid-template-areas:
+      "head head head"
+      "nav main aside"
+      "foot foot foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $nav-width 1fr $aside-width
+  ),
+  8: (
+    grid-template-areas:
+      "head head head"
+      "nav main aside",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: $nav-width 1fr $aside-width
+  ),
+  9: (
+    grid-template-areas:
+      "nav head head"
+      "nav main aside",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: $nav-width 1fr $aside-width
+  ),
+  10: (
+    grid-template-areas:
+      "nav head head"
+      "nav main aside"
+      "nav foot foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $nav-width 1fr $aside-width
   ),
 ) !default;
 
@@ -92,19 +146,44 @@ $grid-breakpoints-layouts: (
       "head head"
       "nav main",
       grid-template-rows: $header-height 1fr,
-      grid-template-columns: $sidebar-width 1fr
+      grid-template-columns: $nav-width 1fr
     ),
     3: (
     grid-template-areas:
-      "head head",
-      "nav main",
-      "foot foot"
+      "head head"
+      "nav main"
+      "foot foot",
       grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $sidebar-width 1fr
+      grid-template-columns: $nav-width 1fr
+    ),
+    4: (
+    grid-template-areas:
+      "head head"
+      "nav main"
+      "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $nav-width 1fr
+    ),
+    5: (
+    grid-template-areas:
+      "nav head"
+      "nav main"
+      "nav foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $nav-width 1fr
+    ),
+    6: (
+    grid-template-areas:
+      "head head head"
+      "nav main aside"
+      "foot foot foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $nav-width 1fr $aside-width
     ),
   )
 ) !default;
 
+// Check defaults arrays
 @include _check-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _check-ascending($grid-widths, "$grid-widths");
 @include _check-even($grid-columns-number, "$grid-columns-number");

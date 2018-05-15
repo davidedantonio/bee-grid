@@ -1,0 +1,30 @@
+// stylelint-disable
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: $table-cell-padding;
+        vertical-align: top;
+        border: 1px solid $table-border-color;
+
+        > p:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  // Prevent breaking of code (e.g., Grunt tasks list)
+  td:first-child > code {
+    white-space: nowrap;
+  }
+}
+// stylelint-enable

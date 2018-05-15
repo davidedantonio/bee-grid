@@ -1,0 +1,70 @@
+.docs-example {
+  position: relative;
+  padding: 2rem;
+  border: .2rem solid $grey-200;
+
+  .grid-container-example {
+    min-height: 100px;
+    background: $grid-system-container-bg;
+  }
+
+  .container {
+    background: color-level($grid-system-container-bg, -8);
+
+    &.container-tall {
+      min-height: 300px;
+    }
+  }
+
+  .grid-item {
+    color: get-color-contrast($grid-item-bg);
+    text-align: center;
+    background: $grid-item-bg;
+    border: .2rem solid color-level($grid-item-bg, 2);
+
+    &.transparent {
+      background: transparent;
+      border: none;
+    }
+  }
+
+  .grid-container {
+    min-width: 50%;
+    max-width: 90%;
+  }
+  // stylelint-disable declaration-no-important
+  header {
+    padding: 1rem;
+    color: get-color-contrast($grid-item-bg);
+    text-align: center;
+    background: color-level($grid-item-bg, 2) !important;
+  }
+
+  main {
+    padding: 1rem;
+    color: get-color-contrast($grid-item-bg);
+    text-align: center;
+    background: color-level($grid-item-bg, 1) !important;
+  }
+
+  nav {
+    padding: 1rem;
+    color: get-color-contrast($grid-item-bg);
+    text-align: center;
+    background: color-level($grid-item-bg, -1) !important;
+  }
+
+  aside {
+    padding: 1rem;
+    color: get-color-contrast($grid-item-bg);
+    text-align: center;
+    background: color-level($grid-item-bg, -2) !important;
+  }
+
+  footer {
+    padding: 1rem;
+    color: get-color-contrast($grid-item-bg);
+    text-align: center;
+    background: color-level($grid-item-bg, -3) !important;
+  }
+}

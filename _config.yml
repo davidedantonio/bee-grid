@@ -47,14 +47,9 @@ authors:            "Davide D'Antonio"
 current_version:      1.0.0-beta
 docs_version:         1.0
 repo:                 "https://github.com/davidedantonio/bee-grid.git"
-blog:                 "https://poverimm"
 
 download:
   source:           ""
   dist:             ""
 
 include: ["_pages"]
-
-toc:
-  min_level:        2
-  max_level:        4

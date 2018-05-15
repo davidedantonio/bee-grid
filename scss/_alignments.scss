@@ -1,4 +1,6 @@
 // stylelint-disable declaration-no-important
+
+// Grid item alignment options
 .grid-item {
   &.align-self-auto     { align-self: auto; }
   &.align-self-start    { align-self: flex-start; }

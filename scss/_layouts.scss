@@ -2,7 +2,6 @@
   display: grid;
   width: 100%;
   height: 100vh;
-  overflow-y: auto;
 }
 
 @each $layout, $type in $grid-layouts {
@@ -14,6 +13,7 @@
 
     @include build-header();
     @include build-nav();
+    @include build-aside();
     @include build-main();
     @include build-footer();
   }
