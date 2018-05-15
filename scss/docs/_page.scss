@@ -62,18 +62,51 @@ table {
     background: $grid-system-container-bg;
   }
 
+  .container {
+    background: color-level($grid-system-container-bg, -8);
+
+    &.container-tall {
+      min-height: 300px;
+    }
+  }
+
   .grid-item {
-    padding: 1rem;
     color: get-color-contrast($grid-item-bg);
     text-align: center;
     background: $grid-item-bg;
     border: .2rem solid color-level($grid-item-bg, 2);
     border-radius: 5px;
+
+    &.transparent {
+      background: transparent;
+      border: none;
+    }
   }
 
   .grid-container {
     min-width: 50%;
     max-width: 90%;
+  }
+
+  header {
+    padding: 1rem;
+    text-align: center;
+    color: get-color-contrast($grid-item-bg);
+    background: color-level($grid-item-bg, 2) !important;
+  }
+
+  main {
+    padding: 1rem;
+    text-align: center;
+    color: get-color-contrast($grid-item-bg);
+    background: color-level($grid-item-bg, 1) !important;
+  }
+
+  nav {
+    padding: 1rem;
+    text-align: center;
+    color: get-color-contrast($grid-item-bg);
+    background: color-level($grid-item-bg, -1) !important;
   }
 }
 

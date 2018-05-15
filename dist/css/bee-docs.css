@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 @-ms-viewport {
@@ -57,7 +57,6 @@ p {
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   cursor: help;
   border-bottom: 0;
@@ -2141,8 +2140,6 @@ footer a {
 
 code[class*="language-"],
 pre[class*="language-"] {
-  -webkit-hyphens: none;
-  -ms-hyphens: none;
   hyphens: none;
   line-height: 1.5;
   color: #000;
@@ -2150,8 +2147,6 @@ pre[class*="language-"] {
   word-break: normal;
   word-spacing: normal;
   word-wrap: normal;
-  -moz-tab-size: 2;
-  -o-tab-size: 2;
   tab-size: 2;
   white-space: pre;
   background: none;
@@ -2410,18 +2405,12 @@ pre[class*="language-"] {
 .language-sh::before {
   color: #009;
   content: "$";
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
 .language-powershell::before {
   color: #009;
   content: "PM>";
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -2520,8 +2509,15 @@ table td:first-child > code {
   background: #4caf50;
 }
 
+.docs-example .container {
+  background: #bfe2c0;
+}
+
+.docs-example .container.container-tall {
+  min-height: 300px;
+}
+
 .docs-example .grid-item {
-  padding: 1rem;
   color: #fff;
   text-align: center;
   background: #4caf50;
@@ -2529,8 +2525,35 @@ table td:first-child > code {
   border-radius: 5px;
 }
 
+.docs-example .grid-item.transparent {
+  background: transparent;
+  border: none;
+}
+
 .docs-example .grid-container {
   min-width: 50%;
   max-width: 90%;
 }
+
+.docs-example header {
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  background: #409343 !important;
+}
+
+.docs-example main {
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  background: #46a14a !important;
+}
+
+.docs-example nav {
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  background: #5ab55e !important;
+}
+
 /*# sourceMappingURL=bee-docs.css.map */

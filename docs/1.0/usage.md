@@ -180,7 +180,7 @@ As you can see, you don't need to specify a *"row"* container and a specific cla
 
 # Colspan
 
-You can specify, on a specific columns item, how many grid columns the item span. Here come an example:
+You can specify, on a column item, how many grid columns the item span. Here come an example:
 
 <div class="docs-example">
   <div class="grid-container-fluid cols-6">
@@ -300,3 +300,89 @@ You can define the number of rows and columns that a grid item must occupy at ce
 {% endhighlight %}
 
 # Alignments
+
+You can use alignment utility classes to align your grid item.
+
+## Horizontal
+
+You can specify an horizontal alignment with `.justify-self-*` classes on an grid item.
+
+<div class="docs-example">
+  <div class="grid-container-fluid cols-3 mb-1">
+    <div class="grid-item justify-self-start">.justify-self-start</div>
+    <div class="grid-item justify-self-center">.justify-self-center</div>
+    <div class="grid-item justify-self-end">.justify-self-end</div>
+  </div>
+  <div class="grid-container-fluid cols-2 mb-1">
+    <div class="grid-item justify-self-center">.justify-self-center</div>
+    <div class="grid-item justify-self-center">.justify-self-center</div>
+  </div>
+  <div class="grid-container-fluid cols-3 mb-1">
+    <div class="grid-item justify-self-start">.justify-self-start</div>
+    <div class="grid-item justify-self-stretch">.justify-self-stretch</div>
+    <div class="grid-item justify-self-end">.justify-self-end</div>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="grid-container-fluid cols-3">
+  <div class="grid-item justify-self-start">.justify-self-start</div>
+  <div class="grid-item justify-self-center">.justify-self-center</div>
+  <div class="grid-item justify-self-end">.justify-self-end</div>
+</div>
+<div class="grid-container-fluid cols-2">
+  <div class="grid-item justify-self-center">.justify-self-center</div>
+  <div class="grid-item justify-self-center">.justify-self-center</div>
+</div>
+<div class="grid-container-fluid cols-3">
+  <div class="grid-item justify-self-start">.justify-self-start</div>
+  <div class="grid-item justify-self-stretch">.justify-self-stretch</div>
+  <div class="grid-item justify-self-end">.justify-self-end</div>
+</div>
+{% endhighlight %}
+
+## Vertical
+
+As you can align horizontally, you can align an item vertically with `.align-self-*` classes. As in the following example.
+
+<div class="docs-example">
+  <div class="grid-container-fluid cols-3 mb-1 container container-tall">
+    <div class="grid-item align-self-start">.align-self-start</div>
+    <div class="grid-item align-self-end">.align-self-end</div>
+    <div class="grid-item align-self-center">.align-self-end</div>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="grid-container-fluid cols-3">
+  <div class="grid-item align-self-start">.align-self-start</div>
+  <div class="grid-item align-self-end">.align-self-end</div>
+  <div class="grid-item align-self-center">.align-self-end</div>
+</div>
+{% endhighlight %}
+
+# Nesting
+
+To nest your content you can specify a `.grid-container`, with a specific numbers of cols and, in a specific grid item, you can declare another `.grid-container`.
+
+<div class="docs-example">
+  <div class="grid-container-fluid cols-1 mb-1 container container-tall">
+    <div class="grid-item no-padding transparent align-self-center">
+      <div class="grid-container-fluid cols-2">
+        <div class="grid-item">One of Two</div>
+        <div class="grid-item">Two of Two</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="grid-container-fluid cols-1">
+  <div class="grid-item no-padding align-self-center">
+    <div class="grid-container-fluid cols-2">
+      <div class="grid-item">One of Two</div>
+      <div class="grid-item">Two of Two</div>
+    </div>
+  </div>
+</div>
+{% endhighlight %}

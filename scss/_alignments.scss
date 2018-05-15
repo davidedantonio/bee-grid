@@ -1,25 +1,5 @@
-.flex {
-  display: flex;
-
-  &.justify-content-start   { justify-content: flex-start; }
-  &.justify-content-end     { justify-content: flex-end; }
-  &.justify-content-center  { justify-content: center; }
-  &.justify-content-between { justify-content: space-between; }
-  &.justify-content-around  { justify-content: space-around; }
-
-  &.align-items-start    { align-items: flex-start; }
-  &.align-items-end      { align-items: flex-end; }
-  &.align-items-center   { align-items: center; }
-  &.align-items-baseline { align-items: baseline; }
-  &.align-items-stretch  { align-items: stretch; }
-
-  &.align-content-start   { align-content: flex-start; }
-  &.align-content-end     { align-content: flex-end; }
-  &.align-content-center  { align-content: center; }
-  &.align-content-between { align-content: space-between; }
-  &.align-content-around  { align-content: space-around; }
-  &.align-content-stretch { align-content: stretch; }
-
+// stylelint-disable declaration-no-important
+.grid-item {
   &.align-self-auto     { align-self: auto; }
   &.align-self-start    { align-self: flex-start; }
   &.align-self-end      { align-self: flex-end; }
@@ -27,35 +7,29 @@
   &.align-self-baseline { align-self: baseline; }
   &.align-self-stretch  { align-self: stretch; }
 
+  &.justify-self-auto     { justify-self: auto; }
+  &.justify-self-start    { justify-self: flex-start; }
+  &.justify-self-end      { justify-self: flex-end; }
+  &.justify-self-center   { justify-self: center; }
+  &.justify-self-baseline { justify-self: baseline; }
+  &.justify-self-stretch  { justify-self: stretch; }
+
   @each $breakpoint in map-keys($grid-breakpoints) {
     @include media-breakpoint-down($breakpoint) {
       $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
-
-      &.justify-content#{$infix}-start   { justify-content: flex-start; }
-      &.justify-content#{$infix}-end     { justify-content: flex-end; }
-      &.justify-content#{$infix}-center  { justify-content: center; }
-      &.justify-content#{$infix}-between { justify-content: space-between; }
-      &.justify-content#{$infix}-around  { justify-content: space-around; }
-
-      &.align-items#{$infix}-start    { align-items: flex-start; }
-      &.align-items#{$infix}-end      { align-items: flex-end; }
-      &.align-items#{$infix}-center   { align-items: center; }
-      &.align-items#{$infix}-baseline { align-items: baseline; }
-      &.align-items#{$infix}-stretch  { align-items: stretch; }
-
-      &.align-content#{$infix}-start   { align-content: flex-start; }
-      &.align-content#{$infix}-end     { align-content: flex-end; }
-      &.align-content#{$infix}-center  { align-content: center; }
-      &.align-content#{$infix}-between { align-content: space-between; }
-      &.align-content#{$infix}-around  { align-content: space-around; }
-      &.align-content#{$infix}-stretch { align-content: stretch; }
-
       &.align-self#{$infix}-auto     { align-self: auto; }
       &.align-self#{$infix}-start    { align-self: flex-start; }
       &.align-self#{$infix}-end      { align-self: flex-end; }
       &.align-self#{$infix}-center   { align-self: center; }
       &.align-self#{$infix}-baseline { align-self: baseline; }
       &.align-self#{$infix}-stretch  { align-self: stretch; }
+
+      &.justify-self#{$infix}-auto     { justify-self: auto; }
+      &.justify-self#{$infix}-start    { justify-self: flex-start; }
+      &.justify-self#{$infix}-end      { justify-self: flex-end; }
+      &.justify-self#{$infix}-center   { justify-self: center; }
+      &.justify-self#{$infix}-baseline { justify-self: baseline; }
+      &.justify-self#{$infix}-stretch  { justify-self: stretch; }
     }
   }
 }

@@ -58,15 +58,23 @@ $grid-breakpoints-grid: (
 $grid-layouts: (
   1: (
     grid-template-areas:
-      "head head"
-      "main main",
+      "head head",
+      "main main"
     grid-template-rows: $header-height 1fr
   ),
   2: (
     grid-template-areas:
-      "head head"
-      "nav main",
+      "head head",
+      "nav main"
       grid-template-rows: $header-height 1fr,
+      grid-template-columns: $sidebar-width 1fr
+  ),
+  3: (
+    grid-template-areas:
+      "head head",
+      "nav main",
+      "foot foot"
+      grid-template-rows: $header-height 1fr $footer-height,
       grid-template-columns: $sidebar-width 1fr
   ),
 ) !default;
@@ -85,7 +93,15 @@ $grid-breakpoints-layouts: (
       "nav main",
       grid-template-rows: $header-height 1fr,
       grid-template-columns: $sidebar-width 1fr
-  ),
+    ),
+    3: (
+    grid-template-areas:
+      "head head",
+      "nav main",
+      "foot foot"
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: $sidebar-width 1fr
+    ),
   )
 ) !default;
 
