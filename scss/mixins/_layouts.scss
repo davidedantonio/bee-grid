@@ -51,3 +51,17 @@
     left: 0;
   }
 }
+
+// Defines a grid layout by referencing the names of the grid areas
+@mixin make-layout($rows-template, $columns-template, $template-areas) {
+  @extend %grid;
+  grid-template-rows: $rows-template;
+  grid-template-columns: $columns-template;
+  grid-template-areas: $template-areas;
+
+  @include build-header();
+  @include build-nav();
+  @include build-aside();
+  @include build-main();
+  @include build-footer();
+}

@@ -6,15 +6,6 @@
 
 @each $layout, $type in $grid-layouts {
   .layout-#{$layout} {
-    @extend %grid;
-    grid-template-rows: map-get($type, "grid-template-rows");
-    grid-template-columns: map-get($type, "grid-template-columns");
-    grid-template-areas: map-get($type, "grid-template-areas");
-
-    @include build-header();
-    @include build-nav();
-    @include build-aside();
-    @include build-main();
-    @include build-footer();
+    @include make-layout(map-get($type, "grid-template-rows"),map-get($type, "grid-template-columns"),map-get($type, "grid-template-areas"));
   }
 }

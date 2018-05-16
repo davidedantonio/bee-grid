@@ -46,6 +46,12 @@ $grid-breakpoints-gap: (
   sm: 16px,
   xs: 12px
 ) !default;
+
+// Layouts default values
+$header-height:   minmax(56px, auto) !default;
+$footer-height:   minmax(max-content, 50px) !default;
+$nav-width:       250px !default;
+$aside-width:     200px !default;
 {% endhighlight %}
 
 The number of grid columns can be modified via Sass variables. `$grid-columns` is used to generate the number of columns while `$grid-breakpoints-gap` determines the space that occurr between columns. You can modify these variables in order to define a new behavior of your grids.
@@ -63,6 +69,9 @@ The number of grid columns can be modified via Sass variables. `$grid-columns` i
 
 // span between rows of our grid system
 @include row-start-end($row-start, $row-end);
+
+// Defines a grid layout by referencing the names of the grid areas
+@mixin make-layout($rows-template, $columns-template, $template-areas);
 {% endhighlight %}
 
 ## Examples
@@ -73,4 +82,36 @@ If you want to define a new CSS Grid with custom gap you can use the `make-grid(
 .fantastic-grid {
   @include make-grid(24, 20px);
 }
+{% endhighlight %}
+
+In {{ site.title }} you can build a custom layout using `make-layout` mixin. If you don't have familiarity with CSS Grid layout take a [look here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
+
+{% highlight scss %}
+$template-areas: "head head head" "nav main aside" "foot foot foot" !default;
+$rows-template: 56px 1fr 40px !default;
+$columns-template: 200px 1fr 150px !default;
+
+.custom-layout {
+  @include make-layout($rows-template, $columns-template, $template-areas);
+}
+{% endhighlight %}
+
+<div class="docs-example">
+  <div class="layout-7" style="max-height: 400px;">
+    <header>This is header</header>
+    <nav>This is navigation</nav>
+    <main>This is Main content</main>
+    <aside>This is aside</aside>
+    <footer>This is Footer</footer>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="custom-layout">
+  <header>This is header</header>
+  <nav>This is navigation</nav>
+  <main>This is Main content</main>
+  <aside>This is aside</aside>
+  <footer>This is Footer</footer>
+</div>
 {% endhighlight %}
