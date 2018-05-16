@@ -1,11 +1,16 @@
-%grid {
-  display: grid;
-  width: 100%;
-  height: 100vh;
-}
-
 @each $layout, $type in $grid-layouts {
   .layout-#{$layout} {
     @include make-layout(map-get($type, "grid-template-rows"),map-get($type, "grid-template-columns"),map-get($type, "grid-template-areas"));
+  }
+}
+
+
+@each $breakpoint in map-keys($grid-breakpoints-layouts) {
+  @include media-breakpoint-down($breakpoint, $grid-breakpoints) {
+    @each $layout-type, $type in map-get($grid-breakpoints-layouts, $breakpoint) {
+      .layout-#{$layout-type} {
+        @include make-layout(map-get($type, "grid-template-rows"),map-get($type, "grid-template-columns"),map-get($type, "grid-template-areas"));
+      }
+    }
   }
 }

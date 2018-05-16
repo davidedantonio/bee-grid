@@ -139,47 +139,155 @@ $grid-breakpoints-layouts: (
       grid-template-areas:
         "head head"
         "main main",
-      grid-template-rows: $header-height 1fr
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr 1fr
     ),
     2: (
-    grid-template-areas:
-      "head head"
-      "nav main",
-      grid-template-rows: $header-height 1fr,
-      grid-template-columns: $nav-width 1fr
+      grid-template-areas:
+        "head head"
+        "nav main",
+        grid-template-rows: $header-height 1fr,
+        grid-template-columns: $nav-width 1fr
     ),
     3: (
-    grid-template-areas:
-      "head head"
-      "nav main"
-      "foot foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $nav-width 1fr
+      grid-template-areas:
+        "nav head"
+        "nav main",
+        grid-template-rows: $header-height 1fr,
+        grid-template-columns: $nav-width 1fr
     ),
     4: (
-    grid-template-areas:
-      "head head"
-      "nav main"
-      "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $nav-width 1fr
+      grid-template-areas:
+        "head head"
+        "nav main"
+        "foot foot",
+        grid-template-rows: $header-height 1fr $footer-height,
+        grid-template-columns: $nav-width 1fr
     ),
     5: (
-    grid-template-areas:
-      "nav head"
-      "nav main"
-      "nav foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $nav-width 1fr
+      grid-template-areas:
+        "head head"
+        "nav main"
+        "nav foot",
+        grid-template-rows: $header-height 1fr $footer-height,
+        grid-template-columns: $nav-width 1fr
     ),
     6: (
-    grid-template-areas:
-      "head head head"
-      "nav main aside"
-      "foot foot foot",
-      grid-template-rows: $header-height 1fr $footer-height,
-      grid-template-columns: $nav-width 1fr $aside-width
+      grid-template-areas:
+        "nav head"
+        "nav main"
+        "nav foot",
+        grid-template-rows: $header-height 1fr $footer-height,
+        grid-template-columns: $nav-width 1fr
     ),
+    7: (
+      grid-template-areas:
+        "head head head"
+        "nav main aside"
+        "foot foot foot",
+        grid-template-rows: $header-height 1fr $footer-height,
+        grid-template-columns: $nav-width 1fr $aside-width
+    ),
+    8: (
+      grid-template-areas:
+        "head head head"
+        "nav main aside",
+        grid-template-rows: $header-height 1fr,
+        grid-template-columns: $nav-width 1fr $aside-width
+    ),
+    9: (
+      grid-template-areas:
+        "nav head head"
+        "nav main aside",
+        grid-template-rows: $header-height 1fr,
+        grid-template-columns: $nav-width 1fr $aside-width
+    ),
+    10: (
+      grid-template-areas:
+        "nav head head"
+        "nav main aside"
+        "nav foot foot",
+        grid-template-rows: $header-height 1fr $footer-height,
+        grid-template-columns: $nav-width 1fr $aside-width
+    )
+  ),
+  sm: (
+    1: (
+      grid-template-areas:
+        "head head"
+        "main main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr 1fr
+    ),
+    2: (
+      grid-template-areas:
+        "head head"
+        "nav nav"
+        "main main",
+        grid-template-rows: $header-height 1fr,
+        grid-template-columns: $nav-width 1fr
+    ),
+    3: (
+      grid-template-areas:
+        "nav head"
+        "nav main",
+        grid-template-rows: $header-height 1fr,
+        grid-template-columns: $nav-width 1fr
+    ),
+    4: (
+      grid-template-areas:
+        "head head"
+        "nav main"
+        "foot foot",
+        grid-template-rows: $header-height 1fr $footer-height,
+        grid-template-columns: $nav-width 1fr
+    ),
+    5: (
+      grid-template-areas:
+        "head head"
+        "nav main"
+        "nav foot",
+        grid-template-rows: $header-height 1fr $footer-height,
+        grid-template-columns: $nav-width 1fr
+    ),
+    6: (
+      grid-template-areas:
+        "nav head"
+        "nav main"
+        "nav foot",
+        grid-template-rows: $header-height 1fr $footer-height,
+        grid-template-columns: $nav-width 1fr
+    ),
+    7: (
+      grid-template-areas:
+        "head head head"
+        "nav main aside"
+        "foot foot foot",
+        grid-template-rows: $header-height 1fr $footer-height,
+        grid-template-columns: $nav-width 1fr $aside-width
+    ),
+    8: (
+      grid-template-areas:
+        "head head head"
+        "nav main aside",
+        grid-template-rows: $header-height 1fr,
+        grid-template-columns: $nav-width 1fr $aside-width
+    ),
+    9: (
+      grid-template-areas:
+        "nav head head"
+        "nav main aside",
+        grid-template-rows: $header-height 1fr,
+        grid-template-columns: $nav-width 1fr $aside-width
+    ),
+    10: (
+      grid-template-areas:
+        "nav head head"
+        "nav main aside"
+        "nav foot foot",
+        grid-template-rows: $header-height 1fr $footer-height,
+        grid-template-columns: $nav-width 1fr $aside-width
+    )
   )
 ) !default;
 

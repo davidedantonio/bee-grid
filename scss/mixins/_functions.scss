@@ -59,7 +59,6 @@
   @return if($max != 0, $max, null);
 }
 
-// Maximum breakpoint width.
 @function breakpoint-max($name, $breakpoints: $grid-breakpoints) {
   $next: breakpoint-next($name, $breakpoints);
   @return if($next, breakpoint-min($next, $breakpoints) - .02px, null);

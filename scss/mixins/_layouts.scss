@@ -54,7 +54,9 @@
 
 // Defines a grid layout by referencing the names of the grid areas
 @mixin make-layout($rows-template, $columns-template, $template-areas) {
-  @extend %grid;
+  display: grid;
+  width: 100%;
+  height: 100vh;
   grid-template-rows: $rows-template;
   grid-template-columns: $columns-template;
   grid-template-areas: $template-areas;

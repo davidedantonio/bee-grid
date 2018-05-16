@@ -11,13 +11,13 @@ redirect_from:
 
 # Quick start
 
-If you want quickly start to build awesome grids? Use Beegrid CDN hosted at [Cloudflare](https://www.cloudflare.com). If you want to use a package manager or source files, please go to Download page.
+If you want quickly start to build awesome grids? Download a {{ site-title }} release. If you want to use a package manager or source files, please go to <a href="{{ site.base_url }}/docs/download/">Download page</a>.
 
-## Import from CDN
+## Import in your Code
 Copy and paste the stylesheet `<link>` into `<head>` to load Beegrid CSS.
 
 {% highlight html %}
-<link rel="stylesheet" href="{{ site.cdn.css }}" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
+<link rel="stylesheet" href="/path/to/your/css/bee-grid.min.css" />
 {% endhighlight %}
 
 ## Base setup
@@ -33,7 +33,7 @@ Be sure to have your pages set up with the latest HTML standards. That means usi
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Beegrid CSS -->
-    <link rel="stylesheet" href="{{ site.cdn.css }}" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="/path/to/your/css/bee-grid.min.css" />
 
     <title>Beegrid</title>
   </head>
@@ -43,3 +43,10 @@ Be sure to have your pages set up with the latest HTML standards. That means usi
 {% endhighlight %}
 
 That's all you need for overall page requirements.
+
+# Responsive meta tag
+To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your <head>.
+
+{% highlight html %}
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% endhighlight %}
