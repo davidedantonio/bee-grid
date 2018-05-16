@@ -3,8 +3,8 @@
 // Generate semantic grid using CSS Grid (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
 
 // Framework Grid generation
-// used by Beegrid to generate the default grid system
-@mixin make-grid($columns-number: $grid-columns-number, $gap: map-get($grid-breakpoints-gap, "xs")) {
+// This mixin generate default grid system with given columns and with specific gap
+@mixin make-grid($columns-number: $grid-columns-number, $gap: map-get($grid-breakpoints-gap, "sm")) {
   display: grid;
   grid-gap: $gap;
   grid-template-columns: repeat($columns-number, minmax(0, 1fr));
@@ -14,6 +14,7 @@
   margin-left: auto;
 }
 
+// Create a wrapper for our grid system
 // For each breakpoint, define the maximum width of the container in a media query
 @mixin make-grid-max-widths($max-widths: $grid-widths, $breakpoints: $grid-breakpoints) {
   @each $breakpoint, $container-max-width in $max-widths {

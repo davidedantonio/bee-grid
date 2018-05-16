@@ -1,18 +1,11 @@
-// define a set of functionality for the grid system and responsive behaviour
+// define a set of classes for the grid system and responsive behaviour
 @mixin build-grid-cols($columns-number: $grid-columns-number, $breakpoints: $grid-breakpoints) {
   @for $i from 1 through $columns-number {
-    .colspan-#{$i} {
-      grid-column: span #{$i};
-    }
+    @include colspan($i);
 
     @for $j from $i through $columns-number {
-      .col-start-#{$i}-end-#{$j} {
-        grid-column: #{$i} / ($j+1);
-      }
-
-      .row-start-#{$i}-end-#{$j} {
-        grid-row: #{$i} / ($j+1);
-      }
+      @include col-start-end($i, $j);
+      @include row-start-end($i, $j);
     }
   }
 
@@ -21,18 +14,11 @@
 
     @include media-breakpoint-up($breakpoint, $breakpoints) {
       @for $i from 1 through $columns-number {
-        .colspan#{$infix}-#{$i} {
-          grid-column: span #{$i};
-        }
+        @include colspan($i, $infix);
 
         @for $j from $i through $columns-number {
-          .col#{$infix}-start-#{$i}-end-#{$j} {
-            grid-column: #{$i} / ($j+1);
-          }
-
-          .row#{$infix}-start-#{$i}-end-#{$j} {
-            grid-row: #{$i} / ($j+1);
-          }
+          @include col-start-end($i, $j, $infix);
+          @include row-start-end($i, $j, $infix);
         }
       }
     }
@@ -53,4 +39,41 @@
       }
     }
   }
+}
+
+@mixin colspan($cols, $breakpoint: null) {
+  @if ($breakpoint == null) {
+    .colspan-#{$cols} {
+      grid-column: span #{$cols};
+    }
+  }@else{
+    .colspan#{$breakpoint}-#{$cols} {
+      grid-column: span #{$cols};
+    }
+  }
+}
+
+@mixin row-start-end($col-start, $col-end, $breakpoint: null) {
+  @if ($breakpoint == null) {
+    .row-start-#{$col-start}-end-#{$col-end} {
+      grid-row: #{$col-start} / ($col-end+1);
+    }
+  }@else{
+    .row#{$breakpoint}-start-#{$col-start}-end-#{$col-end} {
+      grid-row: #{$col-start} / ($col-end+1);
+    }
+  }
+}
+
+@mixin col-start-end($col-start, $col-end, $breakpoint: null) {
+  @if ($breakpoint == null) {
+    .col-start-#{$col-start}-end-#{$col-end} {
+      grid-column: #{$col-start} / ($col-end+1);
+    }
+  }@else{
+    .col#{$breakpoint}-start-#{$col-start}-end-#{$col-end} {
+      grid-column: #{$col-start} / ($col-end+1);
+    }
+  }
+
 }

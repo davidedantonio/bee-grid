@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Download
-description: Download Beegrid to get compiled CSS source code, or include it via npm or include its classes via CDN.
+description: Download BeeGrid to get compiled CSS source code, or include it via npm or include its classes via CDN.
 redirect_from:
   - /docs/
   - /docs/1.0/
@@ -19,7 +19,7 @@ To install and save in your package.json dependencies, run:
 
 # Compiled CSS
 
-Download ready-to-use compiled code for {{ site.title }} v{{ site.current_version }} to easily drop into your project, which includes compiled and minified CSS bundles.
+Download ready-to-use compiled code {{ site.title }} v{{ site.current_version }} to easily drop into your project, which includes compiled and minified CSS bundles.
 
 This package doesn't include source files and documentation. Once downloaded, unzip the compressed folder and you’ll see something like this:
 
@@ -36,7 +36,7 @@ bee-grid/
 
 # Source files
 
-Download and compile all Beegrid source code via Download. This option require some additional tools:
+Download and compile all {{ site.title }} source code. This option require some additional tools:
 
 - NPM (Node Package Manager).
 - Sass compiler.
@@ -61,4 +61,4 @@ This command install al the required dependencies for run some command, such as:
 | `npm run css` | `npm run css` compile, lints and minify all [Sass](https://sass-lang.com/) files and put the compiled CSS files in `/dist/css` folder. This also run [Autoprefixer][https://github.com/postcss/autoprefixer] command that parse CSS and add vendor prefixes to rule. |
 | `npm run docs-serve` | Run the documentation locally at `http://localhost:9001`. |
 
-<a href="" class="button button-teal">Download source</a>
+<a href="{{ site.download.source }}" class="button button-teal">Download source</a>

@@ -347,6 +347,11 @@ template {
   width: 1.4rem;
   height: 1.4rem;
   vertical-align: text-top;
+  fill: #a3d9d4;
+}
+
+.docs-header .menu > li .menu-svg:hover {
+  fill: #fff !important;
 }
 
 .docs-header .menu > li .active {
@@ -1126,6 +1131,7 @@ template {
 }
 
 .button:hover, .button:focus {
+  text-decoration: none;
   cursor: pointer;
 }
 

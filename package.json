@@ -1,6 +1,6 @@
 {
   "name": "bee-grid",
-  "version": "0.0.1",
+  "version": "1.0.0-rc.1",
   "description": "Simple and powerful css utilities to build CSS grid.",
   "main": "index.js",
   "style": "dist/css/bee-grid.css",
@@ -16,7 +16,7 @@
     "watch-css": "nodemon --ignore js/ --ignore dist/ -e scss -x \"npm run css\""
   },
   "keywords": [
-    "CSS-GRID",
+    "CSS Grid",
     "css",
     "grid",
     "responsive"
