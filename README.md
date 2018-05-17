@@ -1,8 +1,8 @@
-<div style="text-align:center;background:teal;padding:40px;">
-  <img src="./assets/images/beegrid_icon_teal.png" style="width:80px;margin-top:30px"/>
+<p align="center">
+  <img src="./assets/images/beegrid_icon_teal.png" width=80 height=80 />
   <h1>Beegrid</h1>
   A mini CSS microframework to build various types of grids thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes to organize your content.
-</div>
+</p>
 
 ## Table of contents
 
