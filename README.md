@@ -7,7 +7,7 @@
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [What's included](#whats-included)
+- [CSS Files](#css-files)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
@@ -23,7 +23,7 @@ Several quick start options are available:
 - Install with [npm](https://www.npmjs.com/): `npm install beegrid`
 - Install with [yarn](https://yarnpkg.com/): `yarn add beegrid@1.0.0-rc-1`
 
-## What's included
+## CSS Files
 
 Within the download you'll find the following directories and files, providing both compiled and minified variations. You'll see something like this:
 
