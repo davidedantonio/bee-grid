@@ -66,6 +66,4 @@ Solutions and improvements are always accepted. Please create a pull request [he
 - <https://github.com/davidedantonio>
 
 ## Copyright and license
-
-Code and documentation copyright 2018
 Code released under the [MIT License](https://github.com/davidedantonio/bee-grid/blob/master/LICENSE).
