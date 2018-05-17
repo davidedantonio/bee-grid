@@ -1,13 +1,27 @@
 ---
 layout: docs
 title: Introduction
-description: Beegrid is a mini CSS microframework to build various types of grids thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes to organize your content easily.
+description: A microframework based on CSS Grid Layout specs to build various types of grids thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes to organize your content.
 redirect_from:
   - /docs/
   - /docs/1.0/
   - /docs/1.0/introduction/
   - /docs/introduction/
 ---
+
+# Before you start
+
+## What is CSS Grid Layout
+
+[CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) is a CSS layout method designed for the two-dimensional layout of items on a webpage. This method offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+## Status of the specs and browser support
+
+Chrome, Firefox and Safari shipped grid support in March 2017. IE10, 11 and Edge 15 and lower support an older, prefixed spec. In October 2017 Edge will update to the new specification to match other implementations. See [Can I Use](http://caniuse.com/#feat=css-grid) to see supported browsers.
+
+## Differences with Flexbox
+
+The main difference is that Flexbox is for one-dimensional layouts while Grid is for two-dimensional layouts.
 
 # Quick start
 
