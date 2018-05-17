@@ -87,7 +87,10 @@ If you want to define a new CSS Grid with custom gap you can use the `make-grid(
 In {{ site.title }} you can build a custom layout using `make-layout` mixin. If you don't have familiarity with CSS Grid layout take a [look here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
 
 {% highlight scss %}
-$template-areas: "head head head" "nav main aside" "foot foot foot" !default;
+$template-areas:
+  "head head head"
+  "nav main aside"
+  "foot foot foot" !default;
 $rows-template: 56px 1fr 40px !default;
 $columns-template: 200px 1fr 150px !default;
 

@@ -112,7 +112,7 @@ See how aspects of the {{ site.title }} grid system work across multiple devices
       <th class="text-nowrap" scope="row">Max container width</th>
       <td>none</td>
       <td>640px</td>
-      <td>1024</td>
+      <td>1024px</td>
       <td>1280px</td>
       <td>1440px</td>
     </tr>
