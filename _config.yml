@@ -45,4 +45,4 @@ github:               "https://github.com/davidedantonio/bee-grid"
 
 download:
   source:           "https://github.com/davidedantonio/bee-grid/archive/master.zip"
-  dist:             ""
+  dist:             "https://github.com/davidedantonio/bee-grid/archive/v1.0.0-rc-1.zip"

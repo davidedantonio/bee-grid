@@ -32,7 +32,7 @@ bee-grid/
     └── bee-grid.min.css.map
 {% endhighlight %}
 
-<a href="" class="button button-teal mb-2">Download</a>
+<a href="{{ site.download.dist }}" class="button button-teal mb-2">Download</a>
 
 # Source files
 
