@@ -7,10 +7,11 @@
   "sass": "scss/bee-grid.scss",
   "scripts": {
     "css": "npm-run-all --parallel css-lint* css-compile* --sequential css-prefix* css-minify*",
-    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bee-grid.scss dist/css/bee-grid.css && node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/docs.scss assets/css/bee-docs.css",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bee-grid.scss dist/css/bee-grid.css && node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 assets/scss/docs.scss assets/css/bee-docs.css",
     "css-lint": "stylelint --syntax scss \"scss/**/*.scss\"",
     "css-main": "npm-run-all --parallel css-lint css-compile --sequential css-prefix css-minify",
     "css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/bee-grid.min.css dist/css/bee-grid.css",
+    "css-minify-docs": "cleancss --level 1 --source-map --source-map-inline-sources --output assets/css/bee-docs.min.css assets/css/bee-docs.css",
     "css-prefix": "postcss --config build/postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.min.css\"",
     "docs-serve": "bundle exec jekyll serve",
     "watch-css": "nodemon --ignore js/ --ignore dist/ -e scss -x \"npm run css\""

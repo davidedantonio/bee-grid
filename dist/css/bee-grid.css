@@ -8516,402 +8516,14 @@ body {
   grid-area: foot;
 }
 
-@media (max-width: 1279.98px) {
-  .layout-1 {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "head head" "main main";
-  }
-  .layout-1 header {
-    grid-area: head;
-  }
-  .layout-1 header.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .layout-1 > nav {
-    grid-area: nav;
-  }
-  .layout-1 > nav.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-1 > aside {
-    grid-area: aside;
-  }
-  .layout-1 > aside.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-1 > main {
-    grid-area: main;
-  }
-  .layout-1 > main.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-1 > footer {
-    grid-area: foot;
-  }
-  .layout-2 {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: "head head" "nav main";
-  }
-  .layout-2 header {
-    grid-area: head;
-  }
-  .layout-2 header.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .layout-2 > nav {
-    grid-area: nav;
-  }
-  .layout-2 > nav.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-2 > aside {
-    grid-area: aside;
-  }
-  .layout-2 > aside.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-2 > main {
-    grid-area: main;
-  }
-  .layout-2 > main.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-2 > footer {
-    grid-area: foot;
-  }
-  .layout-3 {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: "nav head" "nav main";
-  }
-  .layout-3 header {
-    grid-area: head;
-  }
-  .layout-3 header.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .layout-3 > nav {
-    grid-area: nav;
-  }
-  .layout-3 > nav.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-3 > aside {
-    grid-area: aside;
-  }
-  .layout-3 > aside.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-3 > main {
-    grid-area: main;
-  }
-  .layout-3 > main.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-3 > footer {
-    grid-area: foot;
-  }
-  .layout-4 {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: "head head" "nav main" "foot foot";
-  }
-  .layout-4 header {
-    grid-area: head;
-  }
-  .layout-4 header.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .layout-4 > nav {
-    grid-area: nav;
-  }
-  .layout-4 > nav.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-4 > aside {
-    grid-area: aside;
-  }
-  .layout-4 > aside.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-4 > main {
-    grid-area: main;
-  }
-  .layout-4 > main.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-4 > footer {
-    grid-area: foot;
-  }
-  .layout-5 {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: "head head" "nav main" "nav foot";
-  }
-  .layout-5 header {
-    grid-area: head;
-  }
-  .layout-5 header.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .layout-5 > nav {
-    grid-area: nav;
-  }
-  .layout-5 > nav.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-5 > aside {
-    grid-area: aside;
-  }
-  .layout-5 > aside.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-5 > main {
-    grid-area: main;
-  }
-  .layout-5 > main.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-5 > footer {
-    grid-area: foot;
-  }
-  .layout-6 {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: "nav head" "nav main" "nav foot";
-  }
-  .layout-6 header {
-    grid-area: head;
-  }
-  .layout-6 header.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .layout-6 > nav {
-    grid-area: nav;
-  }
-  .layout-6 > nav.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-6 > aside {
-    grid-area: aside;
-  }
-  .layout-6 > aside.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-6 > main {
-    grid-area: main;
-  }
-  .layout-6 > main.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-6 > footer {
-    grid-area: foot;
-  }
-  .layout-7 {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
-    grid-template-columns: 250px 1fr 200px;
-    grid-template-areas: "head head head" "nav main aside" "foot foot foot";
-  }
-  .layout-7 header {
-    grid-area: head;
-  }
-  .layout-7 header.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .layout-7 > nav {
-    grid-area: nav;
-  }
-  .layout-7 > nav.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-7 > aside {
-    grid-area: aside;
-  }
-  .layout-7 > aside.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-7 > main {
-    grid-area: main;
-  }
-  .layout-7 > main.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-7 > footer {
-    grid-area: foot;
-  }
-  .layout-8 {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
-    grid-template-columns: 250px 1fr 200px;
-    grid-template-areas: "head head head" "nav main aside";
-  }
-  .layout-8 header {
-    grid-area: head;
-  }
-  .layout-8 header.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .layout-8 > nav {
-    grid-area: nav;
-  }
-  .layout-8 > nav.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-8 > aside {
-    grid-area: aside;
-  }
-  .layout-8 > aside.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-8 > main {
-    grid-area: main;
-  }
-  .layout-8 > main.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-8 > footer {
-    grid-area: foot;
-  }
-  .layout-9 {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
-    grid-template-columns: 250px 1fr 200px;
-    grid-template-areas: "nav head head" "nav main aside";
-  }
-  .layout-9 header {
-    grid-area: head;
-  }
-  .layout-9 header.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .layout-9 > nav {
-    grid-area: nav;
-  }
-  .layout-9 > nav.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-9 > aside {
-    grid-area: aside;
-  }
-  .layout-9 > aside.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-9 > main {
-    grid-area: main;
-  }
-  .layout-9 > main.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-9 > footer {
-    grid-area: foot;
-  }
-  .layout-10 {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
-    grid-template-columns: 250px 1fr 200px;
-    grid-template-areas: "nav head head" "nav main aside" "nav foot foot";
-  }
-  .layout-10 header {
-    grid-area: head;
-  }
-  .layout-10 header.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .layout-10 > nav {
-    grid-area: nav;
-  }
-  .layout-10 > nav.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-10 > aside {
-    grid-area: aside;
-  }
-  .layout-10 > aside.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-10 > main {
-    grid-area: main;
-  }
-  .layout-10 > main.overflow-y-auto {
-    overflow-y: auto;
-  }
-  .layout-10 > footer {
-    grid-area: foot;
-  }
-}
-
 @media (max-width: 959.98px) {
   .layout-1 {
     display: grid;
     width: 100%;
     height: 100vh;
     grid-template-rows: minmax(56px, auto) 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "head head" "main main";
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main";
   }
   .layout-1 header {
     grid-area: head;
@@ -8947,9 +8559,9 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: "head head" "nav nav" "main main";
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "nav" "main";
   }
   .layout-2 header {
     grid-area: head;
@@ -8985,9 +8597,9 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: "nav head" "nav main";
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "nav" "main";
   }
   .layout-3 header {
     grid-area: head;
@@ -9023,10 +8635,10 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: "head head" "nav main" "foot foot";
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "nav" "main" "foot";
   }
   .layout-4 header {
     grid-area: head;
@@ -9062,10 +8674,10 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: "head head" "nav main" "nav foot";
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "nav" "main" "foot";
   }
   .layout-5 header {
     grid-area: head;
@@ -9101,10 +8713,10 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: "nav head" "nav main" "nav foot";
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "nav" "main" "foot";
   }
   .layout-6 header {
     grid-area: head;
@@ -9140,10 +8752,10 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
-    grid-template-columns: 250px 1fr 200px;
-    grid-template-areas: "head head head" "nav main aside" "foot foot foot";
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr auto minmax(-webkit-max-content, 50px);
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr auto minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "nav" "main" "aside" "foot";
   }
   .layout-7 header {
     grid-area: head;
@@ -9179,9 +8791,9 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
-    grid-template-columns: 250px 1fr 200px;
-    grid-template-areas: "head head head" "nav main aside";
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "nav" "main" "aside";
   }
   .layout-8 header {
     grid-area: head;
@@ -9217,9 +8829,9 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
-    grid-template-columns: 250px 1fr 200px;
-    grid-template-areas: "nav head head" "nav main aside";
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "nav" "main" "aside";
   }
   .layout-9 header {
     grid-area: head;
@@ -9255,10 +8867,10 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(-webkit-max-content, 50px);
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
-    grid-template-columns: 250px 1fr 200px;
-    grid-template-areas: "nav head head" "nav main aside" "nav foot foot";
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr auto minmax(-webkit-max-content, 50px);
+    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr auto minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "nav" "main" "aside" "foot";
   }
   .layout-10 header {
     grid-area: head;
