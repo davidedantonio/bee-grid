@@ -31,6 +31,7 @@ exclude:
   - package-lock.json
   - README.md
 
+
 # Social
 title:              BeeGrid
 description:        "A microframework based on CSS Grid Layout to build various types of grids thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes to organize your content."
