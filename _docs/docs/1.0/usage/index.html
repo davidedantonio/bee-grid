@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Use Beegrid options and classe to laying out your application, including responsive media query and many predefined layouts.">
+<meta name="author" content="Davide D'Antonio">
+<meta name="generator" content="Jekyll v3.7.3">
+
+<title>Usage · BeeGrid</title>
+
+<!-- BeeUi grid Docs CSS -->
+<link rel="stylesheet" href="/assets/css/bee-docs.css" media="screen" />
+
+  </head>
+  <body>
+    <section class="layout-2">
+      <header class="docs-header docs-background-teal">
+        <div class="grid-container-fluid cols-2 cols-sm-2 cols-md-2 cols-lg-2 cols-xl-2 mb-0">
+  <div class="grid-item p-0 justify-content-start align-items-center justify-content-md-center align-items-md-center">
+    <a href="/">
+      <img class="brand" src="/assets/images/beegrid_icon_white.png" />
+    </a>
+    <ul class="menu">
+  <li><a class="active" href="/docs/1.0/introduction/">Documentation</a></li>
+</ul>
+
+  </div>
+  <div class="grid-item p-0 align-self-center justify-self-end">
+    <ul class="menu">
+  <li><a href="https://twitter.com/davidedantonio"><svg class="menu-svg" fill="none" aria-labelledby="simpleicons-twitter-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+</a></li>
+  <li><a href="https://github.com/davidedantonio/bee-grid" target="_blank"><svg class="menu-svg" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+</a></li>
+  <li><a href="https://github.com/davidedantonio/bee-grid/archive/v1.0.0-rc-1.zip"><svg version="1.1"  class="menu-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 29.978 29.978" style="enable-background:new 0 0 29.978 29.978;" xml:space="preserve"> <title>Download</title><path d="M25.462,19.105v6.848H4.515v-6.848H0.489v8.861c0,1.111,0.9,2.012,2.016,2.012h24.967c1.115,0,2.016-0.9,2.016-2.012 v-8.861H25.462z"/><path d="M14.62,18.426l-5.764-6.965c0,0-0.877-0.828,0.074-0.828s3.248,0,3.248,0s0-0.557,0-1.416c0-2.449,0-6.906,0-8.723 c0,0-0.129-0.494,0.615-0.494c0.75,0,4.035,0,4.572,0c0.536,0,0.524,0.416,0.524,0.416c0,1.762,0,6.373,0,8.742 c0,0.768,0,1.266,0,1.266s1.842,0,2.998,0c1.154,0,0.285,0.867,0.285,0.867s-4.904,6.51-5.588,7.193 C15.092,18.979,14.62,18.426,14.62,18.426z"/></svg>
+</a></li>
+</ul>
+
+  </div>
+</div>
+
+      </header>
+      <nav class="docs-navbar">
+        <div class="docs-navbar-title p-1">
+  <h2>BeeGrid</h2>
+  <small>1.0.0-rc.1</small>
+</div>
+<div class="docs-navbar-content p-1">
+  <ul>
+    <li><a class="" href="/docs/1.0/introduction/">Introduction</a></li>
+    <li><a class=""  href="/docs/1.0/download/">Download</a></li>
+    <li><a class="active"  href="/docs/1.0/usage/">Usage</a></li>
+    <li><a class=""  href="/docs/1.0/layouts/">Layouts</a></li>
+    <li><a class=""  href="/docs/1.0/customize/">Customize</a></li>
+  </ul>
+</div>
+
+
+      </nav>
+      <main class="docs-page overflow-y-auto p-3">
+        <div class="page-title">Usage</div>
+        <p class="page-description">Use Beegrid options and classe to laying out your application, including responsive media query and many predefined layouts.</p>
+        <h1 id="containers">Containers</h1>
+
+<p>Containers are the basic layout element in Beegrid. You can choose between two types of container.</p>
+
+<div class="docs-example">
+  <div class="grid-container grid-container-example">
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-contaner"</span><span class="nt">&gt;</span>
+  <span class="c">&lt;!-- Your grid items here --&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<div class="docs-example">
+  <div class="grid-container-fluid grid-container-example">
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-contaner-fluid"</span><span class="nt">&gt;</span>
+  <span class="c">&lt;!-- Your grid items here --&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<h1 id="how-grid-works">How grid works</h1>
+
+<p>Beeui grid use a main container, as described before, and its child component represent the columns of the grid system.</p>
+
+<div class="docs-example">
+  <div class="grid-container-fluid">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item">10</div>
+    <div class="grid-item">11</div>
+    <div class="grid-item">12</div>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-contaner-fluid"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>5<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>6<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>7<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>9<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>10<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>11<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>12<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<p>The above example define a grid with twelve equal with columns with a predefined responsive behavior. Each column has a padding (called gap) for controlling the space between them. Here’s how it work:</p>
+
+<ul>
+  <li>The container provide to define grid items behavior and the width of grid system.</li>
+  <li>The rows are defined for breakpoints. For example, if you want your grid, on a medium-sized screen, must have three columns you can define <code class="highlighter-rouge">.cols-md-3</code> class.</li>
+  <li>The <code class="highlighter-rouge">.grid-item</code> class define <strong>only</strong> a padding of <code class="highlighter-rouge">1rem</code>.</li>
+  <li>To make the grid responsive, there are five grid breakpoints, one for each responsive breakpoint: extra small, small, medium, large, and extra large.</li>
+</ul>
+
+<h2 id="grid-breakpoints">Grid breakpoints</h2>
+
+<p>See how aspects of the BeeGrid grid system work across multiple devices.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th class="text-center">
+        Extra small<br />
+        <small>&ge;0px</small>
+      </th>
+      <th class="text-center">
+        Small<br />
+        <small>&ge;480px</small>
+      </th>
+      <th class="text-center">
+        Medium<br />
+        <small>&ge;960px</small>
+      </th>
+      <th class="text-center">
+        Large<br />
+        <small>&ge;1280px</small>
+      </th>
+      <th class="text-center">
+        Extra large<br />
+        <small>&ge;1440px</small>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="text-nowrap" scope="row">Max container width</th>
+      <td>none</td>
+      <td>640px</td>
+      <td>1024px</td>
+      <td>1280px</td>
+      <td>1440px</td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row">Class prefix</th>
+      <td><code>.cols-*</code></td>
+      <td><code>.cols-sm-*</code></td>
+      <td><code>.cols-md-*</code></td>
+      <td><code>.cols-lg-*</code></td>
+      <td><code>.cols-xl-*</code></td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row"># of columns</th>
+      <td colspan="5">12</td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row">Grid gap</th>
+      <td><code>12px</code></td>
+      <td><code>16px</code></td>
+      <td><code>20px</code></td>
+      <td><code>24px</code></td>
+      <td><code>28px</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="layout-grid">Layout grid</h1>
+
+<p>You can specify columns number class on the container. For example if you want a grid with six columns for each brekpoint you can specify the class <code class="highlighter-rouge">.col-{i}</code>, where <code class="highlighter-rouge">i</code> is a number between 1 and 12.</p>
+
+<div class="docs-example">
+  <div class="grid-container-fluid cols-6">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item">10</div>
+    <div class="grid-item">11</div>
+    <div class="grid-item">12</div>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-contaner-fluid cols-6"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>5<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>6<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>7<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>9<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>10<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>11<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>12<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<p>As you can see, you don’t need to specify a <em>“row”</em> container and a specific class on each column item. The container define the number of <strong>columns</strong> on each container row.</p>
+
+<h1 id="colspan">Colspan</h1>
+
+<p>You can specify, on a column item, how many grid columns the item span. Here come an example:</p>
+
+<div class="docs-example">
+  <div class="grid-container-fluid cols-6">
+    <div class="grid-item colspan-3">1 to 3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item colspan-2">9 to 10</div>
+    <div class="grid-item">11</div>
+    <div class="grid-item">12</div>
+    <div class="grid-item">13</div>
+    <div class="grid-item">14</div>
+    <div class="grid-item">15</div>
+    <div class="grid-item colspan-3">16 to 18</div>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-container-fluid cols-6"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item colspan-3"</span><span class="nt">&gt;</span>1 to 3<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>5<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>6<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>7<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item colspan-2"</span><span class="nt">&gt;</span>9 to 10<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>11<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>12<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>13<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>14<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>15<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item colspan-3"</span><span class="nt">&gt;</span>16 to 18<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<h1 id="responsive-classes">Responsive classes</h1>
+
+<p>Beeui includes five tiers predefined classes for building complex responsive grids. You can define the behavior of your grids on extra small, small, medium, large and extra large devices as you see fit.</p>
+
+<h2 id="specify-all-breakpoints">Specify all breakpoints</h2>
+
+<p>If you want that your grid have a different behavior for each device size, you can specify the number of columns on the container usign the <code class="highlighter-rouge">col-{bp}-{i}</code> classes, where <code class="highlighter-rouge">bp</code> is represent the breakpoint and <code class="highlighter-rouge">i</code> the number of columns.</p>
+
+<div class="docs-example">
+  <div class="grid-container-fluid cols-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item">10</div>
+    <div class="grid-item">11</div>
+    <div class="grid-item">12</div>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-container-fluid cols-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>5<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>6<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>7<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>9<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>10<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>11<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>12<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<p>In this example we decide to have a different behaviour for each screen size. For the extra large screen we decide to have a twelve columns system, on large six, on medium three on small 2 and, finally on extra small devices a stacked columns grid.</p>
+
+<h1 id="rows-and-columns">Rows and columns</h1>
+
+<p>You can define the number of rows and columns that a grid item must occupy at certain device size. For example, if we take a look at previous example, we can decide that the grid item <code class="highlighter-rouge">1</code> can occupy two columns and two rows on medium screen size.</p>
+
+<div class="docs-example">
+  <div class="grid-container-fluid cols-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12">
+    <div class="grid-item row-md-start-1-end-2 col-lg-start-1-end-2">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item">10</div>
+    <div class="grid-item">11</div>
+    <div class="grid-item">12</div>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-container-fluid cols-1 cols-sm-2 cols-md-3 cols-lg-6 cols-xl-12"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item row-md-start-1-end-2 col-lg-start-1-end-2"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>5<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>6<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>7<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>9<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>10<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>11<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>12<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<h1 id="alignments">Alignments</h1>
+
+<p>You can use alignment utility classes to align your grid item.</p>
+
+<h2 id="horizontal">Horizontal</h2>
+
+<p>You can specify an horizontal alignment with <code class="highlighter-rouge">.justify-self-*</code> classes on an grid item.</p>
+
+<div class="docs-example">
+  <div class="grid-container-fluid cols-3 mb-1">
+    <div class="grid-item justify-self-start">.justify-self-start</div>
+    <div class="grid-item justify-self-center">.justify-self-center</div>
+    <div class="grid-item justify-self-end">.justify-self-end</div>
+  </div>
+  <div class="grid-container-fluid cols-2 mb-1">
+    <div class="grid-item justify-self-center">.justify-self-center</div>
+    <div class="grid-item justify-self-center">.justify-self-center</div>
+  </div>
+  <div class="grid-container-fluid cols-3 mb-1">
+    <div class="grid-item justify-self-start">.justify-self-start</div>
+    <div class="grid-item justify-self-stretch">.justify-self-stretch</div>
+    <div class="grid-item justify-self-end">.justify-self-end</div>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-container-fluid cols-3"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item justify-self-start"</span><span class="nt">&gt;</span>.justify-self-start<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item justify-self-center"</span><span class="nt">&gt;</span>.justify-self-center<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item justify-self-end"</span><span class="nt">&gt;</span>.justify-self-end<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-container-fluid cols-2"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item justify-self-center"</span><span class="nt">&gt;</span>.justify-self-center<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item justify-self-center"</span><span class="nt">&gt;</span>.justify-self-center<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-container-fluid cols-3"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item justify-self-start"</span><span class="nt">&gt;</span>.justify-self-start<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item justify-self-stretch"</span><span class="nt">&gt;</span>.justify-self-stretch<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item justify-self-end"</span><span class="nt">&gt;</span>.justify-self-end<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<h2 id="vertical">Vertical</h2>
+
+<p>As you can align horizontally, you can align an item vertically with <code class="highlighter-rouge">.align-self-*</code> classes. As in the following example.</p>
+
+<div class="docs-example">
+  <div class="grid-container-fluid cols-3 mb-1 container container-tall">
+    <div class="grid-item align-self-start">.align-self-start</div>
+    <div class="grid-item align-self-end">.align-self-end</div>
+    <div class="grid-item align-self-center">.align-self-end</div>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-container-fluid cols-3"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item align-self-start"</span><span class="nt">&gt;</span>.align-self-start<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item align-self-end"</span><span class="nt">&gt;</span>.align-self-end<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item align-self-center"</span><span class="nt">&gt;</span>.align-self-end<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<h1 id="nesting">Nesting</h1>
+
+<p>To nest your content you can specify a <code class="highlighter-rouge">.grid-container</code>, with a specific numbers of cols and, in a specific grid item, you can declare another <code class="highlighter-rouge">.grid-container</code>.</p>
+
+<div class="docs-example">
+  <div class="grid-container-fluid cols-1 mb-1 container container-tall">
+    <div class="grid-item no-padding transparent align-self-center">
+      <div class="grid-container-fluid cols-2">
+        <div class="grid-item">One of Two</div>
+        <div class="grid-item">Two of Two</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-container-fluid cols-1"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item no-padding align-self-center"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-container-fluid cols-2"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>One of Two<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>Two of Two<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+      </main>
+    </section>
+  </body>
+</html>

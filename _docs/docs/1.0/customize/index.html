@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="You can use Sass variables and mixins to create custom, and responsive layouts">
+<meta name="author" content="Davide D'Antonio">
+<meta name="generator" content="Jekyll v3.7.3">
+
+<title>Customize · BeeGrid</title>
+
+<!-- BeeUi grid Docs CSS -->
+<link rel="stylesheet" href="/assets/css/bee-docs.css" media="screen" />
+
+  </head>
+  <body>
+    <section class="layout-2">
+      <header class="docs-header docs-background-teal">
+        <div class="grid-container-fluid cols-2 cols-sm-2 cols-md-2 cols-lg-2 cols-xl-2 mb-0">
+  <div class="grid-item p-0 justify-content-start align-items-center justify-content-md-center align-items-md-center">
+    <a href="/">
+      <img class="brand" src="/assets/images/beegrid_icon_white.png" />
+    </a>
+    <ul class="menu">
+  <li><a class="active" href="/docs/1.0/introduction/">Documentation</a></li>
+</ul>
+
+  </div>
+  <div class="grid-item p-0 align-self-center justify-self-end">
+    <ul class="menu">
+  <li><a href="https://twitter.com/davidedantonio"><svg class="menu-svg" fill="none" aria-labelledby="simpleicons-twitter-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+</a></li>
+  <li><a href="https://github.com/davidedantonio/bee-grid" target="_blank"><svg class="menu-svg" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+</a></li>
+  <li><a href="https://github.com/davidedantonio/bee-grid/archive/v1.0.0-rc-1.zip"><svg version="1.1"  class="menu-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 29.978 29.978" style="enable-background:new 0 0 29.978 29.978;" xml:space="preserve"> <title>Download</title><path d="M25.462,19.105v6.848H4.515v-6.848H0.489v8.861c0,1.111,0.9,2.012,2.016,2.012h24.967c1.115,0,2.016-0.9,2.016-2.012 v-8.861H25.462z"/><path d="M14.62,18.426l-5.764-6.965c0,0-0.877-0.828,0.074-0.828s3.248,0,3.248,0s0-0.557,0-1.416c0-2.449,0-6.906,0-8.723 c0,0-0.129-0.494,0.615-0.494c0.75,0,4.035,0,4.572,0c0.536,0,0.524,0.416,0.524,0.416c0,1.762,0,6.373,0,8.742 c0,0.768,0,1.266,0,1.266s1.842,0,2.998,0c1.154,0,0.285,0.867,0.285,0.867s-4.904,6.51-5.588,7.193 C15.092,18.979,14.62,18.426,14.62,18.426z"/></svg>
+</a></li>
+</ul>
+
+  </div>
+</div>
+
+      </header>
+      <nav class="docs-navbar">
+        <div class="docs-navbar-title p-1">
+  <h2>BeeGrid</h2>
+  <small>1.0.0-rc.1</small>
+</div>
+<div class="docs-navbar-content p-1">
+  <ul>
+    <li><a class="" href="/docs/1.0/introduction/">Introduction</a></li>
+    <li><a class=""  href="/docs/1.0/download/">Download</a></li>
+    <li><a class=""  href="/docs/1.0/usage/">Usage</a></li>
+    <li><a class=""  href="/docs/1.0/layouts/">Layouts</a></li>
+    <li><a class="active"  href="/docs/1.0/customize/">Customize</a></li>
+  </ul>
+</div>
+
+
+      </nav>
+      <main class="docs-page overflow-y-auto p-3">
+        <div class="page-title">Customize</div>
+        <p class="page-description">You can use Sass variables and mixins to create custom, and responsive layouts</p>
+        <h1 id="sass-variables">Sass variables</h1>
+
+<p>Sass variables defines grid gap, the number of columns and the layouts while media query determine its behavior. Beegrid framework use these to generate all the grid classes.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nv">$grid-columns-number</span><span class="p">:</span> <span class="m">12</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$grid-item-padding</span><span class="p">:</span>   <span class="m">1rem</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+
+<span class="c1">// Grid breakpoints</span>
+<span class="c1">//</span>
+<span class="c1">// Define the maximum dimensions at which your layout will change,</span>
+<span class="c1">// adapting to different screen sizes, for use in media queries.</span>
+<span class="nv">$grid-breakpoints</span><span class="p">:</span> <span class="p">(</span>
+  <span class="n">xs</span><span class="o">:</span> <span class="m">0px</span><span class="o">,</span>
+  <span class="n">sm</span><span class="o">:</span> <span class="m">480px</span><span class="o">,</span>
+  <span class="n">md</span><span class="o">:</span> <span class="m">960px</span><span class="o">,</span>
+  <span class="n">lg</span><span class="o">:</span> <span class="m">1280px</span><span class="o">,</span>
+  <span class="n">xl</span><span class="o">:</span> <span class="m">1440px</span>
+<span class="p">)</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+
+<span class="c1">// Grid widths</span>
+<span class="nv">$grid-widths</span><span class="p">:</span> <span class="p">(</span>
+  <span class="n">sm</span><span class="o">:</span> <span class="m">640px</span><span class="o">,</span>
+  <span class="n">md</span><span class="o">:</span> <span class="m">1024px</span><span class="o">,</span>
+  <span class="n">lg</span><span class="o">:</span> <span class="m">1280px</span><span class="o">,</span>
+  <span class="n">xl</span><span class="o">:</span> <span class="m">1440px</span>
+<span class="p">)</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+
+<span class="c1">// Define the grid gap dimensions at which your layout will change,</span>
+<span class="c1">// adapting to different screen sizes</span>
+<span class="nv">$grid-breakpoints-gap</span><span class="p">:</span> <span class="p">(</span>
+  <span class="n">xl</span><span class="o">:</span> <span class="m">28px</span><span class="o">,</span>
+  <span class="n">lg</span><span class="o">:</span> <span class="m">24px</span><span class="o">,</span>
+  <span class="n">md</span><span class="o">:</span> <span class="m">20px</span><span class="o">,</span>
+  <span class="n">sm</span><span class="o">:</span> <span class="m">16px</span><span class="o">,</span>
+  <span class="n">xs</span><span class="o">:</span> <span class="m">12px</span>
+<span class="p">)</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+
+<span class="c1">// Layouts default values</span>
+<span class="nv">$header-height</span><span class="p">:</span>   <span class="nf">minmax</span><span class="p">(</span><span class="m">56px</span><span class="o">,</span> <span class="nb">auto</span><span class="p">)</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$footer-height</span><span class="p">:</span>   <span class="nf">minmax</span><span class="p">(</span><span class="n">max-content</span><span class="o">,</span> <span class="m">50px</span><span class="p">)</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$nav-width</span><span class="p">:</span>       <span class="m">250px</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$aside-width</span><span class="p">:</span>     <span class="m">200px</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span></code></pre></figure>
+
+<p>The number of grid columns can be modified via Sass variables. <code class="highlighter-rouge">$grid-columns</code> is used to generate the number of columns while <code class="highlighter-rouge">$grid-breakpoints-gap</code> determines the space that occurr between columns. You can modify these variables in order to define a new behavior of your grids.</p>
+
+<h1 id="mixins">Mixins</h1>
+
+<p>BeeGrid use series of mixins, in conjunction with the variables explained above, that help us to generate the CSS for each grid specification.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Generate default grid system with given columns and gap</span>
+<span class="k">@mixin</span> <span class="nf">make-grid</span><span class="p">(</span><span class="nv">$columns-number</span><span class="o">:</span> <span class="nv">$grid-columns-number</span><span class="o">,</span> <span class="nv">$gap</span><span class="o">:</span> <span class="nf">map-get</span><span class="p">(</span><span class="nv">$grid-breakpoints-gap</span><span class="o">,</span> <span class="s2">"sm"</span><span class="p">));</span>
+
+<span class="c1">// span between columns of our grid system</span>
+<span class="k">@include</span> <span class="nd">col-start-end</span><span class="p">(</span><span class="nv">$col-start</span><span class="o">,</span> <span class="nv">$col-end</span><span class="p">);</span>
+
+<span class="c1">// span between rows of our grid system</span>
+<span class="k">@include</span> <span class="nd">row-start-end</span><span class="p">(</span><span class="nv">$row-start</span><span class="o">,</span> <span class="nv">$row-end</span><span class="p">);</span>
+
+<span class="c1">// Defines a grid layout by referencing the names of the grid areas</span>
+<span class="k">@mixin</span> <span class="nf">make-layout</span><span class="p">(</span><span class="nv">$rows-template</span><span class="o">,</span> <span class="nv">$columns-template</span><span class="o">,</span> <span class="nv">$template-areas</span><span class="p">);</span></code></pre></figure>
+
+<h2 id="examples">Examples</h2>
+
+<p>If you want to define a new CSS Grid with custom gap you can use the <code class="highlighter-rouge">make-grid($columns, $gap)</code> mixin, where <code class="highlighter-rouge">$columns</code> is the number of columns of your grid and <code class="highlighter-rouge">$gap</code> is the space, in pixel, that occurs between each one of them.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nc">.fantastic-grid</span> <span class="p">{</span>
+  <span class="k">@include</span> <span class="nd">make-grid</span><span class="p">(</span><span class="m">24</span><span class="o">,</span> <span class="m">20px</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>In BeeGrid you can build a custom layout using <code class="highlighter-rouge">make-layout</code> mixin. If you don’t have familiarity with CSS Grid layout take a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">look here</a>.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nv">$template-areas</span><span class="p">:</span>
+  <span class="s2">"head head head"</span>
+  <span class="s2">"nav main aside"</span>
+  <span class="s2">"foot foot foot"</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$rows-template</span><span class="p">:</span> <span class="m">56px</span> <span class="m">1fr</span> <span class="m">40px</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$columns-template</span><span class="p">:</span> <span class="m">200px</span> <span class="m">1fr</span> <span class="m">150px</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+
+<span class="nc">.custom-layout</span> <span class="p">{</span>
+  <span class="k">@include</span> <span class="nd">make-layout</span><span class="p">(</span><span class="nv">$rows-template</span><span class="o">,</span> <span class="nv">$columns-template</span><span class="o">,</span> <span class="nv">$template-areas</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<div class="docs-example">
+  <div class="layout-7" style="max-height: 400px;">
+    <header>This is header</header>
+    <nav>This is navigation</nav>
+    <main>This is Main content</main>
+    <aside>This is aside</aside>
+    <footer>This is Footer</footer>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"custom-layout"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;header&gt;</span>This is header<span class="nt">&lt;/header&gt;</span>
+  <span class="nt">&lt;nav&gt;</span>This is navigation<span class="nt">&lt;/nav&gt;</span>
+  <span class="nt">&lt;main&gt;</span>This is Main content<span class="nt">&lt;/main&gt;</span>
+  <span class="nt">&lt;aside&gt;</span>This is aside<span class="nt">&lt;/aside&gt;</span>
+  <span class="nt">&lt;footer&gt;</span>This is Footer<span class="nt">&lt;/footer&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+
+      </main>
+    </section>
+  </body>
+</html>
