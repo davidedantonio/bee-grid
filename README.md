@@ -42,7 +42,9 @@ Have a bug or a feature request? Search for existing and closed issues. If your 
 
 ## Documentation
 
-Beegrid's documentation, included in this repo in the root directory, is built with [Jekyll](https://jekyllrb.com/) and publicly hosted on GitHub Pages at <https://beegrid.com/>. The docs may also be run locally.
+#### You can find the docs at: <https://davidedantonio.github.io/bee-grid/documentation/1.0/introduction/>
+
+Beegrid's documentation, included in this repo in the root directory, is built with [Jekyll](https://jekyllrb.com/) and publicly hosted on GitHub Pages at <https://davidedantonio.github.io/bee-grid/>. The docs may also be run locally.
 
 ### Running documentation locally
 
