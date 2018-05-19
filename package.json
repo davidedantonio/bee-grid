@@ -1,6 +1,6 @@
 {
-  "name": "beegrid",
-  "version": "1.0.0-rc.1",
+  "name": "@webeetle/bee-grid",
+  "version": "1.0.0",
   "description": "A microframework based on CSS Grid Layout to build various types of grids thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes to organize your content.",
   "main": "index.js",
   "style": "dist/css/bee-grid.css",
