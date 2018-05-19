@@ -42,6 +42,7 @@ current_version:      1.0.0-rc.1
 docs_version:         1.0
 repo:                 "https://github.com/davidedantonio/bee-grid.git"
 github:               "https://github.com/davidedantonio/bee-grid"
+twitter:              "https://twitter.com/davidedantonio"
 
 download:
   source:           "https://github.com/davidedantonio/bee-grid/archive/master.zip"
