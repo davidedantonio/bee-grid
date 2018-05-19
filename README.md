@@ -20,8 +20,8 @@ Several quick start options are available:
 
 - [Download the latest release.](https://github.com/davidedantonio/bee-grid/archive/master.zip)
 - Clone the repo: `https://github.com/davidedantonio/bee-grid.git`
-- Install with [npm](https://www.npmjs.com/): `npm install beegrid`
-- Install with [yarn](https://yarnpkg.com/): `yarn add beegrid@1.0.0-rc-1`
+- Install with [npm](https://www.npmjs.com/): `npm install @webeetle/bee-grid`
+- Install with [yarn](https://yarnpkg.com/): `yarn add @webeetle/bee-grid`
 
 ## CSS Files
 
