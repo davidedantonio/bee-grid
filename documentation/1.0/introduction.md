@@ -25,7 +25,7 @@ The main difference is that Flexbox is for one-dimensional layouts while Grid is
 
 # Quick start
 
-If you want quickly start to build awesome grids? Download a {{ site-title }} release. If you want to use a package manager or source files, please go to <a href="{{ site.base_url }}/docs/download/">Download page</a>.
+If you want quickly start to build awesome grids? Download a {{ site-title }} release. If you want to use a package manager or source files, please go to <a href="{{ site.baseurl }}/docs/download/">Download page</a>.
 
 ## Import in your Code
 Copy and paste the stylesheet `<link>` into `<head>` to load Beegrid CSS.
