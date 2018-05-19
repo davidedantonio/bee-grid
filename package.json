@@ -27,6 +27,9 @@
     "scss/"
   ],
   "author": "Davide D'Antonio <davide.dantonio@webeetle.com> (https://twitter.com/davidedantonio)",
+  "contributors": [
+    "Riccardo Tartaglia <tartaglia.riccardo@gmail.com> (https://twitter.com/RikTarWeb)"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidedantonio/bee-grid.git"
