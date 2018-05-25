@@ -9,9 +9,15 @@
 
 // Default grid fluid template (width)
 .grid-container-fluid {
+  @include make-grid-fluid();
+
   @include make-grid();
   @include build-grid-cols();
   @include make-grid-breakpoints();
+}
+
+.custom-grid {
+  @include make-grid(var(--cols-number), var(--gap));
 }
 
 // Defining a grid item

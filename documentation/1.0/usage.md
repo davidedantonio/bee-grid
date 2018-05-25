@@ -132,9 +132,9 @@ See how aspects of the {{ site.title }} grid system work across multiple devices
       <th class="text-nowrap" scope="row">Grid gap</th>
       <td><code>12px</code></td>
       <td><code>16px</code></td>
+      <td><code>18px</code></td>
       <td><code>20px</code></td>
       <td><code>24px</code></td>
-      <td><code>28px</code></td>
     </tr>
   </tbody>
 </table>
@@ -296,6 +296,40 @@ You can define the number of rows and columns that a grid item must occupy at ce
   <div class="grid-item">10</div>
   <div class="grid-item">11</div>
   <div class="grid-item">12</div>
+</div>
+{% endhighlight %}
+
+# Custom Grid
+
+If yout want to build a custom grid you can use `.custom-grid` class and add inline CSS variables `--cols-number` and `--gap`.
+
+<div class="docs-example">
+  <div class="container-fluid custom-grid" style="--cols-number: 5; --gap: 5px">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item">10</div>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="container-fluid custom-grid" style="--cols-number: 5; --gap: 5px">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>
+  <div class="grid-item">10</div>
 </div>
 {% endhighlight %}
 

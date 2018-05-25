@@ -9,8 +9,9 @@
 
 <title>Usage · BeeGrid</title>
 
+<link rel="icon" href="/assets/favicon.ico">
 <!-- BeeUi grid Docs CSS -->
-<link rel="stylesheet" href="https://davidedantonio.github.io/bee-grid/assets/css/bee-docs.css" media="screen" />
+<link rel="stylesheet" href="/assets/css/bee-docs.css" media="screen" />
 
   </head>
   <body>
@@ -28,11 +29,11 @@
       <header class="docs-header docs-background-teal">
         <div class="grid-container-fluid cols-2 cols-sm-2 cols-md-2 cols-lg-2 cols-xl-2 mb-0">
   <div class="grid-item p-0 justify-content-start align-items-center justify-content-md-center align-items-md-center">
-    <a href="https://davidedantonio.github.io/bee-grid">
-      <img class="brand" src="https://davidedantonio.github.io/bee-grid/assets/images/beegrid_icon_white.png" />
+    <a href="">
+      <img class="brand" src="/assets/images/beegrid_icon_white.png" />
     </a>
     <ul class="menu">
-  <li><a class="active" href="https://davidedantonio.github.io/bee-grid/documentation/1.0/introduction/">Documentation</a></li>
+  <li><a class="active" href="/documentation/1.0/introduction/">Documentation</a></li>
 </ul>
 
   </div>
@@ -57,11 +58,11 @@
 </div>
 <div class="docs-navbar-content p-1">
   <ul>
-    <li><a class="" href="https://davidedantonio.github.io/bee-grid/documentation/1.0/introduction/">Introduction</a></li>
-    <li><a class=""  href="https://davidedantonio.github.io/bee-grid/documentation/1.0/download/">Download</a></li>
-    <li><a class="active"  href="https://davidedantonio.github.io/bee-grid/documentation/1.0/usage/">Usage</a></li>
-    <li><a class=""  href="https://davidedantonio.github.io/bee-grid/documentation/1.0/layouts/">Layouts</a></li>
-    <li><a class=""  href="https://davidedantonio.github.io/bee-grid/documentation/1.0/customize/">Customize</a></li>
+    <li><a class="" href="/documentation/1.0/introduction/">Introduction</a></li>
+    <li><a class=""  href="/documentation/1.0/download/">Download</a></li>
+    <li><a class="active"  href="/documentation/1.0/usage/">Usage</a></li>
+    <li><a class=""  href="/documentation/1.0/layouts/">Layouts</a></li>
+    <li><a class=""  href="/documentation/1.0/customize/">Customize</a></li>
   </ul>
 </div>
 
@@ -192,9 +193,9 @@
       <th class="text-nowrap" scope="row">Grid gap</th>
       <td><code>12px</code></td>
       <td><code>16px</code></td>
+      <td><code>18px</code></td>
       <td><code>20px</code></td>
       <td><code>24px</code></td>
-      <td><code>28px</code></td>
     </tr>
   </tbody>
 </table>
@@ -351,6 +352,38 @@
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>10<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>11<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>12<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<h1 id="custom-grid">Custom Grid</h1>
+
+<p>If yout want to build a custom grid you can use <code class="highlighter-rouge">.custom-grid</code> class and add inline CSS variables <code class="highlighter-rouge">--cols-number</code> and <code class="highlighter-rouge">--gap</code>.</p>
+
+<div class="docs-example">
+  <div class="container-fluid custom-grid" style="--cols-number: 5; --gap: 5px">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item">10</div>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container-fluid custom-grid"</span> <span class="na">style=</span><span class="s">"--cols-number: 5; --gap: 5px"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>5<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>6<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>7<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>9<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid-item"</span><span class="nt">&gt;</span>10<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
 <h1 id="alignments">Alignments</h1>
