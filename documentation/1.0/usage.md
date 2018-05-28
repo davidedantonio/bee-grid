@@ -18,7 +18,7 @@ Containers are the basic layout element in Beegrid. You can choose between two t
   </div>
 </div>
 {% highlight html %}
-<div class="grid-contaner">
+<div class="grid-container">
   <!-- Your grid items here -->
 </div>
 {% endhighlight %}
@@ -28,7 +28,7 @@ Containers are the basic layout element in Beegrid. You can choose between two t
   </div>
 </div>
 {% highlight html %}
-<div class="grid-contaner-fluid">
+<div class="grid-container-fluid">
   <!-- Your grid items here -->
 </div>
 {% endhighlight %}
@@ -54,7 +54,7 @@ Beeui grid use a main container, as described before, and its child component re
   </div>
 </div>
 {% highlight html %}
-<div class="grid-contaner-fluid">
+<div class="grid-container-fluid">
   <div class="grid-item">1</div>
   <div class="grid-item">2</div>
   <div class="grid-item">3</div>
@@ -160,7 +160,7 @@ You can specify columns number class on the container. For example if you want a
   </div>
 </div>
 {% highlight html %}
-<div class="grid-contaner-fluid cols-6">
+<div class="grid-container-fluid cols-6">
   <div class="grid-item">1</div>
   <div class="grid-item">2</div>
   <div class="grid-item">3</div>
