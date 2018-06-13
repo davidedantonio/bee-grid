@@ -42,7 +42,7 @@ Have a bug or a feature request? Search for existing and closed issues. If your 
 
 ## Documentation
 
-#### You can find the docs at: <http://bee-grid.io/documentation/1.0/introduction/>
+#### You can find the docs at: <http://beegrid.io/documentation/1.0/introduction/>
 
 Beegrid's documentation, included in this repo in the root directory, is built with [Jekyll](https://jekyllrb.com/) and publicly hosted on GitHub Pages at <https://davidedantonio.github.io/bee-grid/>. The docs may also be run locally.
 
