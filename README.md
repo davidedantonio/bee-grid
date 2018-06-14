@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://davidedantonio.github.io/bee-grid/assets/images/beegrid_icon_teal.png" width=100 />
+  <img src="http://beegrid.io/assets/images/beegrid_icon_teal.png" width=100 />
   <h1>BeeGrid</h1>
   A microframework based on CSS Grid Layout to build various types of grids thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes to organize your content.
 </p>
@@ -48,9 +48,9 @@ Beegrid's documentation, included in this repo in the root directory, is built w
 
 ### Running documentation locally
 
-1. Iinstall Jekyll (the site builder) and other Ruby dependencies with `bundle install`.
+1. Install Jekyll (the site builder) and other Ruby dependencies with `bundle install`.
 2. Run `npm install` to install Node.js dependencies.
-3. Run `npm run test` (or a specific NPM script) to rebuild distributed CSS and JavaScript files, as well as our docs assets.
+3. Run a specific NPM script to rebuild distributed CSS and JavaScript files, as well as our docs assets.
 4. From the root `/bee-grid` directory, run `npm run docs-serve` in the command line.
 5. Open `http://localhost:9001` in your browser, and voilà.
 
