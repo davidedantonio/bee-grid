@@ -14,7 +14,7 @@ redirect_from:
 To install and save in your package.json dependencies, run:
 
 {% highlight sh %}
- npm install @webeetle/bee-grid
+ npm install @beetle/bee-grid
 {% endhighlight %}
 
 # Yarn
@@ -22,7 +22,7 @@ To install and save in your package.json dependencies, run:
 As well as npm to install and save in your package.json dependencies, run:
 
 {% highlight sh %}
- yarn add @webeetle/bee-grid
+ yarn add @beetle/bee-grid
 {% endhighlight %}
 
 # Compiled CSS

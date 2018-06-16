@@ -39,7 +39,7 @@ Copy and paste the stylesheet `<link>` into `<head>` to load Beegrid CSS.
 Alternatively to download you can include BeeGrid in your projects using our CDN repository.
 
 {% highlight html %}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@webeetle/bee-grid@1.0.0/dist/css/bee-grid.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@beetle/bee-grid@1.0.0/dist/css/bee-grid.min.css" />
 {% endhighlight %}
 
 ## Base setup
