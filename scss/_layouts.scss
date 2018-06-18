@@ -14,3 +14,13 @@
     }
   }
 }
+
+@each $breakpoint in map-keys($grid-breakpoints-layouts-mobile) {
+  @include media-breakpoint-down($breakpoint, $grid-breakpoints) {
+    @each $layout-type, $type in map-get($grid-breakpoints-layouts-mobile, $breakpoint) {
+      .layout-#{$layout-type}.--has-navbar {
+        @include make-layout(map-get($type, "grid-template-rows"),map-get($type, "grid-template-columns"),map-get($type, "grid-template-areas"));
+      }
+    }
+  }
+}
