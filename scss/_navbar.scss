@@ -1,6 +1,10 @@
 /**
 NAVBAR MOBILE STYLE
  */
+.--toggler-menu {
+  display: none;
+}
+
 @include media-breakpoint-down(sm) {
   .--has-navbar {
     .--navbar {
@@ -18,14 +22,9 @@ NAVBAR MOBILE STYLE
   }
 
   .--toggler-menu {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 998;
-    padding: 5px;
-    background: #efefef;
-    border: 1px solid #fff;
+    display: inline-block;
   }
+
   .--overlay {
     position: fixed;
     top: 0;

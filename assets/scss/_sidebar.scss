@@ -39,30 +39,6 @@
 
 @include media-breakpoint-down("sm", $grid-breakpoints) {
   .docs-navbar {
-    height: 80px;
-    padding: 10px;
-    overflow: auto;
-    white-space: nowrap;
-    border-right: none;
-    border-bottom: $border-width solid $grey-200;
-
-    .docs-navbar-title {
-      display: none;
-    }
-
-    .docs-navbar-content {
-      ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-
-        > li {
-          display: inline;
-          margin-right: 1.2rem;
-          font-size: 1rem;
-          line-height: 2rem;
-        }
-      }
-    }
+    background: $white;
   }
 }

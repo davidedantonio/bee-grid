@@ -28,12 +28,17 @@
     <section class="layout-2">
       <header class="docs-header docs-background-teal">
         <div class="grid-container-fluid cols-2 cols-sm-2 cols-md-2 cols-lg-2 cols-xl-2 mb-0">
-  <div class="grid-item p-0 justify-content-start align-items-center justify-content-md-center align-items-md-center">
+  <div class="grid-item p-0 align-self-start align-self-center">
+    <a href="#" class="button mobile-button --toggler-menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+    </a>
     <a href="http://beegrid.io">
       <img class="brand" src="/assets/images/beegrid_icon_white.png" />
     </a>
     <ul class="menu">
-  <li><a class="active" href="/documentation/1.0/introduction/">Documentation</a></li>
+  <li>
+    <a class="active" href="/documentation/1.0/introduction/">Documentation</a>
+  </li>
 </ul>
 
   </div>
@@ -51,10 +56,10 @@
 </div>
 
       </header>
-      <nav class="docs-navbar">
+      <nav class="docs-navbar" data-navbar>
         <div class="docs-navbar-title p-1">
   <h2>BeeGrid</h2>
-  <small>1.0.0-rc.2</small>
+  <small>1.0.0-rc.3</small>
 </div>
 <div class="docs-navbar-content p-1">
   <ul>
@@ -75,26 +80,31 @@
 
 <p>To install and save in your package.json dependencies, run:</p>
 
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh"> npm <span class="nb">install</span> @webeetle/bee-grid</code></pre></figure>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"> npm <span class="nb">install</span> @beetle/bee-grid</code></pre></figure>
 
 <h1 id="yarn">Yarn</h1>
 
 <p>As well as npm to install and save in your package.json dependencies, run:</p>
 
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh"> yarn add @webeetle/bee-grid</code></pre></figure>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"> yarn add @beetle/bee-grid</code></pre></figure>
 
 <h1 id="compiled-css">Compiled CSS</h1>
 
-<p>Download ready-to-use compiled code BeeGrid v1.0.0-rc.2 to easily drop into your project, which includes compiled and minified CSS bundles.</p>
+<p>Download ready-to-use compiled code BeeGrid v1.0.0-rc.3 to easily drop into your project, which includes compiled and minified CSS bundles.</p>
 
 <p>This package doesn’t include source files and documentation. Once downloaded, unzip the compressed folder and you’ll see something like this:</p>
 
-<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">bee-grid/
-└── css/
-    ├── bee-grid.css
-    ├── bee-grid.css.map
-    ├── bee-grid.min.css
-    └── bee-grid.min.css.map</code></pre></figure>
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">dist
+ ├── css/
+ │    ├── bee-grid.css
+ │    ├── bee-grid.css.map
+ │    ├── bee-grid.min.css
+ │    └── bee-grid.min.css.map
+ └── js/
+      ├── navbar.js
+      ├── navbar.js.map
+      ├── navbar.min.js
+      └── navbar.min.css.js</code></pre></figure>
 
 <p><a href="https://github.com/davidedantonio/bee-grid/archive/v1.0.0-rc-2.zip" class="button button-teal mb-2">Download</a></p>
 
@@ -138,6 +148,10 @@
       <td><code class="highlighter-rouge">npm run docs-serve</code></td>
       <td>Run the documentation locally at <code class="highlighter-rouge">http://localhost:9001</code>.</td>
     </tr>
+    <tr>
+      <td><code class="highlighter-rouge">npm run build</code></td>
+      <td>Build all CSS and JavaScript files and put them in <code class="highlighter-rouge">dist</code> folder.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -145,5 +159,6 @@
 
       </main>
     </section>
+    <script type="text/javascript" src="/dist/js/navbar.min.js"></script>
   </body>
 </html>

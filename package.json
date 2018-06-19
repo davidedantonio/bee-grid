@@ -6,6 +6,9 @@
   "style": "dist/css/bee-grid.css",
   "sass": "scss/bee-grid.scss",
   "scripts": {
+    "js-compile": "cross-env PLUGINS=true babel js/src/ --out-dir dist/js --source-maps",
+    "js-dist": "cross-env PLUGINS=true babel js/src/ --out-dir js/dist --source-maps",
+    "js-minify": "uglifyjs --compress --comments \"/^!/\" --source-map \"content=dist/js/navbar.js.map,includeSources,url=navbar.min.js.map\" --output dist/js/navbar.min.js dist/js/navbar.js",
     "css": "npm-run-all --parallel css-lint* css-compile* --sequential css-prefix* css-minify*",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bee-grid.scss dist/css/bee-grid.css && node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 assets/scss/docs.scss assets/css/bee-docs.css",
     "css-lint": "stylelint --syntax scss \"scss/**/*.scss\"",
@@ -14,7 +17,8 @@
     "css-minify-docs": "cleancss --level 1 --source-map --source-map-inline-sources --output assets/css/bee-docs.min.css assets/css/bee-docs.css",
     "css-prefix": "postcss --config build/postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.min.css\"",
     "docs-serve": "bundle exec jekyll serve",
-    "watch-css": "nodemon --ignore js/ --ignore dist/ -e scss -x \"npm run css\""
+    "watch-css": "nodemon --ignore js/ --ignore dist/ -e scss -x \"npm run css\"",
+    "build": "npm-run-all css-main js-compile js-minify"
   },
   "keywords": [
     "CSS Grid",
@@ -45,19 +49,23 @@
     "hoek": "^5.0.3"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-istanbul": "^4.1.6",
     "clean-css-cli": "^4.1.11",
+    "cross-env": "^5.2.0",
     "editorconfig": "^0.15.0",
     "eslint": "^4.19.1",
     "eslint-plugin-compat": "^2.2.0",
-    "node-sass": "^4.8.3",
-    "nodemon": "^1.17.2",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
     "npm-run-all": "^4.1.2",
     "postcss-cli": "^5.0.0",
     "stylelint": "^9.1.3",
     "stylelint-config-recommended-scss": "^3.1.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^0.8.1",
-    "stylelint-scss": "^2.5.0"
+    "stylelint-scss": "^2.5.0",
+    "uglifyjs": "^2.4.11"
   },
   "homepage": "https://github.com/davidedantonio/bee-grid#readme",
   "directories": {

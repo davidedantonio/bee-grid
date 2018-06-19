@@ -5,6 +5,16 @@
   border-width: 1px;
   border-radius: 3px;
 
+  &.mobile-button {
+    padding: 0px;
+    border-width: 0px;
+    background: transparent;
+    margin-top: 7px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 7px;
+  }
+
   &.button-block {
     width: 100%;
   }

@@ -28,12 +28,17 @@
     <section class="layout-2">
       <header class="docs-header docs-background-teal">
         <div class="grid-container-fluid cols-2 cols-sm-2 cols-md-2 cols-lg-2 cols-xl-2 mb-0">
-  <div class="grid-item p-0 justify-content-start align-items-center justify-content-md-center align-items-md-center">
+  <div class="grid-item p-0 align-self-start align-self-center">
+    <a href="#" class="button mobile-button --toggler-menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+    </a>
     <a href="http://beegrid.io">
       <img class="brand" src="/assets/images/beegrid_icon_white.png" />
     </a>
     <ul class="menu">
-  <li><a class="active" href="/documentation/1.0/introduction/">Documentation</a></li>
+  <li>
+    <a class="active" href="/documentation/1.0/introduction/">Documentation</a>
+  </li>
 </ul>
 
   </div>
@@ -51,10 +56,10 @@
 </div>
 
       </header>
-      <nav class="docs-navbar">
+      <nav class="docs-navbar" data-navbar>
         <div class="docs-navbar-title p-1">
   <h2>BeeGrid</h2>
-  <small>1.0.0-rc.2</small>
+  <small>1.0.0-rc.3</small>
 </div>
 <div class="docs-navbar-content p-1">
   <ul>
@@ -174,5 +179,6 @@
 
       </main>
     </section>
+    <script type="text/javascript" src="/dist/js/navbar.min.js"></script>
   </body>
 </html>

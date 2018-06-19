@@ -4,8 +4,9 @@
  * Constants
  * ------------------------------------------------------------------------
  */
-const NAME = 'navbar'
-const VERSION = '1.0.0'
+
+const NAME = 'navbar';
+const VERSION = '1.0.0';
 
 const ClassName = {
   OPEN: '--open',
@@ -14,16 +15,16 @@ const ClassName = {
   BUTTON: '--toggler-menu',
   OVERLAY: '--overlay',
   OVERLAYVISIBLE: '--visible'
-}
+};
 
 const Selector = {
   DATA: '[data-navbar]',
   NAVBAR_OPEN: ClassName.NAVBAR + '.open'
-}
+};
 
 const Events = {
-  CLICK:  'click'
-}
+  CLICK: 'click'
+};
 
 class Navbar {
 
@@ -40,10 +41,9 @@ class Navbar {
     // add overlay
     this._overlay = document.createElement('div');
     this._overlay.classList.add(ClassName.OVERLAY);
-    this._overlay.addEventListener(Events.CLICK,
-      function () {
-          self._toggleNavbar(self);
-      });
+    this._overlay.addEventListener(Events.CLICK, function () {
+      self._toggleNavbar(self);
+    });
     document.body.appendChild(this._overlay);
 
     // button to toggle menu
@@ -51,24 +51,24 @@ class Navbar {
 
     // if an element exist add click EVENT
     if (this._button !== null) {
-      this._button.addEventListener(Events.CLICK,
-      function () {
-          self._toggleNavbar(self);
+      this._button.addEventListener(Events.CLICK, function () {
+        self._toggleNavbar(self);
       });
     }
-}
+  }
 
   _toggleNavbar(self) {
-      let navbarEl = self._element;
-      self._overlay.classList.toggle(ClassName.OVERLAYVISIBLE);
-      navbarEl.classList.toggle(ClassName.OPEN)
+    let navbarEl = self._element;
+    self._overlay.classList.toggle(ClassName.OVERLAYVISIBLE);
+    navbarEl.classList.toggle(ClassName.OPEN);
   }
 
   static _getElement() {
-      let navbar = document.querySelector(Selector.DATA);
-      return new Navbar(navbar)
+    let navbar = document.querySelector(Selector.DATA);
+    return new Navbar(navbar);
   }
 
 }
 
 const BGNavbar = Navbar._getElement();
+//# sourceMappingURL=navbar.js.map

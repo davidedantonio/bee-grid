@@ -200,3 +200,26 @@ redirect_from:
   <footer>Footer</footer>
 </div>
 {% endhighlight %}
+
+# Mobile behavior
+
+BeeGrid include a JavaScript plugin called **Navbar**. This plugin allow you to decide if you want a fully CSS Layout or a JavaScript variant.
+This plugin is usable **only** with the layouts with a nav component. If you include a button, or any HTML element, having class `.--toggler-menu` the plugin automatically change the layout default behavior and hide `nav` on small devices. This of course, not before you have included the plugin in your web page before closing the `<body>` tag.
+
+{% highlight html %}
+<body>
+  <div class="layout-2">
+    <header>
+      <a href="#" class="--toggler-menu">
+        Toggle menu
+      </a>
+    </header>
+    <nav>Nav</nav>
+    <main>Main</main>
+  </div>
+
+  <script type="text/javascript" src="dist/js/navbar.min.js"></script>
+</body>
+{% endhighlight %}
+
+If you run this script you'll not see the button on large screens, but only from smaller and below. Just like this web site.

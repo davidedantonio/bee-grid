@@ -28,12 +28,17 @@
     <section class="layout-2">
       <header class="docs-header docs-background-teal">
         <div class="grid-container-fluid cols-2 cols-sm-2 cols-md-2 cols-lg-2 cols-xl-2 mb-0">
-  <div class="grid-item p-0 justify-content-start align-items-center justify-content-md-center align-items-md-center">
+  <div class="grid-item p-0 align-self-start align-self-center">
+    <a href="#" class="button mobile-button --toggler-menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+    </a>
     <a href="http://beegrid.io">
       <img class="brand" src="/assets/images/beegrid_icon_white.png" />
     </a>
     <ul class="menu">
-  <li><a class="active" href="/documentation/1.0/introduction/">Documentation</a></li>
+  <li>
+    <a class="active" href="/documentation/1.0/introduction/">Documentation</a>
+  </li>
 </ul>
 
   </div>
@@ -51,10 +56,10 @@
 </div>
 
       </header>
-      <nav class="docs-navbar">
+      <nav class="docs-navbar" data-navbar>
         <div class="docs-navbar-title p-1">
   <h2>BeeGrid</h2>
-  <small>1.0.0-rc.2</small>
+  <small>1.0.0-rc.3</small>
 </div>
 <div class="docs-navbar-content p-1">
   <ul>
@@ -249,8 +254,29 @@
   <span class="nt">&lt;footer&gt;</span>Footer<span class="nt">&lt;/footer&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
+<h1 id="mobile-behavior">Mobile behavior</h1>
+
+<p>BeeGrid include a JavaScript plugin called <strong>Navbar</strong>. This plugin allow you to decide if you want a fully CSS Layout or a JavaScript variant.
+This plugin is usable <strong>only</strong> with the layouts with a nav component. If you include a button, or any HTML element, having class <code class="highlighter-rouge">.--toggler-menu</code> the plugin automatically change the layout default behavior and hide <code class="highlighter-rouge">nav</code> on small devices. This of course, not before you have included the plugin in your web page before closing the <code class="highlighter-rouge">&lt;body&gt;</code> tag.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"layout-2"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;header&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"--toggler-menu"</span><span class="nt">&gt;</span>
+        Toggle menu
+      <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/header&gt;</span>
+    <span class="nt">&lt;nav&gt;</span>Nav<span class="nt">&lt;/nav&gt;</span>
+    <span class="nt">&lt;main&gt;</span>Main<span class="nt">&lt;/main&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"dist/js/navbar.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+<p>If you run this script you’ll not see the button on large screens, but only from smaller and below. Just like this web site.</p>
 
       </main>
     </section>
+    <script type="text/javascript" src="/dist/js/navbar.min.js"></script>
   </body>
 </html>
