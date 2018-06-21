@@ -38,7 +38,7 @@ twitter:            beegrid
 authors:            "Davide D'Antonio"
 
 # Custom variables
-current_version:      1.0.0
+current_version:      1.0.1
 docs_version:         1.0
 repo:                 "https://github.com/davidedantonio/bee-grid.git"
 github:               "https://github.com/davidedantonio/bee-grid"
