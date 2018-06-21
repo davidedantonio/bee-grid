@@ -23,17 +23,22 @@ Several quick start options are available:
 - Install with [npm](https://www.npmjs.com/): `npm install @webeetle/bee-grid`
 - Install with [yarn](https://yarnpkg.com/): `yarn add @webeetle/bee-grid`
 
-## CSS Files
+## Files
 
 Within the download you'll find the following directories and files, providing both compiled and minified variations. You'll see something like this:
 
 ```
-bee-grid/
-└── css/
-    ├── bee-grid.css
-    ├── bee-grid.css.map
-    ├── bee-grid.min.css
-    └── bee-grid.min.css.map
+dist
+ ├── css/
+ │    ├── bee-grid.css
+ │    ├── bee-grid.css.map
+ │    ├── bee-grid.min.css
+ │    └── bee-grid.min.css.map
+ └── js/
+      ├── navbar.js
+      ├── navbar.js.map
+      ├── navbar.min.js
+      └── navbar.min.css.js
 ```
 
 ## Bugs and feature requests
