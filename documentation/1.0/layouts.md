@@ -9,7 +9,7 @@ redirect_from:
   - /docs/layouts/
 ---
 
-# Compoents Overview
+# Components Overview
 
 - **Layout Container**: in which Header, Nav, Content and Footer can be nested, and can be placed.
 

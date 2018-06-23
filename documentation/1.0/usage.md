@@ -131,10 +131,10 @@ See how aspects of the {{ site.title }} grid system work across multiple devices
     <tr>
       <th class="text-nowrap" scope="row">Grid gap</th>
       <td><code>12px</code></td>
-      <td><code>16px</code></td>
-      <td><code>18px</code></td>
-      <td><code>20px</code></td>
-      <td><code>24px</code></td>
+      <td><code>15px</code></td>
+      <td><code>15px</code></td>
+      <td><code>15px</code></td>
+      <td><code>15px</code></td>
     </tr>
   </tbody>
 </table>
