@@ -1,44 +1,46 @@
 /**
-NAVBAR MOBILE STYLE
+ * NAVBAR MOBILE STYLE
  */
 .--toggler-menu {
   display: none;
 }
 
-@include media-breakpoint-down(sm) {
-  .--has-navbar {
-    .--navbar {
-      position: fixed;
-      top: 0;
-      left: -50vw;
-      width: 50vw;
-      height: 100vh;
-      transition: left .25s ease-in-out;
-      &.--open {
-        left: 0;
-        z-index: 1000;
+@each $breakpoint in map-keys($sidebar-breakpoints) {
+  @include media-breakpoint-down($breakpoint) {
+    .--has-navbar-#{$breakpoint} {
+      .--navbar {
+        position: fixed;
+        top: 0;
+        left: -#{map-get($sidebar-breakpoints, $breakpoint)};
+        width: map-get($sidebar-breakpoints, $breakpoint);
+        height: 100vh;
+        transition: left .25s ease-in-out;
+        &.--open {
+          left: 0;
+          z-index: 1000;
+        }
+      }
+
+      .--toggler-menu {
+        display: inline-block;
       }
     }
-  }
 
-  .--toggler-menu {
-    display: inline-block;
-  }
-
-  .--overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    width: 100vw;
-    height: 100vh;
-    visibility: hidden;
-    background: rgba(0, 0, 0, .4);
-    opacity: 0;
-    transition: all .25s ease-in-out;
-    &.--visible {
-      visibility: visible;
-      opacity: 1;
+    .--overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      width: 100vw;
+      height: 100vh;
+      visibility: hidden;
+      background: rgba(0, 0, 0, .4);
+      opacity: 0;
+      transition: all .25s ease-in-out;
+      &.--visible {
+        visibility: visible;
+        opacity: 1;
+      }
     }
   }
 }

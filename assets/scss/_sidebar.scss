@@ -40,8 +40,6 @@
   // stylelint-enable
 }
 
-@include media-breakpoint-down("sm", $grid-breakpoints) {
-  .docs-navbar {
-    background: $white;
-  }
+.docs-navbar {
+  background: $white;
 }

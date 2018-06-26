@@ -18,6 +18,7 @@ const ClassName = {
 
 const Selector = {
   DATA: '[data-navbar]',
+  DATA_SELECTOR: 'data-navbar',
   NAVBAR_OPEN: ClassName.NAVBAR + '.open'
 }
 
@@ -35,17 +36,21 @@ class Navbar {
     // button to toggle menu
     this._button = document.querySelector('.' + ClassName.BUTTON);
 
+    // if button doesn't exist in the dom don't display
     if (this._element == null) {
       this._button.style.display = 'none';
       return false;
     }
+
+    // Element data-navbar attribute value
+    this._class = element.getAttribute(Selector.DATA_SELECTOR);
 
     // get layout
     this._layout = element.parentNode;
 
     // add classes
     this._element.classList.add(ClassName.NAVBAR);
-    this._layout.classList.add(ClassName.LAYOUT);
+    this._layout.classList.add(ClassName.LAYOUT +'-'+ this._class);
 
     if (this._element != null) {
       // add overlay
@@ -61,11 +66,11 @@ class Navbar {
     // if an element exist add click EVENT
     if (this._button !== null) {
       this._button.addEventListener(Events.CLICK,
-      function () {
-          self._toggleNavbar(self);
-      });
+        function () {
+            self._toggleNavbar(self);
+        });
     }
-}
+  }
 
   _toggleNavbar(self) {
       let navbarEl = self._element;

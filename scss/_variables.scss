@@ -7,7 +7,7 @@
 $white: #fff !default;
 
 // Layouts default values
-$header-height: minmax(56px, auto) !default;
+$header-height: auto !default;
 $footer-height: minmax(max-content, 50px) !default;
 $nav-width: 250px !default;
 $nav-height: minmax(56px, auto) !default;
@@ -27,6 +27,17 @@ $grid-breakpoints: (
   md: 960px,
   lg: 1140px,
   xl: 1280px
+) !default;
+
+// Grid breakpoints sidebar widths
+//
+// Define the maximum dimensions at which your responsive sidebar will change,
+// adapting to different screen sizes, for use in media queries.
+$sidebar-breakpoints: (
+  xl: 300px,
+  lg: 300px,
+  md: 300px,
+  sm: 50vw,
 ) !default;
 
 // Grid widths
@@ -186,6 +197,192 @@ $grid-breakpoints-layouts: (
 
 $grid-breakpoints-layouts-mobile: (
   sm: (
+    1: (
+      grid-template-areas:
+      "head" "main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr
+    ),
+    2: (
+      grid-template-areas:
+      "head" "main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr
+    ),
+    3: (
+      grid-template-areas:
+      "head" "main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr
+    ),
+    4: (
+      grid-template-areas:
+      "head" "main" "foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    ),
+    5: (
+      grid-template-areas:
+      "head" "main" "foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    ),
+    6: (
+      grid-template-areas:
+      "head" "main" "foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    ),
+    7: (
+      grid-template-areas:
+      "head" "main" "aside" "foot",
+      grid-template-rows: $header-height 1fr auto $footer-height,
+      grid-template-columns: 1fr
+    ),
+    8: (
+      grid-template-areas:
+      "head" "main" "aside",
+      grid-template-rows: $header-height 1fr auto,
+      grid-template-columns: 1fr
+    ),
+    9: (
+      grid-template-areas:
+      "head" "main" "aside",
+      grid-template-rows: $header-height 1fr auto,
+      grid-template-columns: 1fr
+    ),
+    10: (
+      grid-template-areas:
+      "head" "main" "aside" "foot",
+      grid-template-rows: $header-height 1fr auto $footer-height,
+      grid-template-columns: 1fr
+    )
+  ),
+  md: (
+    1: (
+      grid-template-areas:
+      "head" "main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr
+    ),
+    2: (
+      grid-template-areas:
+      "head" "main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr
+    ),
+    3: (
+      grid-template-areas:
+      "head" "main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr
+    ),
+    4: (
+      grid-template-areas:
+      "head" "main" "foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    ),
+    5: (
+      grid-template-areas:
+      "head" "main" "foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    ),
+    6: (
+      grid-template-areas:
+      "head" "main" "foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    ),
+    7: (
+      grid-template-areas:
+      "head" "main" "aside" "foot",
+      grid-template-rows: $header-height 1fr auto $footer-height,
+      grid-template-columns: 1fr
+    ),
+    8: (
+      grid-template-areas:
+      "head" "main" "aside",
+      grid-template-rows: $header-height 1fr auto,
+      grid-template-columns: 1fr
+    ),
+    9: (
+      grid-template-areas:
+      "head" "main" "aside",
+      grid-template-rows: $header-height 1fr auto,
+      grid-template-columns: 1fr
+    ),
+    10: (
+      grid-template-areas:
+      "head" "main" "aside" "foot",
+      grid-template-rows: $header-height 1fr auto $footer-height,
+      grid-template-columns: 1fr
+    )
+  ),
+  lg: (
+    1: (
+      grid-template-areas:
+      "head" "main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr
+    ),
+    2: (
+      grid-template-areas:
+      "head" "main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr
+    ),
+    3: (
+      grid-template-areas:
+      "head" "main",
+      grid-template-rows: $header-height 1fr,
+      grid-template-columns: 1fr
+    ),
+    4: (
+      grid-template-areas:
+      "head" "main" "foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    ),
+    5: (
+      grid-template-areas:
+      "head" "main" "foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    ),
+    6: (
+      grid-template-areas:
+      "head" "main" "foot",
+      grid-template-rows: $header-height 1fr $footer-height,
+      grid-template-columns: 1fr
+    ),
+    7: (
+      grid-template-areas:
+      "head" "main" "aside" "foot",
+      grid-template-rows: $header-height 1fr auto $footer-height,
+      grid-template-columns: 1fr
+    ),
+    8: (
+      grid-template-areas:
+      "head" "main" "aside",
+      grid-template-rows: $header-height 1fr auto,
+      grid-template-columns: 1fr
+    ),
+    9: (
+      grid-template-areas:
+      "head" "main" "aside",
+      grid-template-rows: $header-height 1fr auto,
+      grid-template-columns: 1fr
+    ),
+    10: (
+      grid-template-areas:
+      "head" "main" "aside" "foot",
+      grid-template-rows: $header-height 1fr auto $footer-height,
+      grid-template-columns: 1fr
+    )
+  ),
+  xl: (
     1: (
       grid-template-areas:
       "head" "main",

@@ -19,6 +19,7 @@ const ClassName = {
 
 const Selector = {
   DATA: '[data-navbar]',
+  DATA_SELECTOR: 'data-navbar',
   NAVBAR_OPEN: ClassName.NAVBAR + '.open'
 };
 
@@ -41,12 +42,17 @@ class Navbar {
       return false;
     }
 
+    // Element data-navbar attribute value
+    this._class = element.getAttribute(Selector.DATA_SELECTOR);
+
+    console.log(this._class);
+
     // get layout
     this._layout = element.parentNode;
 
     // add classes
     this._element.classList.add(ClassName.NAVBAR);
-    this._layout.classList.add(ClassName.LAYOUT);
+    this._layout.classList.add(ClassName.LAYOUT + '-' + this._class);
 
     if (this._element != null) {
       // add overlay

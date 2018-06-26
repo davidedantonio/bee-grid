@@ -7915,7 +7915,7 @@ body {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-rows: minmax(56px, auto) 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-areas: "head head" "main main";
 }
 
@@ -7962,7 +7962,7 @@ body {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-rows: minmax(56px, auto) 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-columns: 250px 1fr;
   grid-template-areas: "head head" "nav main";
 }
@@ -8010,7 +8010,7 @@ body {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-rows: minmax(56px, auto) 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-columns: 250px 1fr;
   grid-template-areas: "nav head" "nav main";
 }
@@ -8058,7 +8058,7 @@ body {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
+  grid-template-rows: auto 1fr minmax(max-content, 50px);
   grid-template-columns: 250px 1fr;
   grid-template-areas: "head head" "nav main" "foot foot";
 }
@@ -8106,7 +8106,7 @@ body {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
+  grid-template-rows: auto 1fr minmax(max-content, 50px);
   grid-template-columns: 250px 1fr;
   grid-template-areas: "head head" "nav main" "nav foot";
 }
@@ -8154,7 +8154,7 @@ body {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
+  grid-template-rows: auto 1fr minmax(max-content, 50px);
   grid-template-columns: 250px 1fr;
   grid-template-areas: "nav head" "nav main" "nav foot";
 }
@@ -8202,7 +8202,7 @@ body {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
+  grid-template-rows: auto 1fr minmax(max-content, 50px);
   grid-template-columns: 250px 1fr 200px;
   grid-template-areas: "head head head" "nav main aside" "foot foot foot";
 }
@@ -8250,7 +8250,7 @@ body {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-rows: minmax(56px, auto) 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-columns: 250px 1fr 200px;
   grid-template-areas: "head head head" "nav main aside";
 }
@@ -8298,7 +8298,7 @@ body {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-rows: minmax(56px, auto) 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-columns: 250px 1fr 200px;
   grid-template-areas: "nav head head" "nav main aside";
 }
@@ -8346,7 +8346,7 @@ body {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
+  grid-template-rows: auto 1fr minmax(max-content, 50px);
   grid-template-columns: 250px 1fr 200px;
   grid-template-areas: "nav head head" "nav main aside" "nav foot foot";
 }
@@ -8395,7 +8395,7 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main";
   }
@@ -8433,7 +8433,7 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr;
+    grid-template-rows: auto minmax(56px, auto) 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "head" "nav" "main";
   }
@@ -8471,7 +8471,7 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr;
+    grid-template-rows: auto minmax(56px, auto) 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "head" "nav" "main";
   }
@@ -8509,7 +8509,7 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr minmax(max-content, 50px);
+    grid-template-rows: auto minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head" "nav" "main" "foot";
   }
@@ -8547,7 +8547,7 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr minmax(max-content, 50px);
+    grid-template-rows: auto minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head" "nav" "main" "foot";
   }
@@ -8585,7 +8585,7 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr minmax(max-content, 50px);
+    grid-template-rows: auto minmax(56px, auto) 1fr minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head" "nav" "main" "foot";
   }
@@ -8623,7 +8623,7 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr auto minmax(max-content, 50px);
+    grid-template-rows: auto minmax(56px, auto) 1fr auto minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head" "nav" "main" "aside" "foot";
   }
@@ -8661,7 +8661,7 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr auto;
+    grid-template-rows: auto minmax(56px, auto) 1fr auto;
     grid-template-columns: 1fr;
     grid-template-areas: "head" "nav" "main" "aside";
   }
@@ -8699,7 +8699,7 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr auto;
+    grid-template-rows: auto minmax(56px, auto) 1fr auto;
     grid-template-columns: 1fr;
     grid-template-areas: "head" "nav" "main" "aside";
   }
@@ -8737,7 +8737,7 @@ body {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) minmax(56px, auto) 1fr auto minmax(max-content, 50px);
+    grid-template-rows: auto minmax(56px, auto) 1fr auto minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head" "nav" "main" "aside" "foot";
   }
@@ -8774,386 +8774,1632 @@ body {
 }
 
 @media (max-width: 959.98px) {
-  .layout-1.--has-navbar {
+  .layout-1.--has-navbar-sm {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main";
   }
-  .layout-1.--has-navbar header {
+  .layout-1.--has-navbar-sm header {
     grid-area: head;
   }
-  .layout-1.--has-navbar header.fixed {
+  .layout-1.--has-navbar-sm header.fixed {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
   }
-  .layout-1.--has-navbar > nav {
+  .layout-1.--has-navbar-sm > nav {
     grid-area: nav;
   }
-  .layout-1.--has-navbar > nav.overflow-y-auto {
+  .layout-1.--has-navbar-sm > nav.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-1.--has-navbar > aside {
+  .layout-1.--has-navbar-sm > aside {
     grid-area: aside;
   }
-  .layout-1.--has-navbar > aside.overflow-y-auto {
+  .layout-1.--has-navbar-sm > aside.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-1.--has-navbar > main {
+  .layout-1.--has-navbar-sm > main {
     grid-area: main;
   }
-  .layout-1.--has-navbar > main.overflow-y-auto {
+  .layout-1.--has-navbar-sm > main.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-1.--has-navbar > footer {
+  .layout-1.--has-navbar-sm > footer {
     grid-area: foot;
   }
-  .layout-2.--has-navbar {
+  .layout-2.--has-navbar-sm {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main";
   }
-  .layout-2.--has-navbar header {
+  .layout-2.--has-navbar-sm header {
     grid-area: head;
   }
-  .layout-2.--has-navbar header.fixed {
+  .layout-2.--has-navbar-sm header.fixed {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
   }
-  .layout-2.--has-navbar > nav {
+  .layout-2.--has-navbar-sm > nav {
     grid-area: nav;
   }
-  .layout-2.--has-navbar > nav.overflow-y-auto {
+  .layout-2.--has-navbar-sm > nav.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-2.--has-navbar > aside {
+  .layout-2.--has-navbar-sm > aside {
     grid-area: aside;
   }
-  .layout-2.--has-navbar > aside.overflow-y-auto {
+  .layout-2.--has-navbar-sm > aside.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-2.--has-navbar > main {
+  .layout-2.--has-navbar-sm > main {
     grid-area: main;
   }
-  .layout-2.--has-navbar > main.overflow-y-auto {
+  .layout-2.--has-navbar-sm > main.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-2.--has-navbar > footer {
+  .layout-2.--has-navbar-sm > footer {
     grid-area: foot;
   }
-  .layout-3.--has-navbar {
+  .layout-3.--has-navbar-sm {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main";
   }
-  .layout-3.--has-navbar header {
+  .layout-3.--has-navbar-sm header {
     grid-area: head;
   }
-  .layout-3.--has-navbar header.fixed {
+  .layout-3.--has-navbar-sm header.fixed {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
   }
-  .layout-3.--has-navbar > nav {
+  .layout-3.--has-navbar-sm > nav {
     grid-area: nav;
   }
-  .layout-3.--has-navbar > nav.overflow-y-auto {
+  .layout-3.--has-navbar-sm > nav.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-3.--has-navbar > aside {
+  .layout-3.--has-navbar-sm > aside {
     grid-area: aside;
   }
-  .layout-3.--has-navbar > aside.overflow-y-auto {
+  .layout-3.--has-navbar-sm > aside.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-3.--has-navbar > main {
+  .layout-3.--has-navbar-sm > main {
     grid-area: main;
   }
-  .layout-3.--has-navbar > main.overflow-y-auto {
+  .layout-3.--has-navbar-sm > main.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-3.--has-navbar > footer {
+  .layout-3.--has-navbar-sm > footer {
     grid-area: foot;
   }
-  .layout-4.--has-navbar {
+  .layout-4.--has-navbar-sm {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
+    grid-template-rows: auto 1fr minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main" "foot";
   }
-  .layout-4.--has-navbar header {
+  .layout-4.--has-navbar-sm header {
     grid-area: head;
   }
-  .layout-4.--has-navbar header.fixed {
+  .layout-4.--has-navbar-sm header.fixed {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
   }
-  .layout-4.--has-navbar > nav {
+  .layout-4.--has-navbar-sm > nav {
     grid-area: nav;
   }
-  .layout-4.--has-navbar > nav.overflow-y-auto {
+  .layout-4.--has-navbar-sm > nav.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-4.--has-navbar > aside {
+  .layout-4.--has-navbar-sm > aside {
     grid-area: aside;
   }
-  .layout-4.--has-navbar > aside.overflow-y-auto {
+  .layout-4.--has-navbar-sm > aside.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-4.--has-navbar > main {
+  .layout-4.--has-navbar-sm > main {
     grid-area: main;
   }
-  .layout-4.--has-navbar > main.overflow-y-auto {
+  .layout-4.--has-navbar-sm > main.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-4.--has-navbar > footer {
+  .layout-4.--has-navbar-sm > footer {
     grid-area: foot;
   }
-  .layout-5.--has-navbar {
+  .layout-5.--has-navbar-sm {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
+    grid-template-rows: auto 1fr minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main" "foot";
   }
-  .layout-5.--has-navbar header {
+  .layout-5.--has-navbar-sm header {
     grid-area: head;
   }
-  .layout-5.--has-navbar header.fixed {
+  .layout-5.--has-navbar-sm header.fixed {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
   }
-  .layout-5.--has-navbar > nav {
+  .layout-5.--has-navbar-sm > nav {
     grid-area: nav;
   }
-  .layout-5.--has-navbar > nav.overflow-y-auto {
+  .layout-5.--has-navbar-sm > nav.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-5.--has-navbar > aside {
+  .layout-5.--has-navbar-sm > aside {
     grid-area: aside;
   }
-  .layout-5.--has-navbar > aside.overflow-y-auto {
+  .layout-5.--has-navbar-sm > aside.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-5.--has-navbar > main {
+  .layout-5.--has-navbar-sm > main {
     grid-area: main;
   }
-  .layout-5.--has-navbar > main.overflow-y-auto {
+  .layout-5.--has-navbar-sm > main.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-5.--has-navbar > footer {
+  .layout-5.--has-navbar-sm > footer {
     grid-area: foot;
   }
-  .layout-6.--has-navbar {
+  .layout-6.--has-navbar-sm {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr minmax(max-content, 50px);
+    grid-template-rows: auto 1fr minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main" "foot";
   }
-  .layout-6.--has-navbar header {
+  .layout-6.--has-navbar-sm header {
     grid-area: head;
   }
-  .layout-6.--has-navbar header.fixed {
+  .layout-6.--has-navbar-sm header.fixed {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
   }
-  .layout-6.--has-navbar > nav {
+  .layout-6.--has-navbar-sm > nav {
     grid-area: nav;
   }
-  .layout-6.--has-navbar > nav.overflow-y-auto {
+  .layout-6.--has-navbar-sm > nav.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-6.--has-navbar > aside {
+  .layout-6.--has-navbar-sm > aside {
     grid-area: aside;
   }
-  .layout-6.--has-navbar > aside.overflow-y-auto {
+  .layout-6.--has-navbar-sm > aside.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-6.--has-navbar > main {
+  .layout-6.--has-navbar-sm > main {
     grid-area: main;
   }
-  .layout-6.--has-navbar > main.overflow-y-auto {
+  .layout-6.--has-navbar-sm > main.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-6.--has-navbar > footer {
+  .layout-6.--has-navbar-sm > footer {
     grid-area: foot;
   }
-  .layout-7.--has-navbar {
+  .layout-7.--has-navbar-sm {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr auto minmax(max-content, 50px);
+    grid-template-rows: auto 1fr auto minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main" "aside" "foot";
   }
-  .layout-7.--has-navbar header {
+  .layout-7.--has-navbar-sm header {
     grid-area: head;
   }
-  .layout-7.--has-navbar header.fixed {
+  .layout-7.--has-navbar-sm header.fixed {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
   }
-  .layout-7.--has-navbar > nav {
+  .layout-7.--has-navbar-sm > nav {
     grid-area: nav;
   }
-  .layout-7.--has-navbar > nav.overflow-y-auto {
+  .layout-7.--has-navbar-sm > nav.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-7.--has-navbar > aside {
+  .layout-7.--has-navbar-sm > aside {
     grid-area: aside;
   }
-  .layout-7.--has-navbar > aside.overflow-y-auto {
+  .layout-7.--has-navbar-sm > aside.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-7.--has-navbar > main {
+  .layout-7.--has-navbar-sm > main {
     grid-area: main;
   }
-  .layout-7.--has-navbar > main.overflow-y-auto {
+  .layout-7.--has-navbar-sm > main.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-7.--has-navbar > footer {
+  .layout-7.--has-navbar-sm > footer {
     grid-area: foot;
   }
-  .layout-8.--has-navbar {
+  .layout-8.--has-navbar-sm {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr auto;
+    grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main" "aside";
   }
-  .layout-8.--has-navbar header {
+  .layout-8.--has-navbar-sm header {
     grid-area: head;
   }
-  .layout-8.--has-navbar header.fixed {
+  .layout-8.--has-navbar-sm header.fixed {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
   }
-  .layout-8.--has-navbar > nav {
+  .layout-8.--has-navbar-sm > nav {
     grid-area: nav;
   }
-  .layout-8.--has-navbar > nav.overflow-y-auto {
+  .layout-8.--has-navbar-sm > nav.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-8.--has-navbar > aside {
+  .layout-8.--has-navbar-sm > aside {
     grid-area: aside;
   }
-  .layout-8.--has-navbar > aside.overflow-y-auto {
+  .layout-8.--has-navbar-sm > aside.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-8.--has-navbar > main {
+  .layout-8.--has-navbar-sm > main {
     grid-area: main;
   }
-  .layout-8.--has-navbar > main.overflow-y-auto {
+  .layout-8.--has-navbar-sm > main.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-8.--has-navbar > footer {
+  .layout-8.--has-navbar-sm > footer {
     grid-area: foot;
   }
-  .layout-9.--has-navbar {
+  .layout-9.--has-navbar-sm {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr auto;
+    grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main" "aside";
   }
-  .layout-9.--has-navbar header {
+  .layout-9.--has-navbar-sm header {
     grid-area: head;
   }
-  .layout-9.--has-navbar header.fixed {
+  .layout-9.--has-navbar-sm header.fixed {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
   }
-  .layout-9.--has-navbar > nav {
+  .layout-9.--has-navbar-sm > nav {
     grid-area: nav;
   }
-  .layout-9.--has-navbar > nav.overflow-y-auto {
+  .layout-9.--has-navbar-sm > nav.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-9.--has-navbar > aside {
+  .layout-9.--has-navbar-sm > aside {
     grid-area: aside;
   }
-  .layout-9.--has-navbar > aside.overflow-y-auto {
+  .layout-9.--has-navbar-sm > aside.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-9.--has-navbar > main {
+  .layout-9.--has-navbar-sm > main {
     grid-area: main;
   }
-  .layout-9.--has-navbar > main.overflow-y-auto {
+  .layout-9.--has-navbar-sm > main.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-9.--has-navbar > footer {
+  .layout-9.--has-navbar-sm > footer {
     grid-area: foot;
   }
-  .layout-10.--has-navbar {
+  .layout-10.--has-navbar-sm {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-rows: minmax(56px, auto) 1fr auto minmax(max-content, 50px);
+    grid-template-rows: auto 1fr auto minmax(max-content, 50px);
     grid-template-columns: 1fr;
     grid-template-areas: "head" "main" "aside" "foot";
   }
-  .layout-10.--has-navbar header {
+  .layout-10.--has-navbar-sm header {
     grid-area: head;
   }
-  .layout-10.--has-navbar header.fixed {
+  .layout-10.--has-navbar-sm header.fixed {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
   }
-  .layout-10.--has-navbar > nav {
+  .layout-10.--has-navbar-sm > nav {
     grid-area: nav;
   }
-  .layout-10.--has-navbar > nav.overflow-y-auto {
+  .layout-10.--has-navbar-sm > nav.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-10.--has-navbar > aside {
+  .layout-10.--has-navbar-sm > aside {
     grid-area: aside;
   }
-  .layout-10.--has-navbar > aside.overflow-y-auto {
+  .layout-10.--has-navbar-sm > aside.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-10.--has-navbar > main {
+  .layout-10.--has-navbar-sm > main {
     grid-area: main;
   }
-  .layout-10.--has-navbar > main.overflow-y-auto {
+  .layout-10.--has-navbar-sm > main.overflow-y-auto {
     overflow-y: auto;
   }
-  .layout-10.--has-navbar > footer {
+  .layout-10.--has-navbar-sm > footer {
     grid-area: foot;
   }
+}
+
+@media (max-width: 1139.98px) {
+  .layout-1.--has-navbar-md {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main";
+  }
+  .layout-1.--has-navbar-md header {
+    grid-area: head;
+  }
+  .layout-1.--has-navbar-md header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-1.--has-navbar-md > nav {
+    grid-area: nav;
+  }
+  .layout-1.--has-navbar-md > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-1.--has-navbar-md > aside {
+    grid-area: aside;
+  }
+  .layout-1.--has-navbar-md > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-1.--has-navbar-md > main {
+    grid-area: main;
+  }
+  .layout-1.--has-navbar-md > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-1.--has-navbar-md > footer {
+    grid-area: foot;
+  }
+  .layout-2.--has-navbar-md {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main";
+  }
+  .layout-2.--has-navbar-md header {
+    grid-area: head;
+  }
+  .layout-2.--has-navbar-md header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-2.--has-navbar-md > nav {
+    grid-area: nav;
+  }
+  .layout-2.--has-navbar-md > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-2.--has-navbar-md > aside {
+    grid-area: aside;
+  }
+  .layout-2.--has-navbar-md > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-2.--has-navbar-md > main {
+    grid-area: main;
+  }
+  .layout-2.--has-navbar-md > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-2.--has-navbar-md > footer {
+    grid-area: foot;
+  }
+  .layout-3.--has-navbar-md {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main";
+  }
+  .layout-3.--has-navbar-md header {
+    grid-area: head;
+  }
+  .layout-3.--has-navbar-md header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-3.--has-navbar-md > nav {
+    grid-area: nav;
+  }
+  .layout-3.--has-navbar-md > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-3.--has-navbar-md > aside {
+    grid-area: aside;
+  }
+  .layout-3.--has-navbar-md > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-3.--has-navbar-md > main {
+    grid-area: main;
+  }
+  .layout-3.--has-navbar-md > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-3.--has-navbar-md > footer {
+    grid-area: foot;
+  }
+  .layout-4.--has-navbar-md {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "foot";
+  }
+  .layout-4.--has-navbar-md header {
+    grid-area: head;
+  }
+  .layout-4.--has-navbar-md header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-4.--has-navbar-md > nav {
+    grid-area: nav;
+  }
+  .layout-4.--has-navbar-md > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-4.--has-navbar-md > aside {
+    grid-area: aside;
+  }
+  .layout-4.--has-navbar-md > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-4.--has-navbar-md > main {
+    grid-area: main;
+  }
+  .layout-4.--has-navbar-md > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-4.--has-navbar-md > footer {
+    grid-area: foot;
+  }
+  .layout-5.--has-navbar-md {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "foot";
+  }
+  .layout-5.--has-navbar-md header {
+    grid-area: head;
+  }
+  .layout-5.--has-navbar-md header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-5.--has-navbar-md > nav {
+    grid-area: nav;
+  }
+  .layout-5.--has-navbar-md > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-5.--has-navbar-md > aside {
+    grid-area: aside;
+  }
+  .layout-5.--has-navbar-md > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-5.--has-navbar-md > main {
+    grid-area: main;
+  }
+  .layout-5.--has-navbar-md > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-5.--has-navbar-md > footer {
+    grid-area: foot;
+  }
+  .layout-6.--has-navbar-md {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "foot";
+  }
+  .layout-6.--has-navbar-md header {
+    grid-area: head;
+  }
+  .layout-6.--has-navbar-md header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-6.--has-navbar-md > nav {
+    grid-area: nav;
+  }
+  .layout-6.--has-navbar-md > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-6.--has-navbar-md > aside {
+    grid-area: aside;
+  }
+  .layout-6.--has-navbar-md > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-6.--has-navbar-md > main {
+    grid-area: main;
+  }
+  .layout-6.--has-navbar-md > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-6.--has-navbar-md > footer {
+    grid-area: foot;
+  }
+  .layout-7.--has-navbar-md {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "aside" "foot";
+  }
+  .layout-7.--has-navbar-md header {
+    grid-area: head;
+  }
+  .layout-7.--has-navbar-md header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-7.--has-navbar-md > nav {
+    grid-area: nav;
+  }
+  .layout-7.--has-navbar-md > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-7.--has-navbar-md > aside {
+    grid-area: aside;
+  }
+  .layout-7.--has-navbar-md > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-7.--has-navbar-md > main {
+    grid-area: main;
+  }
+  .layout-7.--has-navbar-md > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-7.--has-navbar-md > footer {
+    grid-area: foot;
+  }
+  .layout-8.--has-navbar-md {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "aside";
+  }
+  .layout-8.--has-navbar-md header {
+    grid-area: head;
+  }
+  .layout-8.--has-navbar-md header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-8.--has-navbar-md > nav {
+    grid-area: nav;
+  }
+  .layout-8.--has-navbar-md > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-8.--has-navbar-md > aside {
+    grid-area: aside;
+  }
+  .layout-8.--has-navbar-md > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-8.--has-navbar-md > main {
+    grid-area: main;
+  }
+  .layout-8.--has-navbar-md > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-8.--has-navbar-md > footer {
+    grid-area: foot;
+  }
+  .layout-9.--has-navbar-md {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "aside";
+  }
+  .layout-9.--has-navbar-md header {
+    grid-area: head;
+  }
+  .layout-9.--has-navbar-md header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-9.--has-navbar-md > nav {
+    grid-area: nav;
+  }
+  .layout-9.--has-navbar-md > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-9.--has-navbar-md > aside {
+    grid-area: aside;
+  }
+  .layout-9.--has-navbar-md > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-9.--has-navbar-md > main {
+    grid-area: main;
+  }
+  .layout-9.--has-navbar-md > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-9.--has-navbar-md > footer {
+    grid-area: foot;
+  }
+  .layout-10.--has-navbar-md {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "aside" "foot";
+  }
+  .layout-10.--has-navbar-md header {
+    grid-area: head;
+  }
+  .layout-10.--has-navbar-md header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-10.--has-navbar-md > nav {
+    grid-area: nav;
+  }
+  .layout-10.--has-navbar-md > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-10.--has-navbar-md > aside {
+    grid-area: aside;
+  }
+  .layout-10.--has-navbar-md > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-10.--has-navbar-md > main {
+    grid-area: main;
+  }
+  .layout-10.--has-navbar-md > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-10.--has-navbar-md > footer {
+    grid-area: foot;
+  }
+}
+
+@media (max-width: 1279.98px) {
+  .layout-1.--has-navbar-lg {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main";
+  }
+  .layout-1.--has-navbar-lg header {
+    grid-area: head;
+  }
+  .layout-1.--has-navbar-lg header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-1.--has-navbar-lg > nav {
+    grid-area: nav;
+  }
+  .layout-1.--has-navbar-lg > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-1.--has-navbar-lg > aside {
+    grid-area: aside;
+  }
+  .layout-1.--has-navbar-lg > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-1.--has-navbar-lg > main {
+    grid-area: main;
+  }
+  .layout-1.--has-navbar-lg > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-1.--has-navbar-lg > footer {
+    grid-area: foot;
+  }
+  .layout-2.--has-navbar-lg {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main";
+  }
+  .layout-2.--has-navbar-lg header {
+    grid-area: head;
+  }
+  .layout-2.--has-navbar-lg header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-2.--has-navbar-lg > nav {
+    grid-area: nav;
+  }
+  .layout-2.--has-navbar-lg > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-2.--has-navbar-lg > aside {
+    grid-area: aside;
+  }
+  .layout-2.--has-navbar-lg > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-2.--has-navbar-lg > main {
+    grid-area: main;
+  }
+  .layout-2.--has-navbar-lg > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-2.--has-navbar-lg > footer {
+    grid-area: foot;
+  }
+  .layout-3.--has-navbar-lg {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main";
+  }
+  .layout-3.--has-navbar-lg header {
+    grid-area: head;
+  }
+  .layout-3.--has-navbar-lg header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-3.--has-navbar-lg > nav {
+    grid-area: nav;
+  }
+  .layout-3.--has-navbar-lg > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-3.--has-navbar-lg > aside {
+    grid-area: aside;
+  }
+  .layout-3.--has-navbar-lg > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-3.--has-navbar-lg > main {
+    grid-area: main;
+  }
+  .layout-3.--has-navbar-lg > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-3.--has-navbar-lg > footer {
+    grid-area: foot;
+  }
+  .layout-4.--has-navbar-lg {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "foot";
+  }
+  .layout-4.--has-navbar-lg header {
+    grid-area: head;
+  }
+  .layout-4.--has-navbar-lg header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-4.--has-navbar-lg > nav {
+    grid-area: nav;
+  }
+  .layout-4.--has-navbar-lg > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-4.--has-navbar-lg > aside {
+    grid-area: aside;
+  }
+  .layout-4.--has-navbar-lg > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-4.--has-navbar-lg > main {
+    grid-area: main;
+  }
+  .layout-4.--has-navbar-lg > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-4.--has-navbar-lg > footer {
+    grid-area: foot;
+  }
+  .layout-5.--has-navbar-lg {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "foot";
+  }
+  .layout-5.--has-navbar-lg header {
+    grid-area: head;
+  }
+  .layout-5.--has-navbar-lg header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-5.--has-navbar-lg > nav {
+    grid-area: nav;
+  }
+  .layout-5.--has-navbar-lg > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-5.--has-navbar-lg > aside {
+    grid-area: aside;
+  }
+  .layout-5.--has-navbar-lg > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-5.--has-navbar-lg > main {
+    grid-area: main;
+  }
+  .layout-5.--has-navbar-lg > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-5.--has-navbar-lg > footer {
+    grid-area: foot;
+  }
+  .layout-6.--has-navbar-lg {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "foot";
+  }
+  .layout-6.--has-navbar-lg header {
+    grid-area: head;
+  }
+  .layout-6.--has-navbar-lg header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-6.--has-navbar-lg > nav {
+    grid-area: nav;
+  }
+  .layout-6.--has-navbar-lg > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-6.--has-navbar-lg > aside {
+    grid-area: aside;
+  }
+  .layout-6.--has-navbar-lg > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-6.--has-navbar-lg > main {
+    grid-area: main;
+  }
+  .layout-6.--has-navbar-lg > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-6.--has-navbar-lg > footer {
+    grid-area: foot;
+  }
+  .layout-7.--has-navbar-lg {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "aside" "foot";
+  }
+  .layout-7.--has-navbar-lg header {
+    grid-area: head;
+  }
+  .layout-7.--has-navbar-lg header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-7.--has-navbar-lg > nav {
+    grid-area: nav;
+  }
+  .layout-7.--has-navbar-lg > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-7.--has-navbar-lg > aside {
+    grid-area: aside;
+  }
+  .layout-7.--has-navbar-lg > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-7.--has-navbar-lg > main {
+    grid-area: main;
+  }
+  .layout-7.--has-navbar-lg > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-7.--has-navbar-lg > footer {
+    grid-area: foot;
+  }
+  .layout-8.--has-navbar-lg {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "aside";
+  }
+  .layout-8.--has-navbar-lg header {
+    grid-area: head;
+  }
+  .layout-8.--has-navbar-lg header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-8.--has-navbar-lg > nav {
+    grid-area: nav;
+  }
+  .layout-8.--has-navbar-lg > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-8.--has-navbar-lg > aside {
+    grid-area: aside;
+  }
+  .layout-8.--has-navbar-lg > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-8.--has-navbar-lg > main {
+    grid-area: main;
+  }
+  .layout-8.--has-navbar-lg > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-8.--has-navbar-lg > footer {
+    grid-area: foot;
+  }
+  .layout-9.--has-navbar-lg {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "aside";
+  }
+  .layout-9.--has-navbar-lg header {
+    grid-area: head;
+  }
+  .layout-9.--has-navbar-lg header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-9.--has-navbar-lg > nav {
+    grid-area: nav;
+  }
+  .layout-9.--has-navbar-lg > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-9.--has-navbar-lg > aside {
+    grid-area: aside;
+  }
+  .layout-9.--has-navbar-lg > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-9.--has-navbar-lg > main {
+    grid-area: main;
+  }
+  .layout-9.--has-navbar-lg > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-9.--has-navbar-lg > footer {
+    grid-area: foot;
+  }
+  .layout-10.--has-navbar-lg {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto minmax(max-content, 50px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "main" "aside" "foot";
+  }
+  .layout-10.--has-navbar-lg header {
+    grid-area: head;
+  }
+  .layout-10.--has-navbar-lg header.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .layout-10.--has-navbar-lg > nav {
+    grid-area: nav;
+  }
+  .layout-10.--has-navbar-lg > nav.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-10.--has-navbar-lg > aside {
+    grid-area: aside;
+  }
+  .layout-10.--has-navbar-lg > aside.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-10.--has-navbar-lg > main {
+    grid-area: main;
+  }
+  .layout-10.--has-navbar-lg > main.overflow-y-auto {
+    overflow-y: auto;
+  }
+  .layout-10.--has-navbar-lg > footer {
+    grid-area: foot;
+  }
+}
+
+.layout-1.--has-navbar-xl {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main";
+}
+
+.layout-1.--has-navbar-xl header {
+  grid-area: head;
+}
+
+.layout-1.--has-navbar-xl header.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.layout-1.--has-navbar-xl > nav {
+  grid-area: nav;
+}
+
+.layout-1.--has-navbar-xl > nav.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-1.--has-navbar-xl > aside {
+  grid-area: aside;
+}
+
+.layout-1.--has-navbar-xl > aside.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-1.--has-navbar-xl > main {
+  grid-area: main;
+}
+
+.layout-1.--has-navbar-xl > main.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-1.--has-navbar-xl > footer {
+  grid-area: foot;
+}
+
+.layout-2.--has-navbar-xl {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main";
+}
+
+.layout-2.--has-navbar-xl header {
+  grid-area: head;
+}
+
+.layout-2.--has-navbar-xl header.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.layout-2.--has-navbar-xl > nav {
+  grid-area: nav;
+}
+
+.layout-2.--has-navbar-xl > nav.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-2.--has-navbar-xl > aside {
+  grid-area: aside;
+}
+
+.layout-2.--has-navbar-xl > aside.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-2.--has-navbar-xl > main {
+  grid-area: main;
+}
+
+.layout-2.--has-navbar-xl > main.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-2.--has-navbar-xl > footer {
+  grid-area: foot;
+}
+
+.layout-3.--has-navbar-xl {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main";
+}
+
+.layout-3.--has-navbar-xl header {
+  grid-area: head;
+}
+
+.layout-3.--has-navbar-xl header.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.layout-3.--has-navbar-xl > nav {
+  grid-area: nav;
+}
+
+.layout-3.--has-navbar-xl > nav.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-3.--has-navbar-xl > aside {
+  grid-area: aside;
+}
+
+.layout-3.--has-navbar-xl > aside.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-3.--has-navbar-xl > main {
+  grid-area: main;
+}
+
+.layout-3.--has-navbar-xl > main.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-3.--has-navbar-xl > footer {
+  grid-area: foot;
+}
+
+.layout-4.--has-navbar-xl {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: auto 1fr minmax(max-content, 50px);
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main" "foot";
+}
+
+.layout-4.--has-navbar-xl header {
+  grid-area: head;
+}
+
+.layout-4.--has-navbar-xl header.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.layout-4.--has-navbar-xl > nav {
+  grid-area: nav;
+}
+
+.layout-4.--has-navbar-xl > nav.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-4.--has-navbar-xl > aside {
+  grid-area: aside;
+}
+
+.layout-4.--has-navbar-xl > aside.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-4.--has-navbar-xl > main {
+  grid-area: main;
+}
+
+.layout-4.--has-navbar-xl > main.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-4.--has-navbar-xl > footer {
+  grid-area: foot;
+}
+
+.layout-5.--has-navbar-xl {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: auto 1fr minmax(max-content, 50px);
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main" "foot";
+}
+
+.layout-5.--has-navbar-xl header {
+  grid-area: head;
+}
+
+.layout-5.--has-navbar-xl header.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.layout-5.--has-navbar-xl > nav {
+  grid-area: nav;
+}
+
+.layout-5.--has-navbar-xl > nav.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-5.--has-navbar-xl > aside {
+  grid-area: aside;
+}
+
+.layout-5.--has-navbar-xl > aside.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-5.--has-navbar-xl > main {
+  grid-area: main;
+}
+
+.layout-5.--has-navbar-xl > main.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-5.--has-navbar-xl > footer {
+  grid-area: foot;
+}
+
+.layout-6.--has-navbar-xl {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: auto 1fr minmax(max-content, 50px);
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main" "foot";
+}
+
+.layout-6.--has-navbar-xl header {
+  grid-area: head;
+}
+
+.layout-6.--has-navbar-xl header.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.layout-6.--has-navbar-xl > nav {
+  grid-area: nav;
+}
+
+.layout-6.--has-navbar-xl > nav.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-6.--has-navbar-xl > aside {
+  grid-area: aside;
+}
+
+.layout-6.--has-navbar-xl > aside.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-6.--has-navbar-xl > main {
+  grid-area: main;
+}
+
+.layout-6.--has-navbar-xl > main.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-6.--has-navbar-xl > footer {
+  grid-area: foot;
+}
+
+.layout-7.--has-navbar-xl {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto minmax(max-content, 50px);
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main" "aside" "foot";
+}
+
+.layout-7.--has-navbar-xl header {
+  grid-area: head;
+}
+
+.layout-7.--has-navbar-xl header.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.layout-7.--has-navbar-xl > nav {
+  grid-area: nav;
+}
+
+.layout-7.--has-navbar-xl > nav.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-7.--has-navbar-xl > aside {
+  grid-area: aside;
+}
+
+.layout-7.--has-navbar-xl > aside.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-7.--has-navbar-xl > main {
+  grid-area: main;
+}
+
+.layout-7.--has-navbar-xl > main.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-7.--has-navbar-xl > footer {
+  grid-area: foot;
+}
+
+.layout-8.--has-navbar-xl {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main" "aside";
+}
+
+.layout-8.--has-navbar-xl header {
+  grid-area: head;
+}
+
+.layout-8.--has-navbar-xl header.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.layout-8.--has-navbar-xl > nav {
+  grid-area: nav;
+}
+
+.layout-8.--has-navbar-xl > nav.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-8.--has-navbar-xl > aside {
+  grid-area: aside;
+}
+
+.layout-8.--has-navbar-xl > aside.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-8.--has-navbar-xl > main {
+  grid-area: main;
+}
+
+.layout-8.--has-navbar-xl > main.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-8.--has-navbar-xl > footer {
+  grid-area: foot;
+}
+
+.layout-9.--has-navbar-xl {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main" "aside";
+}
+
+.layout-9.--has-navbar-xl header {
+  grid-area: head;
+}
+
+.layout-9.--has-navbar-xl header.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.layout-9.--has-navbar-xl > nav {
+  grid-area: nav;
+}
+
+.layout-9.--has-navbar-xl > nav.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-9.--has-navbar-xl > aside {
+  grid-area: aside;
+}
+
+.layout-9.--has-navbar-xl > aside.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-9.--has-navbar-xl > main {
+  grid-area: main;
+}
+
+.layout-9.--has-navbar-xl > main.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-9.--has-navbar-xl > footer {
+  grid-area: foot;
+}
+
+.layout-10.--has-navbar-xl {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto minmax(max-content, 50px);
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main" "aside" "foot";
+}
+
+.layout-10.--has-navbar-xl header {
+  grid-area: head;
+}
+
+.layout-10.--has-navbar-xl header.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.layout-10.--has-navbar-xl > nav {
+  grid-area: nav;
+}
+
+.layout-10.--has-navbar-xl > nav.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-10.--has-navbar-xl > aside {
+  grid-area: aside;
+}
+
+.layout-10.--has-navbar-xl > aside.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-10.--has-navbar-xl > main {
+  grid-area: main;
+}
+
+.layout-10.--has-navbar-xl > main.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.layout-10.--has-navbar-xl > footer {
+  grid-area: foot;
 }
 
 .grid-item.align-self-auto {
@@ -9409,14 +10655,118 @@ body {
 }
 
 /**
-NAVBAR MOBILE STYLE
+ * NAVBAR MOBILE STYLE
  */
 .--toggler-menu {
   display: none;
 }
 
+.--has-navbar-xl .--navbar {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100vh;
+  transition: left .25s ease-in-out;
+}
+
+.--has-navbar-xl .--navbar.--open {
+  left: 0;
+  z-index: 1000;
+}
+
+.--has-navbar-xl .--toggler-menu {
+  display: inline-block;
+}
+
+.--overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: all .25s ease-in-out;
+}
+
+.--overlay.--visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 1279.98px) {
+  .--has-navbar-lg .--navbar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100vh;
+    transition: left .25s ease-in-out;
+  }
+  .--has-navbar-lg .--navbar.--open {
+    left: 0;
+    z-index: 1000;
+  }
+  .--has-navbar-lg .--toggler-menu {
+    display: inline-block;
+  }
+  .--overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: all .25s ease-in-out;
+  }
+  .--overlay.--visible {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1139.98px) {
+  .--has-navbar-md .--navbar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100vh;
+    transition: left .25s ease-in-out;
+  }
+  .--has-navbar-md .--navbar.--open {
+    left: 0;
+    z-index: 1000;
+  }
+  .--has-navbar-md .--toggler-menu {
+    display: inline-block;
+  }
+  .--overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: all .25s ease-in-out;
+  }
+  .--overlay.--visible {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
 @media (max-width: 959.98px) {
-  .--has-navbar .--navbar {
+  .--has-navbar-sm .--navbar {
     position: fixed;
     top: 0;
     left: -50vw;
@@ -9424,11 +10774,11 @@ NAVBAR MOBILE STYLE
     height: 100vh;
     transition: left .25s ease-in-out;
   }
-  .--has-navbar .--navbar.--open {
+  .--has-navbar-sm .--navbar.--open {
     left: 0;
     z-index: 1000;
   }
-  .--toggler-menu {
+  .--has-navbar-sm .--toggler-menu {
     display: inline-block;
   }
   .--overlay {
@@ -11918,10 +13268,8 @@ pre[class*="language-"] {
   text-decoration: none;
 }
 
-@media (max-width: 959.98px) {
-  .docs-navbar {
-    background: #fff;
-  }
+.docs-navbar {
+  background: #fff;
 }
 
 .page-title {
