@@ -37,6 +37,7 @@ class Navbar {
     // button to toggle menu
     this._button = document.querySelector('.' + ClassName.BUTTON);
 
+    // if button doesn't exist in the dom don't display
     if (this._element == null) {
       this._button.style.display = 'none';
       return false;
@@ -44,8 +45,6 @@ class Navbar {
 
     // Element data-navbar attribute value
     this._class = element.getAttribute(Selector.DATA_SELECTOR);
-
-    console.log(this._class);
 
     // get layout
     this._layout = element.parentNode;
