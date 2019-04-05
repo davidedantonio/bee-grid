@@ -4,8 +4,8 @@ title: Customize
 description: You can use Sass variables and mixins to create custom, and responsive layouts
 redirect_from:
   - /docs/
-  - /docs/1.0/
-  - /docs/1.0/introduction/
+  - /docs/{{site.current_version}}/
+  - /docs/{{site.current_version}}/introduction/
   - /docs/introduction/
 ---
 

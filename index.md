@@ -27,7 +27,7 @@ layout: home
     {% endhighlight %}
 
     {% highlight sh %}
-    npm install @beetle/bee-grid -v1.0.1
+    npm install @beetle/bee-grid -v{{ site.current_version }}
     {% endhighlight %}
     <p>Or use <a href="https://yarnpkg.com/lang/en/" target="_blank">yarn</a>.</p>
     {% highlight sh %}
@@ -42,7 +42,7 @@ layout: home
       {% endhighlight %}
       <p>or use CDN</p>
       {% highlight html %}
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@beetle/bee-grid@1.0.4/dist/css/bee-grid.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@beetle/bee-grid@{{ site.current_version }}/dist/css/bee-grid.min.css" />
       {% endhighlight %}
   </div>
   <div class="grid-item">

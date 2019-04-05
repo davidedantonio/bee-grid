@@ -4,8 +4,8 @@ title: Introduction
 description: A microframework based on CSS Grid Layout specs to build various types of grids thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes to organize your content.
 redirect_from:
   - /docs/
-  - /docs/1.0/
-  - /docs/1.0/introduction/
+  - /docs/site.current_version/
+  - /docs/site.current_version/introduction/
   - /docs/introduction/
 ---
 

@@ -1,6 +1,6 @@
 {
   "name": "@beetle/bee-grid",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A microframework based on CSS Grid Layout to build various types of grids thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes to organize your content.",
   "main": "index.js",
   "style": "dist/css/bee-grid.css",
@@ -45,28 +45,27 @@
   "engines": {
     "node": ">=6"
   },
-  "dependencies": {
-    "hoek": "^5.0.3"
-  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-plugin-istanbul": "^4.1.6",
-    "clean-css-cli": "^4.1.11",
+    "babel-plugin-istanbul": "^5.1.1",
+    "clean-css-cli": "^4.2.1",
     "cross-env": "^5.2.0",
-    "editorconfig": "^0.15.0",
-    "eslint": "^4.19.1",
-    "eslint-plugin-compat": "^2.2.0",
-    "node-sass": "^4.9.3",
-    "nodemon": "^1.17.5",
-    "npm-run-all": "^4.1.2",
-    "postcss-cli": "^5.0.0",
-    "stylelint": "^9.1.3",
-    "stylelint-config-recommended-scss": "^3.1.0",
+    "editorconfig": "^0.15.3",
+    "eslint": "^5.15.2",
+    "eslint-plugin-compat": "^3.0.1",
+    "hoek": "^5.0.3",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.2",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended-scss": "^3.2.0",
     "stylelint-config-standard": "^18.2.0",
-    "stylelint-order": "^0.8.1",
-    "stylelint-scss": "^2.5.0",
-    "uglifyjs": "^2.4.11"
+    "stylelint-order": "^2.1.0",
+    "stylelint-scss": "^3.5.4",
+    "uglify-js": "^3.4.10"
   },
+  "dependencies": {},
   "homepage": "https://github.com/davidedantonio/bee-grid#readme",
   "directories": {
     "doc": "docs"

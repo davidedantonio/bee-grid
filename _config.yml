@@ -14,7 +14,7 @@ destination:    ./docs
 host:           0.0.0.0
 port:           9001
 baseurl:        "http://beegrid.io"
-url:            "http://localhost/9001"
+url:            "http://localhost:9001"
 encoding:       UTF-8
 exclude:
   - .git/
@@ -34,16 +34,15 @@ exclude:
 # Social
 title:              BeeGrid
 description:        "A microframework based on CSS Grid Layout to build various types of grids thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes to organize your content."
-twitter:            beegrid
 authors:            "Davide D'Antonio"
 
 # Custom variables
-current_version:      1.0.3
-docs_version:         1.0
+current_version:      1.1.0
+docs_version:         1.1.0
 repo:                 "https://github.com/davidedantonio/bee-grid.git"
 github:               "https://github.com/davidedantonio/bee-grid"
 twitter:              "https://twitter.com/davidedantonio"
 
 download:
   source:           "https://github.com/davidedantonio/bee-grid/archive/master.zip"
-  dist:             "https://github.com/davidedantonio/bee-grid/archive/v1.0.4.zip"
+  dist:             "https://github.com/davidedantonio/bee-grid/archive/v1.1.0.zip"

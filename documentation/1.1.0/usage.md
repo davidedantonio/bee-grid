@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Usage
-description: Use Beegrid options and classe to laying out your application, including responsive media query and many predefined layouts.
+description: Use Beegrid options and classes to laying out your application, including responsive media query and many predefined layouts.
 redirect_from:
   - /docs/
   - /docs/1.0/

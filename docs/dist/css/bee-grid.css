@@ -15,12 +15,6 @@ body {
   margin: 0;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 .grid-container {
   display: grid;
   grid-gap: 15px;
@@ -7903,7 +7897,7 @@ body {
 
 .grid-item {
   box-sizing: border-box;
-  padding: 1rem;
+  padding: 10px;
 }
 
 .grid-item.no-padding {
