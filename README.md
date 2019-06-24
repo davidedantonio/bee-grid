@@ -1,18 +1,21 @@
 <p align="center">
-  <img src="http://beegrid.io/assets/images/beegrid_icon_teal.png" width=100 />
+  <img src="https://davidedantonio.github.io/bee-grid/assets/images/beegrid_icon_teal.png" width=100 />
   <h1>BeeGrid</h1>
   A microframework based on CSS Grid Layout to build various types of grids thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes to organize your content.
 </p>
 
 ## Table of contents
 
-- [Quick start](#quick-start)
-- [CSS Files](#css-files)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Creators](#creators)
-- [Copyright and license](#copyright-and-license)
+- [Table of contents](#Table-of-contents)
+- [Quick start](#Quick-start)
+- [Files](#Files)
+- [Bugs and feature requests](#Bugs-and-feature-requests)
+- [Documentation](#Documentation)
+    - [You can find the docs at: <https://davidedantonio.github.io/bee-grid/documentation/1.0/introduction/>](#You-can-find-the-docs-at-httpsdavidedantoniogithubiobee-griddocumentation10introduction)
+  - [Running documentation locally](#Running-documentation-locally)
+- [Contributing](#Contributing)
+- [Creators](#Creators)
+- [Copyright and license](#Copyright-and-license)
 
 ## Quick start
 
@@ -47,7 +50,7 @@ Have a bug or a feature request? Search for existing and closed issues. If your 
 
 ## Documentation
 
-#### You can find the docs at: <http://beegrid.io/documentation/1.0/introduction/>
+#### You can find the docs at: <https://davidedantonio.github.io/bee-grid/documentation/1.0/introduction/>
 
 Beegrid's documentation, included in this repo in the root directory, is built with [Jekyll](https://jekyllrb.com/) and publicly hosted on GitHub Pages at <https://davidedantonio.github.io/bee-grid/>. The docs may also be run locally.
 
