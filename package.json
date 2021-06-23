@@ -48,6 +48,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-istanbul": "^5.1.1",
+    "braces": ">=2.3.1",
     "clean-css-cli": "^4.2.1",
     "cross-env": "^5.2.0",
     "editorconfig": "^0.15.3",
